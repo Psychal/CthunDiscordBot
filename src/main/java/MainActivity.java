@@ -38,11 +38,9 @@ public class MainActivity extends ListenerAdapter {
                 StringBuilder strBuild = new StringBuilder();
                 while (i < tokens.length && tokens[i] >= '0' && tokens[i] <= '9') {
                     strBuild.append(tokens[i++]);
-                    System.out.println(values + " val1");
                 }
                 i--;
                 values.push(Integer.parseInt(strBuild.toString()));
-                System.out.println(values + " val2");
             }
             else if (tokens[i] == '(') {
                 ops.push(tokens[i]);
@@ -50,14 +48,12 @@ public class MainActivity extends ListenerAdapter {
             else if (tokens[i] == ')') {
                 while (ops.peek() != '(') {
                     values.push(calcOp(ops.pop(), values.pop(), values.pop()));
-                    System.out.println(values + " val3");
                 }
                 ops.pop();
             }
             else if (tokens[i] == '+' || tokens[i] == '-' || tokens[i] == '*' || tokens[i] == '/') {
                 while (!ops.empty() && precedence(tokens[i], ops.peek())) {
                     values.push(calcOp(ops.pop(), values.pop(), values.pop()));
-                    System.out.println(values + " val4");
                 }
                 ops.push(tokens[i]);
             }
@@ -65,7 +61,6 @@ public class MainActivity extends ListenerAdapter {
         while (!ops.empty()) {
             values.push(calcOp(ops.pop(), values.pop(), values.pop()));
         }
-        System.out.println(values + " val5");
         return values.pop();
     }
 
@@ -180,7 +175,6 @@ public class MainActivity extends ListenerAdapter {
             else {
                     String numSum = Integer.toString(evaluate(userInput2));
                     event.getChannel().sendMessage(userMention + " The result is: " + numSum).queue();
-                    System.out.println(numSum);
                 }
         }
 
@@ -221,11 +215,9 @@ public class MainActivity extends ListenerAdapter {
                     "Your software will fail. Your users will abandon you. You are already obsolete.",
                     "Bleed for C'thun."
             };
-            System.out.println(event.getChannel());
             Random rand = new Random();
             //32 is the maximum and the 0 is our minimum(0-32), can also use rand.nextInt((max - min) + 1) + min
             int n = rand.nextInt(32);
-            System.out.println(n);
             event.getChannel().sendMessage(quotes[n]).queue();
         }
 
@@ -303,8 +295,6 @@ public class MainActivity extends ListenerAdapter {
                 StringBuilder sResult = new StringBuilder();
                 for(int i=0;i<cardsLcase.size();i++) {
                     if (cardsLcase.get(i).contains(searchInput)) {
-                        System.out.println("Found at index: " + i);
-                        System.out.println(cardsLcase.get(i));
                         cSearch.add(i);
                         c++;
                         sResult.append(c).append(". ").append(cardsN.get(i)).append("\n");
@@ -333,7 +323,6 @@ public class MainActivity extends ListenerAdapter {
                     TimerTask task = new TimerTask() {
                         @Override
                         public void run() {
-                            System.out.println(userId);
                             searchMap.remove(userId);
                             timerMap.remove(userId);
                         }
