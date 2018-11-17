@@ -90,7 +90,7 @@ public class MainActivity extends ListenerAdapter {
     }
 
     public static void main(String[] args) throws LoginException {
-        String token = "token";
+        String token = System.getenv("BotToken");
         JDABuilder builder = new JDABuilder(AccountType.BOT);
         builder.setToken(token);
         builder.addEventListener(new MainActivity());
@@ -110,8 +110,8 @@ public class MainActivity extends ListenerAdapter {
         cardsLcase = new ArrayList<>();
         String card;
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\Mikal\\Desktop\\Cards.txt"));
-            BufferedReader reader2 = new BufferedReader(new FileReader("C:\\Users\\Mikal\\Desktop\\CardsIMG.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("Cards.txt"));
+            BufferedReader reader2 = new BufferedReader(new FileReader("CardsIMG.txt"));
             while ((card = reader.readLine()) != null) {
                 if(card.startsWith("NAME: ")) {
                     cardsN.add(card.replace("NAME: ",""));
