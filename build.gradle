@@ -16,11 +16,16 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
     jcenter()
+    maven{
+        url 'https://jitpack.io'
+    }
 }
 
 dependencies {
-    compile 'net.dv8tion:JDA:3.8.0_436'
-    compile 'org.slf4j:slf4j-api:1.7.25'
-    compile 'org.slf4j:slf4j-simple:1.7.25'
-    compile 'org.slf4j:slf4j-jdk14:1.7.25'
+    implementation 'net.dv8tion:JDA:3.8.0_436'
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+    implementation 'org.slf4j:slf4j-simple:1.7.25'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.25'
+    implementation 'org.discordbots:DBL-Java-Library:2.0.1'
 }
+task stage(dependsOn: ['clean', 'shadowJar'])

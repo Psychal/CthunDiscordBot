@@ -1,4 +1,5 @@
 import net.dv8tion.jda.core.AccountType;
+import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.entities.Emote;
 import net.dv8tion.jda.core.entities.Game;
@@ -6,6 +7,7 @@ import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 import net.dv8tion.jda.core.EmbedBuilder;
 
+import org.discordbots.api.client.DiscordBotListAPI;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,6 +27,7 @@ public class MainActivity extends ListenerAdapter {
     private static Map<String, List<Integer>> searchMap;
     private static Map<String, Timer> timerMap;
     private static final Logger logger = LoggerFactory.getLogger(MainActivity.class);
+    private static int cardAmount;
 
     //Evaluates the math expression
     private static int evaluate(String expression)
@@ -38,9 +41,11 @@ public class MainActivity extends ListenerAdapter {
                 StringBuilder strBuild = new StringBuilder();
                 while (i < tokens.length && tokens[i] >= '0' && tokens[i] <= '9') {
                     strBuild.append(tokens[i++]);
+                    System.out.println(values + " val1");
                 }
                 i--;
                 values.push(Integer.parseInt(strBuild.toString()));
+                System.out.println(values + " val2");
             }
             else if (tokens[i] == '(') {
                 ops.push(tokens[i]);
@@ -48,12 +53,14 @@ public class MainActivity extends ListenerAdapter {
             else if (tokens[i] == ')') {
                 while (ops.peek() != '(') {
                     values.push(calcOp(ops.pop(), values.pop(), values.pop()));
+                    System.out.println(values + " val3");
                 }
                 ops.pop();
             }
             else if (tokens[i] == '+' || tokens[i] == '-' || tokens[i] == '*' || tokens[i] == '/') {
                 while (!ops.empty() && precedence(tokens[i], ops.peek())) {
                     values.push(calcOp(ops.pop(), values.pop(), values.pop()));
+                    System.out.println(values + " val4");
                 }
                 ops.push(tokens[i]);
             }
@@ -61,6 +68,7 @@ public class MainActivity extends ListenerAdapter {
         while (!ops.empty()) {
             values.push(calcOp(ops.pop(), values.pop(), values.pop()));
         }
+        System.out.println(values + " val5");
         return values.pop();
     }
 
@@ -90,12 +98,24 @@ public class MainActivity extends ListenerAdapter {
     }
 
     public static void main(String[] args) throws LoginException {
-        String token = System.getenv("BotToken");
-        JDABuilder builder = new JDABuilder(AccountType.BOT);
-        builder.setToken(token);
-        builder.addEventListener(new MainActivity());
-        builder.setGame(Game.playing("!thun help"));
-        builder.build();
+        String botToken = System.getenv("BotToken");
+        String apiToken = System.getenv ("APIToken");
+        String clientId = "474523344864280578";
+
+        JDA builder = new JDABuilder(AccountType.BOT)
+        .setToken(botToken)
+        .addEventListener(new MainActivity())
+        .setGame(Game.playing("!thun help|changelog"))
+        .build();
+
+        DiscordBotListAPI api = new DiscordBotListAPI.Builder()
+        .token(apiToken)
+        .botId(clientId)
+        .build();
+
+        int serverCount = builder.getGuilds().size();
+        api.setStats(serverCount);
+
         cardReader();
         searchMap = new HashMap<>();
         timerMap = new HashMap<>();
@@ -111,7 +131,7 @@ public class MainActivity extends ListenerAdapter {
         String card;
         try {
             BufferedReader reader = new BufferedReader(new FileReader("Cards.txt"));
-            BufferedReader reader2 = new BufferedReader(new FileReader("CardsIMG.txt"));
+            BufferedReader reader2 = new BufferedReader(new FileReader("CardsImg.txt"));
             while ((card = reader.readLine()) != null) {
                 if(card.startsWith("NAME: ")) {
                     cardsN.add(card.replace("NAME: ",""));
@@ -149,6 +169,7 @@ public class MainActivity extends ListenerAdapter {
             reader.close();
             reader2.close();
             logger.info(java.time.LocalDateTime.now().withNano(0)+ " " + cardsLcase.size() + " Cards ready");
+            cardAmount = cardsLcase.size();
         }
         catch (IOException e) {
             logger.error(java.time.LocalDateTime.now().withNano(0)+ " " + e.getMessage());
@@ -175,6 +196,7 @@ public class MainActivity extends ListenerAdapter {
             else {
                     String numSum = Integer.toString(evaluate(userInput2));
                     event.getChannel().sendMessage(userMention + " The result is: " + numSum).queue();
+                    System.out.println(numSum);
                 }
         }
 
@@ -215,9 +237,11 @@ public class MainActivity extends ListenerAdapter {
                     "Your software will fail. Your users will abandon you. You are already obsolete.",
                     "Bleed for C'thun."
             };
+            System.out.println(event.getChannel());
             Random rand = new Random();
             //32 is the maximum and the 0 is our minimum(0-32), can also use rand.nextInt((max - min) + 1) + min
             int n = rand.nextInt(32);
+            System.out.println(n);
             event.getChannel().sendMessage(quotes[n]).queue();
         }
 
@@ -245,7 +269,8 @@ public class MainActivity extends ListenerAdapter {
             EmbedBuilder eB = new EmbedBuilder()
                     .setTitle("Info")
                     .setColor(new Color(0xEAED1F))
-                    .setDescription("This bot uses Hearthstone card information available at Hearthpwn's website.\n" +
+                    .setDescription("This bot uses Hearthstone card information available at Hearthpwn's website. Currently " +
+                            cardAmount + " entries.\n" +
                             "You can find the command list by typing: `!thun help`\n" +
                             "All commands are case insensitive.")
                     .addField("Bot Owner ", "Psychal#2359 <@178930497399816193>",true)
@@ -295,6 +320,8 @@ public class MainActivity extends ListenerAdapter {
                 StringBuilder sResult = new StringBuilder();
                 for(int i=0;i<cardsLcase.size();i++) {
                     if (cardsLcase.get(i).contains(searchInput)) {
+                        System.out.println("Found at index: " + i);
+                        System.out.println(cardsLcase.get(i));
                         cSearch.add(i);
                         c++;
                         sResult.append(c).append(". ").append(cardsN.get(i)).append("\n");
@@ -323,6 +350,7 @@ public class MainActivity extends ListenerAdapter {
                     TimerTask task = new TimerTask() {
                         @Override
                         public void run() {
+                            System.out.println(userId);
                             searchMap.remove(userId);
                             timerMap.remove(userId);
                         }
@@ -411,13 +439,40 @@ public class MainActivity extends ListenerAdapter {
                             "`!thun` \nGet C'thun to say something!\n\n" +
                             "`c'thun`\nInvoke C'thun's reaction.\n\n" +
                             "`!thun card` \n Posts a random hearthstone card in the form of a discord embed.\n\n" +
-                            "`!thun search [word]` \nEnter a word or full name to perform a search. Yields a maximum of 10 results. Result input lasts only for 60 seconds. \n\n" +
-                            "`!thun math [expression]`\n Enter an expression to make C'thun solve it. He can currently only solve addition, subtraction, division and multiplication of whole numbers.\n\n" +
+                            "`!thun search [word]` `!thun search mecha'thun`\nEnter a word or full name to perform a search. Yields a maximum of 10 results. Result input lasts only for 60 seconds. \n\n" +
+                            "`!thun math [expression]` `!thun math 1+1`\n Enter an expression to make C'thun solve it. Whole numbers only. He can currently only solve addition, subtraction, division and multiplication.\n\n" +
                             "`!thun token` `!thun collectible` `!thun elite`\nThese are card keyword commands to bring up a description of what each keyword means.\n\n" +
-                            "`!thun stats`\n Stats and other info about the bot.")
+                            "`!thun stats`\n Stats and other info about the bot.\n\n" +
+                            "`!thun changelog`\n Changelog over the most recent couple of changes.")
                     .setFooter("Commands are case insensitive.",null)
                     .setThumbnail("https://i.imgur.com/s5pGb2D.png");
             event.getChannel().sendMessage(eB.build()).queue();
         }
+        //Changelog embed.
+        if(userInput1.equalsIgnoreCase("!thun changelog")) {
+            EmbedBuilder eB = new EmbedBuilder()
+                    .setTitle("C'thun Changelog")
+                    .setColor(new Color(0xEAED1F))
+                    .setDescription("# Changelog\n" +
+                            "Only the few most recent changelog entries will be listed here\n" +
+                            "\n" +
+                            "## [Unreleased]\n" +
+                            "- Add images for cards that do not currently have any, but which exist.\n" +
+                            "- Add artist name to all cards with images.\n" +
+                            "- Add unplayable removed cards.\n" +
+                            "- Fix duplicate entries.\n" +
+                            "- Implement a system for duplicate entries with different stats.\n" +
+                            "\n" +
+                            "## **2018-12-06**\n" +
+                            "### Added\n" +
+                            "- Card entries from Rastakhan's Rumble.\n" +
+                            "\n" +
+                            "### Changed\n" +
+                            "- Update existing entries to Patch 12.2.0.27358(2018-10-18).\n" +
+                            "- Update help section.")
+                    .setThumbnail("https://i.imgur.com/s5pGb2D.png");
+            event.getChannel().sendMessage(eB.build()).queue();
+        }
+
     }
 }
