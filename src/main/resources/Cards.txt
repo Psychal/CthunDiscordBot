@@ -58,6 +58,11 @@ DESC: Battlecry: Summon all friendly Demons that died this game.
 INFO: Type: Playable Hero Class: Warlock Rarity: Legendary Set: Knights of the Frozen Throne Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Alex Horley Orlandelli Collectible Elite
 FLAVOUR: "Still you refuse to bend your knee? None can escape death, you old fool. And in death? all will serve me?"
 
+NAME: Zul'jin
+DESC: Battlecry: Cast all spells you've played this game (targets chosen randomly).
+INFO: Type: Playable Hero Class: Hunter Rarity: Legendary Set: Rastakhan's Rumble Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Collectible
+FLAVOUR: 
+
 NAME: Decorate
 DESC: Hero Power Create *{0}* |4(decoration, decorations) for the Tavern. Progress: {1}/25
 INFO: Type: Hero Power Set: Tavern Brawl Token
@@ -1943,6 +1948,11 @@ DESC: Deal 5 damage. Restore 5 Health to your hero.
 INFO: Type: Ability Class: Priest Rarity: Rare Set: Classic Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Miguel Coimbra Collectible
 FLAVOUR: Often followed by Holy Smokes!
 
+NAME: Level Up!
+DESC: Give your Silver Hand Recruits +2/+2 and Taunt
+INFO: Type: Ability Class: Paladin Rarity: Epic Set: Kobolds and Catacombs Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Wayne Reynolds Collectible
+FLAVOUR: Ding!Grats.
+
 NAME: Lightbomb
 DESC: Deal damage to each minion equal to its Attack.
 INFO: Type: Ability Class: Priest Rarity: Epic Set: Goblins vs Gnomes Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Luca Zontini Collectible
@@ -1962,6 +1972,11 @@ NAME: Moonglade Portal
 DESC: Restore 6 Health. Summon a random 6-Cost minion.
 INFO: Type: Ability Class: Druid Rarity: Rare Set: One Night in Karazhan Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Evgeniy Zaqumyenny Collectible
 FLAVOUR: Ain't no party like a Moonglade party ?cause a Moonglade party got bears.
+
+NAME: Nourish
+DESC: Choose One - Gain 2 Mana Crystals; or Draw 3 cards.
+INFO: Type: Ability Class: Druid Rarity: Rare Set: Classic Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Terese Nielsen Collectible
+FLAVOUR: Druids take nourishment from many things: the power of nature, the songbird's chirp, a chocolate cake.
 
 NAME: Plague
 DESC: Destroy all non-Skeleton minions.
@@ -3043,11 +3058,6 @@ DESC: Destroy 1 random enemy minion. @(Play 3 Deathrattle cards to upgrade.)
 INFO: Type: Ability Class: Rogue Rarity: Rare Set: Kobolds and Catacombs Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Arthur Bozonnet Collectible
 FLAVOUR: The trolls of old embraced the gift A jewel of black for daggers swift No party lasts who finds the stone Those wielding it soon stand alone.
 
-NAME: Level Up!
-DESC: Give your Silver Hand Recruits +2/+2 and Taunt.
-INFO: Type: Ability Class: Paladin Rarity: Epic Set: Kobolds and Catacombs Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Wayne Reynolds Collectible
-FLAVOUR: Ding! Grats.
-
 NAME: Living Mana
 DESC: Transform your Mana Crystals into 2/2 Treants. Recover the mana when they die.
 INFO: Type: Ability Class: Druid Rarity: Epic Set: Journey to Un'Goro Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Matt Gaser Collectible
@@ -3097,11 +3107,6 @@ NAME: Netherbloom
 DESC: Summon a 5/5 Demon.
 INFO: Type: Ability Set: Mean Streets of Gadgetzan Artist: Konstantin Turovec Token
 FLAVOUR: 
-
-NAME: Nourish
-DESC: Choose One - Gain 2 Mana Crystals; or Draw 3 cards.
-INFO: Type: Ability Class: Druid Rarity: Rare Set: Classic Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Terese Nielsen Collectible
-FLAVOUR: Druids take nourishment from many things: the power of nature, the songbird's chirp, a chocolate cake.
 
 NAME: Onyx Spellstone
 DESC: Destroy up to 2 random enemy minions. @
@@ -3569,6 +3574,21 @@ INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
 FLAVOUR: 
 
 NAME: Druid of the Claw
+DESC: [x]Choose One - Transform into a 4/4 with Charge; or a 4/6 with Taunt.
+INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Luca Zontini Collectible
+FLAVOUR: Cat or Bear? Cat or Bear?! I just cannot CHOOSE!
+
+NAME: Druid of the Claw
+DESC: Charge
+INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
+FLAVOUR: 
+
+NAME: Druid of the Claw
+DESC: Taunt
+INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
+FLAVOUR: 
+
+NAME: Druid of the Claw
 DESC: Charge
 INFO: Type: Minion Class: Druid Rarity: Common Set: Tavern Brawl Token
 FLAVOUR: 
@@ -3586,21 +3606,6 @@ FLAVOUR:
 NAME: Druid of the Claw
 DESC: Charge Taunt
 INFO: Type: Minion Class: Druid Rarity: Common Set: Tavern Brawl Token
-FLAVOUR: 
-
-NAME: Druid of the Claw
-DESC: [x]Choose One - Transform into a 4/4 with Charge; or a 4/6 with Taunt.
-INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Luca Zontini Collectible
-FLAVOUR: Cat or Bear? Cat or Bear?! I just cannot CHOOSE!
-
-NAME: Druid of the Claw
-DESC: Charge
-INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
-FLAVOUR: 
-
-NAME: Druid of the Claw
-DESC: Taunt
-INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
 FLAVOUR: 
 
 NAME: Druid of the Fang
@@ -4279,14 +4284,14 @@ INFO: Type: Minion Rarity: Common Set: Classic Faction: Horde Crafting Cost: 40 
 FLAVOUR: She'll craft you a sword, but you'll need to bring her 5 Steel Ingots, 3 Motes of Earth, and the scalp of her last customer.
 
 NAME: Stalagg
-DESC: 
-INFO: Type: Minion Rarity: Legendary Set: Curse of Naxxramas Token Elite
-FLAVOUR: 
-
-NAME: Stalagg
 DESC: Deathrattle: If Feugen also died this game, summon Thaddius.
 INFO: Type: Minion Rarity: Legendary Set: Curse of Naxxramas Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Dany Orizio Collectible Elite
 FLAVOUR: Stalagg want to write own flavor text. "STALAGG AWESOME!"
+
+NAME: Stalagg
+DESC: 
+INFO: Type: Minion Rarity: Legendary Set: Curse of Naxxramas Token Elite
+FLAVOUR: 
 
 NAME: Stampeding Kodo
 DESC: Battlecry: Destroy a random enemy minion with 2 or less Attack.
@@ -5295,12 +5300,12 @@ FLAVOUR: "Crime reported at First Bank of Gadgetzan. Huge quantities of Jade bei
 
 NAME: Dorothee
 DESC: Minions to the left have Charge. Minions to the right have Taunt.
-INFO: Type: Minion Set: Tavern Brawl Token
+INFO: Type: Minion Set: One Night in Karazhan Artist: Adam Byrne Token
 FLAVOUR: 
 
 NAME: Dorothee
 DESC: Minions to the left have Charge. Minions to the right have Taunt.
-INFO: Type: Minion Set: One Night in Karazhan Artist: Adam Byrne Token
+INFO: Type: Minion Set: Tavern Brawl Token
 FLAVOUR: 
 
 NAME: Draenei Totemcarver
@@ -5895,12 +5900,12 @@ FLAVOUR:
 
 NAME: Nerubian
 DESC: 
-INFO: Type: Minion Set: Curse of Naxxramas Token
+INFO: Type: Minion Class: Rogue Set: The Grand Tournament Token
 FLAVOUR: 
 
 NAME: Nerubian
 DESC: 
-INFO: Type: Minion Class: Rogue Set: The Grand Tournament Token
+INFO: Type: Minion Set: Curse of Naxxramas Token
 FLAVOUR: 
 
 NAME: Night Howler
@@ -6069,7 +6074,7 @@ INFO: Type: Minion Rarity: Epic Set: The Witchwood Crafting Cost: 400 / 1600 (Go
 FLAVOUR: The secret is glue.
 
 NAME: Saronite Chain Gang
-DESC: Taunt Battlecry: Summon a copy of this minion.
+DESC: Taunt. Battlecry: Summon another Saronite Chain Gang.
 INFO: Type: Minion Rarity: Rare Set: Knights of the Frozen Throne Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Daren Bader Collectible
 FLAVOUR: Desperately needs some alone time.
 
@@ -6360,13 +6365,13 @@ FLAVOUR: War Master sounds cooler than Dragon Sitter.
 
 NAME: Water Elemental
 DESC: Freeze any character damaged by this minion.
-INFO: Type: Minion Class: Mage Set: Knights of the Frozen Throne Race: Elemental Faction: Neutral Artist: John Avon Token
-FLAVOUR: 
+INFO: Type: Minion Class: Mage Rarity: Free Set: Basic Race: Elemental Faction: Neutral Artist: John Avon Collectible
+FLAVOUR: Don't summon a water elemental at a party. It'll dampen the mood.
 
 NAME: Water Elemental
 DESC: Freeze any character damaged by this minion.
-INFO: Type: Minion Class: Mage Rarity: Free Set: Basic Race: Elemental Faction: Neutral Artist: John Avon Collectible
-FLAVOUR: Don't summon a water elemental at a party. It'll dampen the mood.
+INFO: Type: Minion Class: Mage Set: Knights of the Frozen Throne Race: Elemental Faction: Neutral Artist: John Avon Token
+FLAVOUR: 
 
 NAME: Weaponized Pinata
 DESC: Deathrattle: Add a random Legendary minion to your_hand.
@@ -6529,23 +6534,23 @@ INFO: Type: Weapon Class: Shaman Rarity: Rare Set: Knights of the Frozen Throne 
 FLAVOUR: A great way to end a conversation.
 
 NAME: King's Defender
-DESC: Battlecry: If you have a minion with Taunt, gain +1 Durability.
+DESC: Battlecry: For each friendly minion with Taunt, gain +1 Durability.
 INFO: Type: Weapon Class: Warrior Rarity: Rare Set: The Grand Tournament Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Michael Franchina Collectible
 FLAVOUR: "King's Attacker" is a shield. Funny, huh?
 
 NAME: Massive Runeblade
 DESC: Deals double damage to heroes.
+INFO: Type: Weapon Set: Curse of Naxxramas Token
+FLAVOUR: 
+
+NAME: Massive Runeblade
+DESC: Deals double damage to heroes.
+INFO: Type: Weapon Set: Curse of Naxxramas Token
+FLAVOUR: 
+
+NAME: Massive Runeblade
+DESC: Deals double damage to heroes.
 INFO: Type: Weapon Set: Tavern Brawl Token
-FLAVOUR: 
-
-NAME: Massive Runeblade
-DESC: Deals double damage to heroes.
-INFO: Type: Weapon Set: Curse of Naxxramas Token
-FLAVOUR: 
-
-NAME: Massive Runeblade
-DESC: Deals double damage to heroes.
-INFO: Type: Weapon Set: Curse of Naxxramas Token
 FLAVOUR: 
 
 NAME: Necrium Blade
@@ -7338,6 +7343,11 @@ DESC: Silence and destroy all enemy minions.
 INFO: Type: Ability Set: Kobolds and Catacombs Faction: Neutral Artist: Paul Mafayon Token
 FLAVOUR: 
 
+NAME: Wild Growth
+DESC: Gain an empty Mana Crystal.
+INFO: Type: Ability Class: Druid Rarity: Free Set: Basic Faction: Neutral Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: James Ryman Collectible
+FLAVOUR: Grow your own mana crystals with this Mana Crystal Growth Kit, only 39.99!
+
 NAME: Will of Mukla
 DESC: Restore 8 Health.
 INFO: Type: Ability Rarity: Common Set: Missions Token
@@ -7899,14 +7909,14 @@ INFO: Type: Minion Set: Kobolds and Catacombs Race: Beast Artist: Andrew Hou Tok
 FLAVOUR: 
 
 NAME: Giant Wasp
-DESC: Stealth Poisonous@Stealth, Poisonous
-INFO: Type: Minion Rarity: Common Set: Journey to Un'Goro Race: Beast Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Giant Wasp
 DESC: Stealth. Poisonous.
 INFO: Type: Minion Rarity: Common Set: Journey to Un'Goro Race: Beast Faction: Neutral Crafting Cost: 40 / 100 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Luca Zontini Collectible
 FLAVOUR: Float like a butterfly, sting like a giant wasp!
+
+NAME: Giant Wasp
+DESC: Stealth Poisonous@Stealth, Poisonous
+INFO: Type: Minion Rarity: Common Set: Journey to Un'Goro Race: Beast Faction: Neutral Token
+FLAVOUR: 
 
 NAME: Gilded Gargoyle
 DESC: Deathrattle: Add a Coin to your hand.
@@ -8374,12 +8384,12 @@ INFO: Type: Minion Class: Paladin Rarity: Rare Set: The Witchwood Crafting Cost:
 FLAVOUR: She?s all fun and games until someone rings that stupid bell.
 
 NAME: Party Elemental
-DESC: 
+DESC: Comes with a party!
 INFO: Type: Minion Set: Tavern Brawl Token
 FLAVOUR: 
 
 NAME: Party Elemental
-DESC: Comes with a party!
+DESC: 
 INFO: Type: Minion Set: Tavern Brawl Token
 FLAVOUR: 
 
@@ -8926,7 +8936,7 @@ FLAVOUR: How do you make a walnut laugh? Crack it up!
 NAME: Wardruid Loti
 DESC: Choose One - Transform into one of Loti's four dinosaur forms.
 INFO: Type: Minion Class: Druid Rarity: Legendary Set: Rastakhan's Rumble Race: Beast Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Zoltan Boros Collectible
-FLAVOUR: ?Ravasaur!? ?Pretty scary? ??Blammodax!? ?Is that a thing?? ?SMAXODON!? ??.now you?re just making those up.?
+FLAVOUR: ?Ravasaur!??Pretty scary???Blammodax!??Is that a thing???SMAXODON!???.now you?re just making those up.?
 
 NAME: Wardruid Loti
 DESC: Taunt, Rush, Poisonous, Stealth, Spell Damage +1
@@ -8936,12 +8946,12 @@ FLAVOUR: ?Ravasaur!??Pretty scary???Blammodax!??Is that a thing???SMAXODON!???.n
 NAME: Wardruid Loti
 DESC: Poisonous, Stealth
 INFO: Type: Minion Class: Druid Rarity: Legendary Set: Rastakhan's Rumble Race: Beast Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Zoltan Boros Token
-FLAVOUR: ?Ravasaur!? ?Pretty scary? ??Blammodax!? ?Is that a thing?? ?SMAXODON!? ??.now you?re just making those up.?
+FLAVOUR: ?Ravasaur!??Pretty scary???Blammodax!??Is that a thing???SMAXODON!???.now you?re just making those up.?
 
 NAME: Wardruid Loti
 DESC: Taunt
 INFO: Type: Minion Class: Druid Rarity: Legendary Set: Rastakhan's Rumble Race: Beast Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Zoltan Boros Token
-FLAVOUR: ?Ravasaur!? ?Pretty scary? ??Blammodax!? ?Is that a thing?? ?SMAXODON!? ??.now you?re just making those up.?
+FLAVOUR: ?Ravasaur!??Pretty scary???Blammodax!??Is that a thing???SMAXODON!???.now you?re just making those up.?
 
 NAME: Wardruid Loti
 DESC: Rush
@@ -9245,12 +9255,12 @@ FLAVOUR:
 
 NAME: Fireblast
 DESC: Hero Power Deal 1 damage.
-INFO: Type: Hero Power Class: Mage Rarity: Free Set: Hero Skins Token
+INFO: Type: Hero Power Class: Mage Rarity: Free Set: Basic Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Fireblast
 DESC: Hero Power Deal 1 damage.
-INFO: Type: Hero Power Class: Mage Rarity: Free Set: Basic Faction: Neutral Token
+INFO: Type: Hero Power Class: Mage Rarity: Free Set: Hero Skins Token
 FLAVOUR: 
 
 NAME: Fireblast
@@ -9310,12 +9320,12 @@ FLAVOUR:
 
 NAME: Heal
 DESC: Hero Power Restore 4 Health.
-INFO: Type: Hero Power Class: Priest Set: Hero Skins Token
+INFO: Type: Hero Power Class: Priest Set: The Grand Tournament Token
 FLAVOUR: 
 
 NAME: Heal
 DESC: Hero Power Restore 4 Health.
-INFO: Type: Hero Power Class: Priest Set: The Grand Tournament Token
+INFO: Type: Hero Power Class: Priest Set: Hero Skins Token
 FLAVOUR: 
 
 NAME: Hello! Hello! Hello!
@@ -10325,7 +10335,7 @@ FLAVOUR: Glow fish, war fish... blow fish, more fish...
 
 NAME: Icicle
 DESC: Deal 2 damage to a minion. If it's Frozen, draw a card.
-INFO: Type: Ability Class: Mage Rarity: Epic Set: Classic Collectible
+INFO: Type: Ability Class: Mage Rarity: Epic Set: Classic Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Collectible
 FLAVOUR: 
 
 NAME: Jade Shuriken
@@ -10344,7 +10354,7 @@ INFO: Type: Ability Set: Blackrock Mountain Token
 FLAVOUR: 
 
 NAME: Leeching Poison
-DESC: Give your weapon Lifesteal.
+DESC: Give your weapon Lifesteal this turn.
 INFO: Type: Ability Class: Rogue Rarity: Common Set: Knights of the Frozen Throne Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Ben Thompson Collectible
 FLAVOUR: No actual leeches were harmed in the creation of this card.
 
@@ -10772,11 +10782,6 @@ NAME: Weapons Project
 DESC: Each player equips a 2/3 Weapon and gains 6 Armor.
 INFO: Type: Ability Class: Warrior Rarity: Common Set: The Boomsday Project Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: J. Paick & K. Turovec Collectible
 FLAVOUR: Harrison Jones was kicked off this project.
-
-NAME: Wild Growth
-DESC: Gain an empty Mana Crystal.
-INFO: Type: Ability Class: Druid Rarity: Free Set: Basic Faction: Neutral Artist: James Ryman Collectible
-FLAVOUR: Grow your own mana crystals with this Mana Crystal Growth Kit, only 39.99!
 
 NAME: Windfury
 DESC: Give a minion Windfury.
@@ -11280,12 +11285,12 @@ FLAVOUR: "Shhh, I think I hear something." "Ah, it's probably nothing." - Every 
 
 NAME: Gnoll
 DESC: Taunt
-INFO: Type: Minion Set: Whispers of the Old Gods Artist: Greg Staples Token
+INFO: Type: Minion Set: Classic Token
 FLAVOUR: 
 
 NAME: Gnoll
 DESC: Taunt
-INFO: Type: Minion Set: Classic Token
+INFO: Type: Minion Set: Whispers of the Old Gods Artist: Greg Staples Token
 FLAVOUR: 
 
 NAME: Gnomeferatu
@@ -11425,13 +11430,13 @@ FLAVOUR: Elekk jousting is AWESOME.
 
 NAME: Knife Juggler
 DESC: [x]After you summon a minion, deal 1 damage to a random enemy.
-INFO: Type: Minion Rarity: Rare Set: Classic Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Matt Cavotta Collectible
-FLAVOUR: Ambitious Knife Jugglers sometimes graduate to Bomb Jugglers. They never last long enough to make it onto a card though.
+INFO: Type: Minion Rarity: Rare Set: Tavern Brawl Token
+FLAVOUR: 
 
 NAME: Knife Juggler
 DESC: [x]After you summon a minion, deal 1 damage to a random enemy.
-INFO: Type: Minion Rarity: Rare Set: Tavern Brawl Token
-FLAVOUR: 
+INFO: Type: Minion Rarity: Rare Set: Classic Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Matt Cavotta Collectible
+FLAVOUR: Ambitious Knife Jugglers sometimes graduate to Bomb Jugglers. They never last long enough to make it onto a card though.
 
 NAME: Kobold Geomancer
 DESC: Spell Damage +1
@@ -12320,12 +12325,12 @@ FLAVOUR:
 
 NAME: The Rookery
 DESC: Hero Power Give all Corrupted Eggs +1 Health, then summon one.
-INFO: Type: Hero Power Set: Blackrock Mountain Token
+INFO: Type: Hero Power Set: Tavern Brawl Token
 FLAVOUR: 
 
 NAME: The Rookery
 DESC: Hero Power Give all Corrupted Eggs +1 Health, then summon one.
-INFO: Type: Hero Power Set: Tavern Brawl Token
+INFO: Type: Hero Power Set: Blackrock Mountain Token
 FLAVOUR: 
 
 NAME: Three Wee Wishes
@@ -12564,13 +12569,13 @@ INFO: Type: Ability Set: Kobolds and Catacombs Faction: Neutral Artist: Dan Scot
 FLAVOUR: 
 
 NAME: Bananas
-DESC: Give a friendly minion +1/+1. (+1 Attack/+1 Health)
-INFO: Type: Ability Rarity: Common Set: Missions Faction: Neutral Token
+DESC: Give a minion +1/+1.
+INFO: Type: Ability Set: Classic Token
 FLAVOUR: 
 
 NAME: Bananas
-DESC: Give a minion +1/+1.
-INFO: Type: Ability Set: Classic Token
+DESC: Give a friendly minion +1/+1. (+1 Attack/+1 Health)
+INFO: Type: Ability Rarity: Common Set: Missions Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Barkskin
@@ -12705,7 +12710,7 @@ FLAVOUR:
 
 NAME: Call of the Void
 DESC: Add a random Demon to your hand.
-INFO: Type: Ability Class: Warlock Rarity: Common Set: Classic Collectible
+INFO: Type: Ability Class: Warlock Rarity: Common Set: Classic Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Collectible
 FLAVOUR: 
 
 NAME: Charge
@@ -13195,7 +13200,7 @@ FLAVOUR:
 
 NAME: Pilfer
 DESC: Add a random card to your hand (from your opponent's class).
-INFO: Type: Ability Class: Rogue Rarity: Common Set: Classic Collectible
+INFO: Type: Ability Class: Rogue Rarity: Common Set: Classic Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Collectible
 FLAVOUR: 
 
 NAME: Pint-Size Potion
@@ -13465,7 +13470,7 @@ FLAVOUR:
 
 NAME: Tome of Intellect
 DESC: Add a random Mage spell to your hand.
-INFO: Type: Ability Class: Mage Rarity: Common Set: Classic Collectible
+INFO: Type: Ability Class: Mage Rarity: Common Set: Classic Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Collectible
 FLAVOUR: 
 
 NAME: Totemic Smash
@@ -13590,12 +13595,12 @@ FLAVOUR: His idol is the Green Hills of Stranglethorn, and he won't shut up abou
 
 NAME: Bat
 DESC: 
-INFO: Type: Minion Set: Rastakhan's Rumble Race: Beast Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Jiajun Tian Token
+INFO: Type: Minion Class: Warlock Set: The Witchwood Race: Beast Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Zero Token
 FLAVOUR: 
 
 NAME: Bat
 DESC: 
-INFO: Type: Minion Class: Warlock Set: The Witchwood Race: Beast Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Zero Token
+INFO: Type: Minion Set: Rastakhan's Rumble Race: Beast Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Jiajun Tian Token
 FLAVOUR: 
 
 NAME: Black Pawn
@@ -13900,12 +13905,12 @@ FLAVOUR: Imps like being on fire. They just do.
 
 NAME: Flame of Azzinoth
 DESC: 
-INFO: Type: Minion Rarity: Common Set: Missions Token
+INFO: Type: Minion Set: Classic Race: Elemental Token
 FLAVOUR: 
 
 NAME: Flame of Azzinoth
 DESC: 
-INFO: Type: Minion Set: Classic Race: Elemental Token
+INFO: Type: Minion Rarity: Common Set: Missions Token
 FLAVOUR: 
 
 NAME: Forbidden Ancient
@@ -14045,7 +14050,7 @@ FLAVOUR:
 
 NAME: Imp
 DESC: 
-INFO: Type: Minion Class: Warlock Set: Blackrock Mountain Race: Demon Token
+INFO: Type: Minion Class: Warlock Set: Goblins vs Gnomes Race: Demon Token
 FLAVOUR: 
 
 NAME: Imp
@@ -14060,7 +14065,7 @@ FLAVOUR:
 
 NAME: Imp
 DESC: 
-INFO: Type: Minion Class: Warlock Set: Goblins vs Gnomes Race: Demon Token
+INFO: Type: Minion Class: Warlock Set: Blackrock Mountain Race: Demon Token
 FLAVOUR: 
 
 NAME: Injured Kvaldir
@@ -14095,13 +14100,13 @@ FLAVOUR: Kobolds sort books using a gooey decimal system.
 
 NAME: Leper Gnome
 DESC: Deathrattle: Deal 2 damage to the enemy hero.
-INFO: Type: Minion Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Glenn Rane Collectible
-FLAVOUR: He really just wants to be your friend, but the constant rejection is starting to really get to him.
+INFO: Type: Minion Rarity: Common Set: Tavern Brawl Faction: Neutral Token
+FLAVOUR: 
 
 NAME: Leper Gnome
 DESC: Deathrattle: Deal 2 damage to the enemy hero.
-INFO: Type: Minion Rarity: Common Set: Tavern Brawl Faction: Neutral Token
-FLAVOUR: 
+INFO: Type: Minion Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Glenn Rane Collectible
+FLAVOUR: He really just wants to be your friend, but the constant rejection is starting to really get to him.
 
 NAME: Lightwarden
 DESC: Whenever a character is healed, gain +2 Attack.
@@ -14440,7 +14445,7 @@ FLAVOUR:
 
 NAME: Skeleton
 DESC: 
-INFO: Type: Minion Set: Knights of the Frozen Throne Artist: Andrew Hou Token
+INFO: Type: Minion Rarity: Common Set: Basic Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Skeleton
@@ -14450,7 +14455,7 @@ FLAVOUR:
 
 NAME: Skeleton
 DESC: 
-INFO: Type: Minion Rarity: Common Set: Basic Faction: Neutral Token
+INFO: Type: Minion Set: Knights of the Frozen Throne Artist: Andrew Hou Token
 FLAVOUR: 
 
 NAME: Sleeping Acolyte
@@ -14639,14 +14644,14 @@ INFO: Type: Minion Class: Priest Rarity: Common Set: Blackrock Mountain Race: Dr
 FLAVOUR: The twilight whelps are basically magic-vampires. Despite this, they are not a reference to any popular series of novels.
 
 NAME: Undertaker
-DESC: Whenever you summon a minion with Deathrattle, gain +1/+1.
-INFO: Type: Minion Rarity: Common Set: Tavern Brawl Token
-FLAVOUR: 
-
-NAME: Undertaker
 DESC: Whenever you summon a minion with Deathrattle, gain +1 Attack.
 INFO: Type: Minion Rarity: Common Set: Curse of Naxxramas Artist: Jonboy Meyers Collectible
 FLAVOUR: In a world where you can run to a spirit healer and resurrect yourself, Undertakers do pretty light business.
+
+NAME: Undertaker
+DESC: Whenever you summon a minion with Deathrattle, gain +1/+1.
+INFO: Type: Minion Rarity: Common Set: Tavern Brawl Token
+FLAVOUR: 
 
 NAME: Unrelenting Trainee
 DESC: Deathrattle: Summon a Spectral Trainee for your opponent.
@@ -14710,6 +14715,16 @@ FLAVOUR: Spider cocoons are like little pi?atas!
 
 NAME: Whelp
 DESC: 
+INFO: Type: Minion Set: Classic Race: Dragon Faction: Neutral Token
+FLAVOUR: 
+
+NAME: Whelp
+DESC: 
+INFO: Type: Minion Set: Classic Race: Dragon Token
+FLAVOUR: 
+
+NAME: Whelp
+DESC: 
 INFO: Type: Minion Set: Blackrock Mountain Token
 FLAVOUR: 
 
@@ -14726,16 +14741,6 @@ FLAVOUR:
 NAME: Whelp
 DESC: 
 INFO: Type: Minion Class: Paladin Set: One Night in Karazhan Race: Dragon Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Tooth Token
-FLAVOUR: 
-
-NAME: Whelp
-DESC: 
-INFO: Type: Minion Set: Classic Race: Dragon Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Whelp
-DESC: 
-INFO: Type: Minion Set: Classic Race: Dragon Token
 FLAVOUR: 
 
 NAME: White Pawn
@@ -16015,12 +16020,12 @@ FLAVOUR: Working in a shaman's lab, it's important to be well-grounded.
 
 NAME: Bear Form
 DESC: +2 Health and Taunt.
-INFO: Type: Ability Class: Druid Set: Classic Faction: Neutral Token
+INFO: Type: Ability Class: Druid Set: Tavern Brawl Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Bear Form
 DESC: +2 Health and Taunt.
-INFO: Type: Ability Class: Druid Set: Tavern Brawl Faction: Neutral Token
+INFO: Type: Ability Class: Druid Set: Classic Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Beast Caller
@@ -16050,7 +16055,7 @@ FLAVOUR:
 
 NAME: Berserker
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
+INFO: Type: Ability Set: The Witchwood Token
 FLAVOUR: 
 
 NAME: Berserker
@@ -16060,7 +16065,7 @@ FLAVOUR:
 
 NAME: Berserker
 DESC: 
-INFO: Type: Ability Set: The Witchwood Token
+INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Bestiary
@@ -16270,12 +16275,12 @@ FLAVOUR:
 
 NAME: Chaos
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
+INFO: Type: Ability Set: The Witchwood Token
 FLAVOUR: 
 
 NAME: Chaos
 DESC: 
-INFO: Type: Ability Set: The Witchwood Token
+INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Chaos Theory
@@ -16473,11 +16478,6 @@ DESC: Deal $2 damage to all enemies. Draw a card. Cast this when drawn.
 INFO: Type: Ability Token
 FLAVOUR: 
 
-NAME: Cult of C'thun
-DESC: 
-INFO: Type: Ability Class: Druid Set: Kobolds and Catacombs Faction: Neutral Token
-FLAVOUR: 
-
 NAME: Cult of C'Thun
 DESC: 
 INFO: Type: Ability Class: Priest Set: Kobolds and Catacombs Faction: Neutral Token
@@ -16491,6 +16491,11 @@ FLAVOUR:
 NAME: Cult of C'thun
 DESC: 
 INFO: Type: Ability Class: Warlock Set: Kobolds and Catacombs Faction: Neutral Token
+FLAVOUR: 
+
+NAME: Cult of C'thun
+DESC: 
+INFO: Type: Ability Class: Druid Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Cult of the Wolf
@@ -16535,17 +16540,17 @@ FLAVOUR:
 
 NAME: Deathrattle
 DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Deathrattle
+DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Deathrattle
+DESC: 
 INFO: Type: Ability Class: Hunter Set: Kobolds and Catacombs Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Deathrattle
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Deathrattle
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Deathrattle Bonus
@@ -16860,16 +16865,6 @@ FLAVOUR:
 
 NAME: Elementals
 DESC: 
-INFO: Type: Ability Class: Priest Set: Kobolds and Catacombs Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Elementals
-DESC: 
-INFO: Type: Ability Class: Shaman Set: Kobolds and Catacombs Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Elementals
-DESC: 
 INFO: Type: Ability Class: Mage Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
@@ -16886,6 +16881,16 @@ FLAVOUR:
 NAME: Elementals
 DESC: 
 INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Elementals
+DESC: 
+INFO: Type: Ability Class: Priest Set: Kobolds and Catacombs Faction: Neutral Token
+FLAVOUR: 
+
+NAME: Elementals
+DESC: 
+INFO: Type: Ability Class: Shaman Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Enchanting Tune
@@ -17615,17 +17620,17 @@ FLAVOUR:
 
 NAME: Jade Lotus
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Jade Lotus
-DESC: 
 INFO: Type: Ability Class: Shaman Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Jade Lotus
 DESC: 
 INFO: Type: Ability Class: Rogue Set: Kobolds and Catacombs Faction: Neutral Token
+FLAVOUR: 
+
+NAME: Jade Lotus
+DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Jeering Crowd
@@ -17705,6 +17710,11 @@ FLAVOUR:
 
 NAME: Legendary
 DESC: 
+INFO: Type: Ability Class: Hunter Set: Kobolds and Catacombs Faction: Neutral Token
+FLAVOUR: 
+
+NAME: Legendary
+DESC: 
 INFO: Type: Ability Class: Paladin Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
@@ -17721,11 +17731,6 @@ FLAVOUR:
 NAME: Legendary
 DESC: 
 INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Legendary
-DESC: 
-INFO: Type: Ability Class: Hunter Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Legends
@@ -17870,12 +17875,12 @@ FLAVOUR:
 
 NAME: Magical Friends
 DESC: 
-INFO: Type: Ability Class: Mage Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Set: The Witchwood Token
 FLAVOUR: 
 
 NAME: Magical Friends
 DESC: 
-INFO: Type: Ability Set: The Witchwood Token
+INFO: Type: Ability Class: Mage Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Magical Friends
@@ -18004,14 +18009,14 @@ INFO: Type: Ability Set: Tavern Brawl Token
 FLAVOUR: 
 
 NAME: Moonfire
-DESC: Deal 2 damage.
-INFO: Type: Ability Class: Druid Set: Classic Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Moonfire
 DESC: Deal 1 damage.
 INFO: Type: Ability Class: Druid Rarity: Free Set: Basic Faction: Neutral Artist: Richard Wright Collectible
 FLAVOUR: "Cast Moonfire, and never stop." - How to Be a Druid, Chapter 5, Section 3
+
+NAME: Moonfire
+DESC: Deal 2 damage.
+INFO: Type: Ability Class: Druid Set: Classic Faction: Neutral Token
+FLAVOUR: 
 
 NAME: Murloc Bonus
 DESC: Summon a 1/1 Murloc at the end of your turn.
@@ -18265,7 +18270,7 @@ FLAVOUR:
 
 NAME: Pirates
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
+INFO: Type: Ability Set: The Witchwood Token
 FLAVOUR: 
 
 NAME: Pirates
@@ -18275,7 +18280,7 @@ FLAVOUR:
 
 NAME: Pirates
 DESC: 
-INFO: Type: Ability Set: The Witchwood Token
+INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Pit of Spikes
@@ -18785,22 +18790,22 @@ FLAVOUR:
 
 NAME: Secrets
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Secrets
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Secrets
-DESC: 
 INFO: Type: Ability Class: Hunter Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Secrets
 DESC: 
 INFO: Type: Ability Class: Paladin Set: Kobolds and Catacombs Faction: Neutral Token
+FLAVOUR: 
+
+NAME: Secrets
+DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Secrets
+DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Secrets of Shadow
@@ -18834,13 +18839,13 @@ INFO: Type: Ability Class: Priest Set: Kobolds and Catacombs Faction: Neutral To
 FLAVOUR: 
 
 NAME: Shadow Reflection
-DESC: Each time you play a card, transform this into a copy of it.
-INFO: Type: Ability Class: Rogue Set: Knights of the Frozen Throne Token
+DESC: Each time you play a card, transform this into a copy of it until the end of your turn.
+INFO: Type: Ability Class: Rogue Set: Tavern Brawl Token
 FLAVOUR: 
 
 NAME: Shadow Reflection
-DESC: Each time you play a card, transform this into a copy of it until the end of your turn.
-INFO: Type: Ability Class: Rogue Set: Tavern Brawl Token
+DESC: Each time you play a card, transform this into a copy of it.
+INFO: Type: Ability Class: Rogue Set: Knights of the Frozen Throne Token
 FLAVOUR: 
 
 NAME: Shadowstep
@@ -19195,6 +19200,16 @@ FLAVOUR:
 
 NAME: Taunt
 DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Taunt
+DESC: 
+INFO: Type: Ability Class: Druid Set: Kobolds and Catacombs Faction: Neutral Token
+FLAVOUR: 
+
+NAME: Taunt
+DESC: 
 INFO: Type: Ability Class: Warlock Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
@@ -19206,16 +19221,6 @@ FLAVOUR:
 NAME: Taunt
 DESC: 
 INFO: Type: Ability Class: Paladin Set: Kobolds and Catacombs Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Taunt
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Taunt
-DESC: 
-INFO: Type: Ability Class: Druid Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Teambuilding
@@ -19560,17 +19565,17 @@ FLAVOUR:
 
 NAME: Weapons
 DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Weapons
+DESC: 
 INFO: Type: Ability Class: Warrior Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Weapons
 DESC: 
 INFO: Type: Ability Class: Hunter Set: Kobolds and Catacombs Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Weapons
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Wee Beasts
@@ -21040,12 +21045,12 @@ FLAVOUR:
 
 NAME: Blood-Queen Lana'thel
 DESC: 
-INFO: Type: Hero Set: Tavern Brawl Token
+INFO: Type: Hero Set: Knights of the Frozen Throne Token
 FLAVOUR: 
 
 NAME: Blood-Queen Lana'thel
 DESC: 
-INFO: Type: Hero Set: Knights of the Frozen Throne Token
+INFO: Type: Hero Set: Tavern Brawl Token
 FLAVOUR: 
 
 NAME: Boom Bot
@@ -21097,6 +21102,11 @@ NAME: Captain Shivers
 DESC: Vowing vengeance, his cursed crew haunts Gilnean shores.
 INFO: Type: Hero Set: The Witchwood Artist: James Ryman Token
 FLAVOUR: 
+
+NAME: Card That Was Misflagged
+DESC: 
+INFO: Type: Hero Rarity: Legendary Set: Rastakhan's Rumble Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Alex Horley Orlandelli Token
+FLAVOUR: If you can dodge an axe, you can dodge a ball.
 
 NAME: Catacomb Boss
 DESC: 
@@ -21600,12 +21610,12 @@ FLAVOUR:
 
 NAME: Jaina Proudmoore
 DESC: 
-INFO: Type: Hero Class: Mage Rarity: Free Set: Basic Faction: Neutral Collectible
+INFO: Type: Hero Class: Mage Rarity: Common Set: Missions Token
 FLAVOUR: 
 
 NAME: Jaina Proudmoore
 DESC: 
-INFO: Type: Hero Class: Mage Rarity: Common Set: Missions Token
+INFO: Type: Hero Class: Mage Rarity: Free Set: Basic Faction: Neutral Collectible
 FLAVOUR: 
 
 NAME: Jeeru
@@ -21725,12 +21735,12 @@ FLAVOUR:
 
 NAME: Lord Marrowgar
 DESC: 
-INFO: Type: Hero Set: Tavern Brawl Token
+INFO: Type: Hero Set: Knights of the Frozen Throne Token
 FLAVOUR: 
 
 NAME: Lord Marrowgar
 DESC: 
-INFO: Type: Hero Set: Knights of the Frozen Throne Token
+INFO: Type: Hero Set: Tavern Brawl Token
 FLAVOUR: 
 
 NAME: Lord Slitherspear
@@ -21835,6 +21845,11 @@ FLAVOUR:
 
 NAME: Medivh
 DESC: 
+INFO: Type: Hero Class: Mage Rarity: Epic Set: Hero Skins Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Collectible
+FLAVOUR: 
+
+NAME: Medivh
+DESC: 
 INFO: Type: Hero Class: Mage Set: One Night in Karazhan Artist: James Ryman Token
 FLAVOUR: 
 
@@ -21846,11 +21861,6 @@ FLAVOUR:
 NAME: Medivh
 DESC: 
 INFO: Type: Hero Class: Mage Set: One Night in Karazhan Token
-FLAVOUR: 
-
-NAME: Medivh
-DESC: 
-INFO: Type: Hero Class: Mage Rarity: Epic Set: Hero Skins Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Collectible
 FLAVOUR: 
 
 NAME: Millhouse Manastorm
@@ -22065,22 +22075,22 @@ FLAVOUR:
 
 NAME: Professor Putricide
 DESC: 
+INFO: Type: Hero Set: Knights of the Frozen Throne Token
+FLAVOUR: 
+
+NAME: Professor Putricide
+DESC: 
+INFO: Type: Hero Set: Knights of the Frozen Throne Token
+FLAVOUR: 
+
+NAME: Professor Putricide
+DESC: 
+INFO: Type: Hero Set: Knights of the Frozen Throne Token
+FLAVOUR: 
+
+NAME: Professor Putricide
+DESC: 
 INFO: Type: Hero Set: Tavern Brawl Token
-FLAVOUR: 
-
-NAME: Professor Putricide
-DESC: 
-INFO: Type: Hero Set: Knights of the Frozen Throne Token
-FLAVOUR: 
-
-NAME: Professor Putricide
-DESC: 
-INFO: Type: Hero Set: Knights of the Frozen Throne Token
-FLAVOUR: 
-
-NAME: Professor Putricide
-DESC: 
-INFO: Type: Hero Set: Knights of the Frozen Throne Token
 FLAVOUR: 
 
 NAME: Raeth Ghostsong
@@ -22645,16 +22655,11 @@ FLAVOUR:
 
 NAME: Zul'jin
 DESC: 
+INFO: Type: Hero Rarity: Legendary Set: TEST_TEMPORARY Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Alex Horley Orlandelli Token
+FLAVOUR: If you can dodge an axe, you can dodge a ball.
+
+NAME: Zul'jin
+DESC: 
 INFO: Type: Hero Set: Rastakhan's Rumble Artist: Alex Horley Orlandelli Token
 FLAVOUR: 
-
-NAME: Zul'jin
-DESC: 
-INFO: Type: Hero Rarity: Legendary Artist: Alex Horley Orlandelli Token
-FLAVOUR: If you can dodge an axe, you can dodge a ball.
-
-NAME: Zul'jin
-DESC: 
-INFO: Type: Hero Rarity: Legendary Set: Rastakhan's Rumble Artist: Alex Horley Orlandelli Token
-FLAVOUR: If you can dodge an axe, you can dodge a ball.
 
