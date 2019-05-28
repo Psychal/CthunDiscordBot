@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'application'
-    id 'com.github.johnrengelman.shadow' version '2.0.4' apply false
+    id 'com.github.johnrengelman.shadow' version '4.0.4' apply false
 }
 
 mainClassName = "MainActivity"
@@ -9,7 +9,7 @@ mainClassName = "MainActivity"
 apply plugin: 'com.github.johnrengelman.shadow'
 
 group 'com.mwr'
-version '1.0-SNAPSHOT'
+version '2.0'
 
 sourceCompatibility = 1.8
 
@@ -18,16 +18,16 @@ repositories {
     jcenter()
     maven{
         url 'https://jitpack.io'
-
     }
 }
 
 dependencies {
-    implementation 'net.dv8tion:JDA:3.8.0_436'
+    implementation 'net.dv8tion:JDA:3.8.3_463'
     implementation 'org.slf4j:slf4j-api:1.7.25'
     implementation 'org.slf4j:slf4j-simple:1.7.25'
     implementation 'org.slf4j:slf4j-jdk14:1.7.25'
     implementation 'org.discordbots:DBL-Java-Library:2.0.1'
     implementation 'com.googlecode.json-simple:json-simple:1.1'
+    implementation 'org.postgresql:postgresql:42.2.5'
 }
 task stage(dependsOn: ['clean', 'shadowJar'])
