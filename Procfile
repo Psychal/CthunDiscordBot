@@ -1,1 +1,1 @@
-worker: java -jar build/libs/MWR-Discord-Bot-1.0-SNAPSHOT-all.jar
+worker: java -jar build/libs/MWR-Discord-Bot-2.0-all.jar

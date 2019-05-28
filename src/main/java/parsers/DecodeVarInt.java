@@ -1,3 +1,5 @@
+package parsers;
+
 import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
 
@@ -30,5 +32,26 @@ public final class DecodeVarInt {
             }
         }
         return result;
+    }
+
+    public static boolean stringIsInt(String userInput){
+        if (userInput.isEmpty()) {
+            return false;
+        }
+        int length = userInput.length();
+        int i = 0;
+        if (userInput.charAt(0) == '-') {
+            if (length == 1) {
+                return false;
+            }
+            i = 1;
+        }
+        for (; i < length; i++) {
+            char c = userInput.charAt(i);
+            if (c < '0' || c > '9') {
+                return false;
+            }
+        }
+        return true;
     }
 }

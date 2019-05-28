@@ -1,13 +1,16 @@
 # Cthun Discord Bot
 Hearthstone bot for Discord
 
-This bot uses Hearthstone card information available at Hearthpwn's website.
-Search through a database of cards(Patch 13.1) with a card name to find the specific one you want. If it doesn't find it, it will try to give you a list of cards with similar name.
-Use a deckstring to recieve a list over cards in the deck. This bot can also do simple math(addition, subtraction, division, multiplication) with whole numbers.
+This bot uses Hearthstone card information available at Hearthpwn's website. \
+Search through a database of 4670 card/hero entries(Patch 14.2) with a name to find the specific one you want. 
+If it doesn't find it, it will try to give you a list of cards with similar name.\
+Use a deckstring to recieve a list over cards in the deck.\
+This bot can also solve basic math and supports most common operators, exponentiation, and negative numbers.
 
- # C'thun Commands
+
+# C'thun Commands
 - !thun help
-```Get a list over commands```
+```Get a list over commands. You can also append another command behind it to get usage info.```
 
 - !thun 
 ```Get C'thun to say something!```
@@ -22,12 +25,12 @@ Use a deckstring to recieve a list over cards in the deck. This bot can also do 
 ```Posts a random hearthstone card in the form of a discord embed.```
 
 - !thun search [word] 
-```Enter a word or full name to perform a search. Yields a maximum of 10 results. Result input lasts only for 60 seconds.``` 
+```Enter a part of, or full name to perform a search. Yields a maximum of 10 results. Result input lasts only for 60 seconds.``` 
 
 - !thun math [expression]
-```Enter an expression to make C'thun solve it. Whole numbers only. He can currently only solve addition, subtraction, division and multiplication.```
+```Enter an expression to make C'thun solve it. Supports most common operators, exponentiation, and negative numbers.```
 
-- !thun token !thun collectible !thun elite
+- !thun keyword [keyword]
 ```These are card keyword commands to bring up a description of what each keyword means.```
 
 - !thun stats
