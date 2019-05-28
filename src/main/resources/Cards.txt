@@ -93,6 +93,11 @@ DESC: Choose the next Hero.
 INFO: Type: Ability Set: Tavern Brawl Faction: Neutral Token
 FLAVOUR: 
 
+NAME: Dimensional Ripper
+DESC: Summon 2 copies of a minion in your deck.
+INFO: Type: Ability Class: Warrior Rarity: Rare Set: Rise of Shadows Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Daria Tuzova Collectible
+FLAVOUR: The first dimensional ripper had a point. The second fell flat. The THIRD one really started to take shape!
+
 NAME: DOOM!
 DESC: Destroy all minions. Draw a card for each.
 INFO: Type: Ability Class: Warlock Rarity: Epic Set: Whispers of the Old Gods Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Raymond Swanland Collectible
@@ -223,6 +228,11 @@ DESC: Battlecry: Destroy your opponent's deck.
 INFO: Type: Minion Class: Warlock Set: Kobolds and Catacombs Race: Demon Token Elite
 FLAVOUR: 
 
+NAME: Big Bad Archmage
+DESC: At the end of your turn, summon a random 6-Cost minion.
+INFO: Type: Minion Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Mauricio Herrera Collectible
+FLAVOUR: "My, my, what big minions I have!"
+
 NAME: Chieftain Scarvash
 DESC: Enemy cards cost (2) more.
 INFO: Type: Minion Set: League of Explorers Token Elite
@@ -230,13 +240,13 @@ FLAVOUR:
 
 NAME: C'Thun
 DESC: Battlecry: Deal damage equal to this minion's Attack randomly split among all enemies.
-INFO: Type: Minion Rarity: Legendary Set: Whispers of the Old Gods Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: James Ryman Collectible Elite
-FLAVOUR: C'Thun's least favorite Hearthstone card: Eye for an Eye.
+INFO: Type: Minion Rarity: Legendary Set: Whispers of the Old Gods Token Elite
+FLAVOUR: 
 
 NAME: C'Thun
 DESC: Battlecry: Deal damage equal to this minion's Attack randomly split among all enemies.
-INFO: Type: Minion Rarity: Legendary Set: Whispers of the Old Gods Token Elite
-FLAVOUR: 
+INFO: Type: Minion Rarity: Legendary Set: Whispers of the Old Gods Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: James Ryman Collectible Elite
+FLAVOUR: C'Thun's least favorite Hearthstone card: Eye for an Eye.
 
 NAME: Deathwing
 DESC: Battlecry: Destroy all other minions and discard your hand.
@@ -408,6 +418,16 @@ DESC:
 INFO: Type: Minion Set: Mean Streets of Gadgetzan Artist: Konstantin Turovec Token
 FLAVOUR: 
 
+NAME: Jumbo Imp
+DESC: Costs (1) less whenever a friendly Demon dies while this is in your hand.
+INFO: Type: Minion Class: Warlock Rarity: Epic Set: Rise of Shadows Race: Demon Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: James Ryman Collectible
+FLAVOUR: Jumbo in size! Huge in E.V.I.L.!
+
+NAME: Kalecgos
+DESC: Your first spell each turn costs (0). Battlecry: Discover a spell.
+INFO: Type: Minion Class: Mage Rarity: Legendary Set: Rise of Shadows Race: Dragon Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Chris Rahn Collectible
+FLAVOUR: He was once the Aspect of Magic but gave it up to focus on cheap tricks.
+
 NAME: Kun the Forgotten King
 DESC: Choose One - Gain 10 Armor; or Refresh your Mana Crystals.
 INFO: Type: Minion Class: Druid Rarity: Legendary Set: Mean Streets of Gadgetzan Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Jon Neimeister Collectible Elite
@@ -448,6 +468,11 @@ DESC: Can't be targeted by spells. Boss: Nefarian wins if he defeats either of y
 INFO: Type: Minion Rarity: Legendary Set: Tavern Brawl Race: Dragon Token Elite
 FLAVOUR: 
 
+NAME: Nozari
+DESC: Battlecry: Restore both heroes to full Health.
+INFO: Type: Minion Class: Paladin Rarity: Legendary Set: Rise of Shadows Race: Dragon Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Arthur Gimaldinov Collectible
+FLAVOUR: In another timeline, she was called Yeszari.
+
 NAME: N'Zoth, the Corruptor
 DESC: Battlecry: Summon your Deathrattle minions that died this game.
 INFO: Type: Minion Rarity: Legendary Set: Whispers of the Old Gods Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Tyson Murphy Collectible Elite
@@ -487,6 +512,11 @@ NAME: Thaddius
 DESC: 
 INFO: Type: Minion Set: Curse of Naxxramas Token Elite
 FLAVOUR: 
+
+NAME: The Boom Reaver
+DESC: Battlecry: Summon a copy of a minion in your deck. Give it Rush.
+INFO: Type: Minion Class: Warrior Rarity: Legendary Set: Rise of Shadows Race: Mechanical Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Jerry Mascho Collectible
+FLAVOUR: ?What?s better than reaving? BOOM reaving!?
 
 NAME: The Steel Sentinel
 DESC: This minion can only take 1 damage at a time.
@@ -543,6 +573,11 @@ DESC: Summon all three Animal Companions.
 INFO: Type: Ability Class: Hunter Rarity: Epic Set: Whispers of the Old Gods Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Peter Stapleton Collectible
 FLAVOUR: "Hello. Misha, Leokk and Huffer aren't here right now, but if you leave a message we'll get back to you right away." BEEP.
 
+NAME: Mass Resurrection
+DESC: Summon 3 friendly minions that died this game.
+INFO: Type: Ability Class: Priest Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Arthur Bozonnet Collectible
+FLAVOUR: One's company, two's a crowd, and three's a ?mass? resurrection, apparently.
+
 NAME: The Boomship
 DESC: Summon 3 random minions from your hand. Give them Rush.
 INFO: Type: Ability Class: Warrior Rarity: Legendary Set: The Boomsday Project Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Zoltan Boros Collectible
@@ -568,6 +603,11 @@ DESC: Deathrattle: Return this to your hand and summon a 4/4 Nerubian.
 INFO: Type: Minion Class: Rogue Rarity: Legendary Set: The Grand Tournament Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Eric Braddock Collectible Elite
 FLAVOUR: Was actually a pretty nice guy before, you know, the whole Lich King thing.
 
+NAME: Archivist Elysiana
+DESC: Battlecry: Discover 5 cards. Replace your deck with 2 copies of each.
+INFO: Type: Minion Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: James Ryman Collectible
+FLAVOUR: Your deck is just another organizational challenge to her.
+
 NAME: Arch-Thief Rafaam
 DESC: Battlecry: Discover a powerful Artifact.
 INFO: Type: Minion Rarity: Legendary Set: League of Explorers Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Alex Horley Orlandelli Collectible Elite
@@ -592,6 +632,11 @@ NAME: Bull Dozer
 DESC: Divine Shield
 INFO: Type: Minion Rarity: Common Set: The Boomsday Project Race: Mechanical Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Steve Prescott Collectible
 FLAVOUR: Leave them alone for two minutes and they go right into sleep mode.
+
+NAME: Burly Shovelfist
+DESC: Rush
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Matt Dixon Collectible
+FLAVOUR: Shovel beats paper and rock!
 
 NAME: Cenarius
 DESC: Choose One - Give your other minions +2/+2; or Summon two 2/2 Treants with Taunt.
@@ -853,6 +898,16 @@ DESC: Fill your board with 2/2 Whelps.
 INFO: Type: Ability Set: Tavern Brawl Token
 FLAVOUR: 
 
+NAME: Power of Creation
+DESC: Discover a 6-cost minion. Summon two copies of it.
+INFO: Type: Ability Class: Mage Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Zoltan Boros Collectible
+FLAVOUR: Mostly used for party tricks, to be honest.
+
+NAME: The Forest's Aid
+DESC: Twinspell Summon five 2/2 Treants.
+INFO: Type: Ability Class: Druid Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Vladimir Kafanov Collectible
+FLAVOUR: Delicious Forest?s Aid! Made from real forests.
+
 NAME: Twisting Nether
 DESC: Destroy all minions.
 INFO: Type: Ability Class: Warlock Rarity: Epic Set: Classic Faction: Neutral Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Dave Allsop Collectible
@@ -893,6 +948,11 @@ DESC:
 INFO: Type: Minion Set: League of Explorers Token
 FLAVOUR: 
 
+NAME: Batterhead
+DESC: Rush. After this attacks and kills a minion, it may attack again.
+INFO: Type: Minion Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: MAR Studio Collectible
+FLAVOUR: When it comes to problem-solving, he always uses his head.
+
 NAME: Bonemare
 DESC: Battlecry: Give a friendly minion +4/+4 and Taunt.
 INFO: Type: Minion Rarity: Common Set: Knights of the Frozen Throne Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Ralph Horsely Collectible
@@ -907,6 +967,11 @@ NAME: Captain Hooktusk
 DESC: Battlecry: Summon 3 Pirates from your deck. Give them Rush.
 INFO: Type: Minion Class: Rogue Rarity: Legendary Set: Rastakhan's Rumble Race: Pirate Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Matt Dixon Collectible
 FLAVOUR: "You three! Get in the cannon!"
+
+NAME: Catrina Muerte
+DESC: At the end of your turn, summon a friendly minion that d ied this game.
+INFO: Type: Minion Class: Priest Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Mike Sass Collectible
+FLAVOUR: She always manages to lift your spirits.
 
 NAME: Cauldron Elemental
 DESC: Your other Elementals have +2 Attack.
@@ -947,6 +1012,11 @@ NAME: Eldritch Horror
 DESC: 
 INFO: Type: Minion Rarity: Common Set: Whispers of the Old Gods Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Mike Sass Collectible
 FLAVOUR: Often wonders what path his life might have taken if he wasn't named, you know, "Eldritch Horror".
+
+NAME: Fel Lord Betrug
+DESC: Whenever you draw a minion, summon a copy with Rush that dies at end of turn.
+INFO: Type: Minion Class: Warlock Rarity: Legendary Set: Rise of Shadows Race: Demon Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Nicola Saviori Collectible
+FLAVOUR: Nobody else likes rush hour.
 
 NAME: Fireworks
 DESC: 
@@ -1008,6 +1078,11 @@ DESC: At the end of each turn, gain +1/+1 .
 INFO: Type: Minion Rarity: Legendary Set: Classic Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Kev Walker Collectible Elite
 FLAVOUR: He's Gruul "the Dragonkiller". He just wanted to cuddle them? he never meant to?
 
+NAME: Heroic Innkeeper
+DESC: Taunt. Battlecry: Gain +2/+2 for each other friendly minion.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Maria Trepalina Collectible
+FLAVOUR: We reserve the right to refuse service to any 1/1.
+
 NAME: Hex Lord Malacrass
 DESC: Battlecry: Add a copy of your opening hand to your hand (except this card).
 INFO: Type: Minion Class: Mage Rarity: Legendary Set: Rastakhan's Rumble Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Mike Sass Collectible
@@ -1033,6 +1108,11 @@ DESC:
 INFO: Type: Minion Set: Mean Streets of Gadgetzan Artist: Konstantin Turovec Token
 FLAVOUR: 
 
+NAME: Jepetto Joybuzz
+DESC: Battlecry: Draw 2 minions from your deck. Set their Attack, Health, and Cost to 1.
+INFO: Type: Minion Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Anton Zemskov Collectible
+FLAVOUR: ?I?m a real toy now!?
+
 NAME: Kabal Demon
 DESC: 
 INFO: Type: Minion Set: Mean Streets of Gadgetzan Race: Demon Faction: Neutral Artist: Slawomir Maniak Token
@@ -1057,6 +1137,11 @@ NAME: King Togwaggle
 DESC: [x]Battlecry: Swap decks with your opponent. Give them a Ransom spell to swap back.
 INFO: Type: Minion Rarity: Legendary Set: Kobolds and Catacombs Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Konstantin Turovec Collectible Elite
 FLAVOUR: Management of the Kobold Empire requires a careful balance between a lack of social services and fiscal irresponsibility.
+
+NAME: Lucentbark
+DESC: Taunt. Deathrattle: Go dormant. Restore 5 Health to awaken this minion.
+INFO: Type: Minion Class: Druid Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Steven Prescott Collectible
+FLAVOUR: Always feels refreshed after a little dirt nap.
 
 NAME: Marin the Fox
 DESC: Battlecry: Summon a 0/8 Treasure Chest for your opponent. (Break it for awesome loot!)
@@ -1192,6 +1277,16 @@ NAME: Violet Wurm
 DESC: Deathrattle: Summon seven 1/1 Grubs.
 INFO: Type: Minion Rarity: Common Set: Kobolds and Catacombs Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: J. Cranford Collectible
 FLAVOUR: It's wurms all the way down.
+
+NAME: Walking Fountain
+DESC: Lifesteal, Rush, Windfury
+INFO: Type: Minion Class: Shaman Rarity: Common Set: Rise of Shadows Race: Elemental Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: James Ryman Collectible
+FLAVOUR: The weirdest part is that it doesn't have legs.
+
+NAME: Whirlwind Tempest
+DESC: Your minions with Windfury have Mega-Windfury.
+INFO: Type: Minion Rarity: Epic Set: Rise of Shadows Race: Elemental Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Wayne Wu Collectible
+FLAVOUR: And your minions with mega-windfury get... dizzy.
 
 NAME: Dr. Boom, Mad Genius
 DESC: Battlecry: For the rest of the game, your Mechs have Rush.
@@ -1408,6 +1503,11 @@ DESC: Whenever you cast a spell, add a 'Fireball' spell to your hand.
 INFO: Type: Minion Class: Mage Rarity: Legendary Set: Classic Faction: Neutral Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Wayne Reynolds Collectible Elite
 FLAVOUR: Antonidas was the Grand Magus of the Kirin Tor, and Jaina's mentor. This was a big step up from being Grand Magus of Jelly Donuts.
 
+NAME: Arch-Villain Rafaam
+DESC: Taunt Battlecry: Replace your hand and deck with Legendary minions.
+INFO: Type: Minion Class: Warlock Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Alex Horley Collectible
+FLAVOUR: Minions must wash hands before being LIQUIDATED AND REPLACED BY SOMEONE BETTER.
+
 NAME: Astromancer
 DESC: [x]Battlecry: Summon a random minion with Cost equal to your hand size.
 INFO: Type: Minion Class: Mage Rarity: Epic Set: The Boomsday Project Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Gonzalo Ordonez Collectible
@@ -1437,6 +1537,11 @@ NAME: Blackhowl Gunspire
 DESC: [x]Can't attack. Whenever this minion takes damage, deal 3 damage to a random enemy.
 INFO: Type: Minion Class: Warrior Rarity: Legendary Set: The Witchwood Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Jason Kang Collectible
 FLAVOUR: The upper windows used to be for aiming. Then we thought: "Hey! MORE cannons!"
+
+NAME: Blastmaster Boom
+DESC: Battlecry: Summon two 1/1 Boom Bots for each Bomb in your opponent's deck.
+INFO: Type: Minion Class: Warrior Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Matt Dixon Collectible
+FLAVOUR: He's gonna fly through the air with the greatest of grease.
 
 NAME: Blazecaller
 DESC: Battlecry: If you played an Elemental last turn, deal 5 damage.
@@ -1472,6 +1577,11 @@ NAME: Captured Jormungar
 DESC: 
 INFO: Type: Minion Rarity: Common Set: The Grand Tournament Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Gonzalo Ordonez Collectible
 FLAVOUR: You can keep him, but you have to promise to feed him and clean out his tank every day!
+
+NAME: Chef Nomi
+DESC: Battlecry: If your deck is empty, summon six 6/6 Greasefire Elementals.
+INFO: Type: Minion Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Sean McNally Collectible
+FLAVOUR: His cooking is always very well done.
 
 NAME: Chillmaw
 DESC: [x]Taunt Deathrattle: If you're holding a Dragon, deal 3 damage to all minions.
@@ -1532,6 +1642,11 @@ NAME: Eadric the Pure
 DESC: Battlecry: Change all enemy minions' Attack to 1.
 INFO: Type: Minion Class: Paladin Rarity: Legendary Set: The Grand Tournament Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: James Ryman Collectible Elite
 FLAVOUR: Nobody rocks a monocle like Eadric.
+
+NAME: Exotic Mountseller
+DESC: Whenever you cast a spell, summon a random 3-Cost Beast.
+INFO: Type: Minion Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Maria Trepalina Collectible
+FLAVOUR: *Taps roof of mammoth* ?You can fit so many squirrels in this thing!?
 
 NAME: Fearsome Doomguard
 DESC: 
@@ -1743,6 +1858,16 @@ DESC: After your opponent plays a minion, attack it.
 INFO: Type: Minion Class: Hunter Rarity: Legendary Set: Journey to Un'Goro Race: Beast Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Alex Horley Orlandelli Collectible Elite
 FLAVOUR: Swamp King Dred, more like Swamp King Dead, amiright?
 
+NAME: Swampqueen Hagatha
+DESC: Battlecry: Add a 5/5 Horror to your hand. Teach it two Shaman spells.
+INFO: Type: Minion Class: Shaman Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Alex Horley Collectible
+FLAVOUR: Rafaam mainly enjoys working with Hagatha because she never laughs at Dr. Boom's jokes.
+
+NAME: Tak Nozwhisker
+DESC: Whenever you shuffle a card into your deck, add a copy to your hand.
+INFO: Type: Minion Class: Rogue Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Rafael Zanchetin Collectible
+FLAVOUR: "One for me and one for future me!"
+
 NAME: Tar Lord
 DESC: Taunt Has +4 Attack during your opponent?s turn.
 INFO: Type: Minion Class: Warrior Rarity: Common Set: Journey to Un'Goro Race: Elemental Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Jim Nelson Collectible
@@ -1763,6 +1888,11 @@ DESC: Whenever your opponent casts a spell, summon a Burly Rockjaw Trogg.
 INFO: Type: Minion Rarity: Legendary Set: Goblins vs Gnomes Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Mike Sass Collectible Elite
 FLAVOUR: He keeps earthinating the countryside despite attempts to stop him.
 
+NAME: Tunnel Blaster
+DESC: Taunt Deathrattle: Deal 3 damage to all minions.
+INFO: Type: Minion Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Ivan Fomin Collectible
+FLAVOUR: And you always thought they wore the candles just for fun.
+
 NAME: Twin Emperor Vek'lor
 DESC: [x]Taunt Battlecry: If your C'Thun has at least 10 Attack, summon another Emperor.
 INFO: Type: Minion Rarity: Legendary Set: Whispers of the Old Gods Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Mike Sass Collectible Elite
@@ -1772,6 +1902,16 @@ NAME: Twin Emperor Vek'nilash
 DESC: Taunt
 INFO: Type: Minion Set: Whispers of the Old Gods Artist: Mike Sass Token Elite
 FLAVOUR: 
+
+NAME: Underbelly Ooze
+DESC: After this minion survives damage, summon a copy of it.
+INFO: Type: Minion Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Danny Dai Collectible
+FLAVOUR: It's always accepting of the less successful adventurers.
+
+NAME: Vereesa Windrunner
+DESC: Battlecry: Equip Thori'dal, the Stars' Fury.
+INFO: Type: Minion Class: Hunter Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: James Ryman Collectible
+FLAVOUR: Good things come in threes: Windrunner sisters and arrows of Thori'dal.
 
 NAME: Volcanosaur
 DESC: Battlecry: Adapt, then Adapt.
@@ -1883,6 +2023,11 @@ DESC: Choose One - Summon 5 Wisps; or Give a minion +5/+5 and Taunt.
 INFO: Type: Ability Class: Druid Rarity: Epic Set: Goblins vs Gnomes Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Trent Kaniuga Collectible
 FLAVOUR: Don't worry; we fired the person who named this card.
 
+NAME: Darkest Hour
+DESC: Destroy all friendly minions. For each one, summon a random minion from your deck.
+INFO: Type: Ability Class: Warlock Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Slawomir Maniak Collectible
+FLAVOUR: It's always darkest just before you find the light switch.
+
 NAME: Deadly Arsenal
 DESC: Reveal a weapon from your deck. Deal its Attack to all minions.
 INFO: Type: Ability Class: Warrior Rarity: Epic Set: The Witchwood Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Wayne Reynolds Collectible
@@ -1907,6 +2052,11 @@ NAME: Embrace Darkness
 DESC: [x]Choose an enemy minion. At the start of your turn, gain control of it.
 INFO: Type: Ability Class: Priest Rarity: Epic Set: Knights of the Frozen Throne Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: A.J. Nazzaro Collectible
 FLAVOUR: Once you both get comfortable, darkness is actually pretty snuggly.
+
+NAME: Emerald Spellstone
+DESC: Summon three 3/3 Wolves. (Play a secret to upgrade.)
+INFO: Type: Ability Class: Hunter Rarity: Rare Set: Kobolds and Catacombs Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Joe Wilson Token
+FLAVOUR: 
 
 NAME: Enter the Coliseum
 DESC: Destroy all minions except each player's highest Attack minion.
@@ -1938,6 +2088,11 @@ DESC: Recruit a minion.
 INFO: Type: Ability Class: Warrior Rarity: Rare Set: Kobolds and Catacombs Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: L. Lullabi & K. Turovec Collectible
 FLAVOUR: Thrilling adventure! Danger guaranteed! Loot uncertain! Death optional! Who?s with me?
 
+NAME: Greater Emerald Spellstone
+DESC: Summon four 3/3 Wolves.
+INFO: Type: Ability Class: Hunter Rarity: Rare Set: Kobolds and Catacombs Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Joe Wilson Token
+FLAVOUR: 
+
 NAME: Heavy Metal!
 DESC: Summon a random minion with Cost equal to your Armor (up to 10).
 INFO: Type: Ability Class: Warrior Rarity: Rare Set: Rastakhan's Rumble Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Alex Horley Orlandelli Collectible
@@ -1947,6 +2102,11 @@ NAME: Holy Fire
 DESC: Deal 5 damage. Restore 5 Health to your hero.
 INFO: Type: Ability Class: Priest Rarity: Rare Set: Classic Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Miguel Coimbra Collectible
 FLAVOUR: Often followed by Holy Smokes!
+
+NAME: Lesser Emerald Spellstone
+DESC: Summon two 3/3 Wolves. (Play a secret to upgrade.)
+INFO: Type: Ability Class: Hunter Rarity: Rare Set: Kobolds and Catacombs Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Joe Wilson Collectible
+FLAVOUR: An emerald stone for Tauren handsWho sought its strength to save their landsTheir tribes now lost, their rage releasedWho?s hunting now? And who?s the beast?
 
 NAME: Level Up!
 DESC: Give your Silver Hand Recruits +2/+2 and Taunt
@@ -2063,10 +2223,20 @@ DESC: Gain 5 Armor. Gain 10 more Armor.
 INFO: Type: Ability Class: Warrior Rarity: Common Set: Kobolds and Catacombs Artist: Zoltan Boros Token
 FLAVOUR: 
 
+NAME: Unidentified Contract
+DESC: Destroy a minion. Gains a bonus effect in your hand.
+INFO: Type: Ability Class: Rogue Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Akkapoj T. Collectible
+FLAVOUR: The terms of service are constantly changing.
+
 NAME: Unidentified Shield
 DESC: Gain 5 Armor. Gains a bonus effect in your hand.
 INFO: Type: Ability Class: Warrior Rarity: Common Set: Kobolds and Catacombs Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Dan Scott Collectible
 FLAVOUR: The kobold stared at the bundle for a long time. ?Ah hah!? he said. ?It?s a shield.?
+
+NAME: Unleash the Beast
+DESC: Twinspell Summon a 5/5 Wyvern with Rush.
+INFO: Type: Ability Class: Hunter Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: L. Lullabi & K. Turovec Collectible
+FLAVOUR: The Kirin Tor have always been lax in enforcing leash laws.
 
 NAME: Vanish
 DESC: Return all minions to their owner's hand.
@@ -2097,6 +2267,11 @@ NAME: Anima Golem
 DESC: At the end of each turn, destroy this minion if it's your only one.
 INFO: Type: Minion Class: Warlock Rarity: Epic Set: Goblins vs Gnomes Race: Mechanical Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Josh Harris Collectible
 FLAVOUR: The Dark Animus is evil and mysterious and huge and unable to write sentences that utilize proper grammar.
+
+NAME: Aranasi Broodmother
+DESC: Taunt when you draw this, restore 4 health to your hero.
+INFO: Type: Minion Class: Warlock Rarity: Common Set: Rise of Shadows Race: Demon Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Slawomir Maniak Collectible
+FLAVOUR: She's got a big brood and a big mood.
 
 NAME: Arcane Dynamo
 DESC: Battlecry: Discover a spell that costs (5) or more.
@@ -2233,6 +2408,11 @@ DESC: Battlecry: Deal 1 damage to ALL other characters.
 INFO: Type: Minion Class: Warlock Rarity: Free Set: Basic Race: Demon Faction: Neutral Artist: Zoltan & Gabor Collectible
 FLAVOUR: "INFERNOOOOOOOOOO!" - Jaraxxus, Eredar Lord of the Burning Legion
 
+NAME: Eccentric Scribe
+DESC: Deathrattle: Summon four 1/1 Vengeful Scrolls.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Charlene LeScanff Collectible
+FLAVOUR: Them?s fightin? words!
+
 NAME: Emperor Thaurissan
 DESC: At the end of your turn, reduce the Cost of cards in your hand by (1).
 INFO: Type: Minion Rarity: Legendary Set: Blackrock Mountain Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Wayne Reynolds Collectible Elite
@@ -2322,6 +2502,11 @@ NAME: Guardian Spirit
 DESC: Taunt
 INFO: Type: Minion Class: Paladin Set: Kobolds and Catacombs Artist: T-Rex Token
 FLAVOUR: 
+
+NAME: Heistbaron Togwaggle
+DESC: Battlecry: If you control a Lackey, choose a fantastic treasure.
+INFO: Type: Minion Class: Rogue Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: L. Lullabi & K. Turovec Collectible
+FLAVOUR: A staunch ally of Rafaam, at least while the shinies keep flowing.
 
 NAME: Hemet, Jungle Hunter
 DESC: Battlecry: Destroy all cards in your deck that cost (3) or less.
@@ -2428,6 +2613,11 @@ DESC:
 INFO: Type: Minion Set: League of Explorers Token
 FLAVOUR: 
 
+NAME: Mad Summoner
+DESC: Battlecry: Fill each player's board with 1/1 Imps.
+INFO: Type: Minion Rarity: Rare Set: Rise of Shadows Race: Demon Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Konstantin Turovec Collectible
+FLAVOUR: Does he summon because of his madness, or is he mad from all the summoning?
+
 NAME: Madam Goya
 DESC: Battlecry: Choose a friendly minion. Swap it with a minion in your deck.
 INFO: Type: Minion Rarity: Legendary Set: Mean Streets of Gadgetzan Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Jakub Kasper Collectible Elite
@@ -2533,6 +2723,11 @@ DESC: Spells cost (2) more.
 INFO: Type: Minion Rarity: Epic Set: Knights of the Frozen Throne Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Lars Grant-West Collectible
 FLAVOUR: He loves a good yarn.
 
+NAME: Oblivitron
+DESC: Deathrattle: Summon a Mech from your hand and trigger its Deathrattle.
+INFO: Type: Minion Class: Hunter Rarity: Legendary Set: Rise of Shadows Race: Mechanical Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Zoltan Boros Collectible
+FLAVOUR: Reduce, reuse, re-rattle!
+
 NAME: Ornery Direhorn
 DESC: Taunt Battlecry: Adapt.
 INFO: Type: Minion Class: Warrior Rarity: Common Set: Journey to Un'Goro Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Luca Zontini Collectible
@@ -2542,6 +2737,11 @@ NAME: Piloted Sky Golem
 DESC: Deathrattle: Summon a random 4-Cost minion.
 INFO: Type: Minion Rarity: Epic Set: Goblins vs Gnomes Race: Mechanical Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Michael Phillippi Collectible
 FLAVOUR: The pinnacle of goblin engineering. Includes an espresso machine and foot massager.
+
+NAME: Portal Overfiend
+DESC: Battlecry: Shuffle 3 Portals into your deck. When drawn, summon a 2/2 Demon with Rush.
+INFO: Type: Minion Rarity: Epic Set: Rise of Shadows Race: Demon Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Nicola Saviori Collectible
+FLAVOUR: It?s like an interdimensional game of demon tag.
 
 NAME: Possessed Lackey
 DESC: Deathrattle: Recruit a Demon.
@@ -2582,6 +2782,11 @@ NAME: Sabretooth Stalker
 DESC: Stealth
 INFO: Type: Minion Rarity: Common Set: Journey to Un'Goro Race: Beast Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Alex Horley Orlandelli Collectible
 FLAVOUR: It's gotten a bit long in the tooth.
+
+NAME: Safeguard
+DESC: Taunt. Deathrattle: Summon a 0/5 Vault Safe with Taunt.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Race: Mechanical Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: L. Lullabi & K. Turovec Collectible
+FLAVOUR: Keep it secret. Keep it safeguarded!
 
 NAME: Savannah Highmane
 DESC: Deathrattle: Summon two 2/2 Hyenas.
@@ -2718,10 +2923,20 @@ DESC: Deathrattle: Summon a Spectral Rider for your opponent.
 INFO: Type: Minion Set: Curse of Naxxramas Token
 FLAVOUR: 
 
+NAME: Unseen Saboteur
+DESC: Battlecry: Your opponent castas a spell from their hand (targets chosen randomly).
+INFO: Type: Minion Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Dave Allsop Collectible
+FLAVOUR: Far more effective than the flamboyant saboteur.
+
 NAME: Vaelastrasz
 DESC: Your cards cost (3) less.
 INFO: Type: Minion Set: Tavern Brawl Race: Dragon Token Elite
 FLAVOUR: 
+
+NAME: Violet Warden
+DESC: Taunt. Spell Damage +1
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Evgeniy Dlinnov Collectible
+FLAVOUR: He's got magic, a shield, and an unwavering obsession with the color purple.
 
 NAME: Void Crusher
 DESC: Inspire: Destroy a random minion for each player.
@@ -2938,10 +3153,10 @@ DESC: Reveal a spell from your deck. Deal damage equal to its Cost to all minion
 INFO: Type: Ability Class: Mage Rarity: Epic Set: Kobolds and Catacombs Faction: Neutral Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Andrew Hou Collectible
 FLAVOUR: ?C?mon Hucklemuck. She?ll never notice if we take just one little coin.?
 
-NAME: Emerald Spellstone
-DESC: Summon three 3/3 Wolves. (Play a Secret to upgrade.)
-INFO: Type: Ability Class: Hunter Rarity: Rare Set: Kobolds and Catacombs Artist: Joe Wilson Token
-FLAVOUR: 
+NAME: Duel!
+DESC: Summon a minion from each player's deck. They attack each other.
+INFO: Type: Ability Class: Paladin Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Konstantin Turovec Collectible
+FLAVOUR: If you don?t fight to the death, it?s Duel Yielding.
 
 NAME: Excavated Evil
 DESC: Deal 3 damage to all minions. Shuffle this card into your opponent's deck.
@@ -2978,11 +3193,6 @@ DESC: Give your minions +4 Health.
 INFO: Type: Ability Set: Mean Streets of Gadgetzan Artist: Konstantin Turovec Token
 FLAVOUR: 
 
-NAME: Greater Emerald Spellstone
-DESC: Summon four 3/3 Wolves.
-INFO: Type: Ability Class: Hunter Rarity: Rare Set: Kobolds and Catacombs Artist: Joe Wilson Token
-FLAVOUR: 
-
 NAME: Greater Onyx Spellstone
 DESC: Destroy up to 3 random enemy minions.
 INFO: Type: Ability Class: Rogue Rarity: Rare Set: Kobolds and Catacombs Artist: Arthur Bozonnet Token
@@ -2992,6 +3202,11 @@ NAME: Greater Potion
 DESC: Create a 5-Cost spell.
 INFO: Type: Ability Set: Mean Streets of Gadgetzan Artist: Konstantin Turovec Token
 FLAVOUR: 
+
+NAME: Hagatha's Scheme
+DESC: Deal 1 damage to all minions. (Upgrades each turn!)
+INFO: Type: Ability Class: Shaman Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Arthur Gimaldinov Collectible
+FLAVOUR: "All shall suffer!" "But Hagatha, those are your minions..." "I said ALL!!!"
 
 NAME: Heart of Fire
 DESC: Deal 5 damage.
@@ -3012,6 +3227,11 @@ NAME: Holy Wrath
 DESC: Draw a card and deal damage equal to its Cost.
 INFO: Type: Ability Class: Paladin Rarity: Rare Set: Classic Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Justin Sweet Collectible
 FLAVOUR: C'mon Molten Giant!!
+
+NAME: Hunting Party
+DESC: Copy all Beasts in your hand.
+INFO: Type: Ability Class: Hunter Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
+FLAVOUR: Not sure I?d call it a good party if everyone ends up beside themselves.
 
 NAME: Icecap
 DESC: Freeze 2 random enemy minions.
@@ -3047,11 +3267,6 @@ NAME: Kingsblood
 DESC: Draw 2 cards.
 INFO: Type: Ability Set: Mean Streets of Gadgetzan Artist: Konstantin Turovec Token
 FLAVOUR: 
-
-NAME: Lesser Emerald Spellstone
-DESC: Summon two 3/3 Wolves. (Play a Secret to upgrade.)
-INFO: Type: Ability Class: Hunter Rarity: Rare Set: Kobolds and Catacombs Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Joe Wilson Collectible
-FLAVOUR: An emerald stone for Tauren hands Who sought its strength to save their lands Their tribes now lost, their rage released Who?s hunting now? And who?s the beast?
 
 NAME: Lesser Onyx Spellstone
 DESC: Destroy 1 random enemy minion. @(Play 3 Deathrattle cards to upgrade.)
@@ -3268,10 +3483,20 @@ DESC: Battlecry: If you control a Secret, gain +1/+1 and Taunt.
 INFO: Type: Minion Rarity: Rare Set: One Night in Karazhan Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
 FLAVOUR: He mostly watches light romantic comedies.
 
+NAME: Azerite Elemental
+DESC: At the start of your turn, gain Spell Damage +2.
+INFO: Type: Minion Rarity: Epic Set: Rise of Shadows Race: Elemental Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Luca Zontini Collectible
+FLAVOUR: This is some bad blood.
+
 NAME: Azure Drake
 DESC: Spell Damage +1 Battlecry: Draw a card.
 INFO: Type: Minion Rarity: Rare Set: Hall of Fame Race: Dragon Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Benjamin Zhang Collectible
 FLAVOUR: They initially planned to be the Beryl or Cerulean drakes, but those felt a tad too pretentious.
+
+NAME: Barista Lynchen
+DESC: Battlecry: Add a copy of each of your other Battlecry minions to your hand.
+INFO: Type: Minion Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Zoltan Boros Collectible
+FLAVOUR: "Thanks a latte!"
 
 NAME: Barnabus the Stomper
 DESC: Battlecry: Reduce the Cost of minions in your deck to (0).
@@ -3403,6 +3628,11 @@ DESC: At the end of your turn, give another random friendly minion +3 Attack.
 INFO: Type: Minion Rarity: Common Set: Knights of the Frozen Throne Race: Dragon Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Jim Nelson Collectible
 FLAVOUR: You get a sword! And you get a sword! Everybody gets a sword!
 
+NAME: Convincing Infiltrator
+DESC: Taunt. Deathrattle: Destroy a random enemy minion.
+INFO: Type: Minion Class: Priest Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Zoltan Boros Collectible
+FLAVOUR: It?s always nice to steal a familiar face.
+
 NAME: Corpse Raiser
 DESC: [x]Battlecry: Give a friendly minion "Deathrattle: Resummon this minion."
 INFO: Type: Minion Rarity: Rare Set: Knights of the Frozen Throne Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
@@ -3438,6 +3668,11 @@ DESC: Battlecry: If an enemy is Frozen, gain +2/+2.
 INFO: Type: Minion Class: Mage Rarity: Common Set: Mean Streets of Gadgetzan Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Tyler West Studios Collectible
 FLAVOUR: She loves Frozen. I mean who doesn't?
 
+NAME: Crystal Stag
+DESC: Rush. Battlecry: If you've restored 5 Health this game, summon a copy of this.
+INFO: Type: Minion Class: Druid Rarity: Epic Set: Rise of Shadows Race: Beast Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Patrik Bjorkstrom Collectible
+FLAVOUR: Arrives alone, but usually leaves with a friend just like him.
+
 NAME: Cult Apothecary
 DESC: Battlecry: For each enemy minion, restore 2 Health to your hero.
 INFO: Type: Minion Rarity: Common Set: Whispers of the Old Gods Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Paul Mafayon Collectible
@@ -3447,6 +3682,11 @@ NAME: Curio Collector
 DESC: Whenever you draw a card, gain +1/+1.
 INFO: Type: Minion Class: Mage Rarity: Rare Set: The Witchwood Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Alex Konstad Collectible
 FLAVOUR: Experts worry that curios are a gateway to face-collecting.
+
+NAME: Dalaran Crusader
+DESC: Divine Shield
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: James Ryman Collectible
+FLAVOUR: Stops for nothing?except donuts.
 
 NAME: Darius Crowley
 DESC: [x]Rush After this attacks and kills a minion, gain +2/+2.
@@ -3495,12 +3735,12 @@ FLAVOUR: He's deathspicable.
 
 NAME: Devilsaur
 DESC: 
-INFO: Type: Minion Set: Classic Race: Beast Faction: Neutral Token
+INFO: Type: Minion Set: Journey to Un'Goro Race: Beast Artist: Arthur Bozonnet Token
 FLAVOUR: 
 
 NAME: Devilsaur
 DESC: 
-INFO: Type: Minion Set: Journey to Un'Goro Race: Beast Artist: Arthur Bozonnet Token
+INFO: Type: Minion Set: Classic Race: Beast Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Direhorn Hatchling
@@ -3525,7 +3765,7 @@ FLAVOUR: The children were puzzled by the scratches covering the insides of thei
 
 NAME: Doomguard
 DESC: Charge. Battlecry: Discard two random cards.
-INFO: Type: Minion Class: Warlock Rarity: Rare Set: Classic Race: Demon Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Lucas Graciano Collectible
+INFO: Type: Minion Class: Warlock Rarity: Rare Set: Hall of Fame Race: Demon Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Lucas Graciano Collectible
 FLAVOUR: Summoning a doomguard is risky. <i>Someone</i> is going to die.
 
 NAME: Doppelgangster
@@ -3548,6 +3788,11 @@ DESC: Battlecry: The next Dragon you play costs (2) less.
 INFO: Type: Minion Class: Paladin Rarity: Rare Set: Blackrock Mountain Race: Dragon Artist: Raymond Swanland Collectible
 FLAVOUR: Everybody wants someone to snuggle with. Even giant armored scaly draconic beasts of destruction.
 
+NAME: Dragon Speaker
+DESC: Battlecry: Give all Dragons in your hand +3/+3.
+INFO: Type: Minion Class: Paladin Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Arthur Bozonnet Collectible
+FLAVOUR: All of his speeches really drag on.
+
 NAME: Dragon Spirit
 DESC: 
 INFO: Type: Minion Class: Priest Set: Kobolds and Catacombs Race: Dragon Artist: Tyler Walpole Token
@@ -3569,26 +3814,6 @@ INFO: Type: Minion Class: Priest Rarity: Rare Set: Mean Streets of Gadgetzan Rac
 FLAVOUR: His job is to spy on the Goons and the Jade Lotus, but he's OBVIOUSLY a dragon so it's pretty hard work.
 
 NAME: Druid of the Claw
-DESC: Charge Taunt
-INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
-FLAVOUR: 
-
-NAME: Druid of the Claw
-DESC: [x]Choose One - Transform into a 4/4 with Charge; or a 4/6 with Taunt.
-INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Luca Zontini Collectible
-FLAVOUR: Cat or Bear? Cat or Bear?! I just cannot CHOOSE!
-
-NAME: Druid of the Claw
-DESC: Charge
-INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
-FLAVOUR: 
-
-NAME: Druid of the Claw
-DESC: Taunt
-INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
-FLAVOUR: 
-
-NAME: Druid of the Claw
 DESC: Charge
 INFO: Type: Minion Class: Druid Rarity: Common Set: Tavern Brawl Token
 FLAVOUR: 
@@ -3606,6 +3831,26 @@ FLAVOUR:
 NAME: Druid of the Claw
 DESC: Charge Taunt
 INFO: Type: Minion Class: Druid Rarity: Common Set: Tavern Brawl Token
+FLAVOUR: 
+
+NAME: Druid of the Claw
+DESC: Charge Taunt
+INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
+FLAVOUR: 
+
+NAME: Druid of the Claw
+DESC: [x]Choose One - Transform into a 4/4 with Charge; or a 4/6 with Taunt.
+INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Luca Zontini Collectible
+FLAVOUR: Cat or Bear? Cat or Bear?! I just cannot CHOOSE!
+
+NAME: Druid of the Claw
+DESC: Charge
+INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
+FLAVOUR: 
+
+NAME: Druid of the Claw
+DESC: Taunt
+INFO: Type: Minion Class: Druid Rarity: Common Set: Classic Race: Beast Token
 FLAVOUR: 
 
 NAME: Druid of the Fang
@@ -4033,6 +4278,11 @@ DESC: Rush Battlecry: Summon two 2/1_Mucklings for your opponent.
 INFO: Type: Minion Rarity: Epic Set: The Witchwood Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Pior Oberson Collectible
 FLAVOUR: You think your job mucks.
 
+NAME: Muckmorpher
+DESC: Battlecry: Transform into a 4/4 copy of a different minion in your deck.
+INFO: Type: Minion Class: Shaman Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Matt Dixon Collectible
+FLAVOUR: Fan favorite in the muck morphin' sewer strangers.
+
 NAME: Mukla's Champion
 DESC: Inspire: Give your other minions +1/+1.
 INFO: Type: Minion Rarity: Common Set: The Grand Tournament Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Andrew Hou Collectible
@@ -4137,6 +4387,11 @@ NAME: Recruiter
 DESC: Inspire: Add a 2/2 Squire to your hand.
 INFO: Type: Minion Rarity: Epic Set: The Grand Tournament Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Jim Nelson Collectible
 FLAVOUR: Join the Argent Crusade! We have attractive tabards and you get to carry really nice swords!
+
+NAME: Recurring Villain
+DESC: Deathrattle: If this minion has 4 or more Attack, resummon it.
+INFO: Type: Minion Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Matt Dixon Collectible
+FLAVOUR: Mwahahaha! You'll never catch him this time!
 
 NAME: Red Mana Wyrm
 DESC: Whenever you cast a spell, gain +2 Attack.
@@ -4284,14 +4539,14 @@ INFO: Type: Minion Rarity: Common Set: Classic Faction: Horde Crafting Cost: 40 
 FLAVOUR: She'll craft you a sword, but you'll need to bring her 5 Steel Ingots, 3 Motes of Earth, and the scalp of her last customer.
 
 NAME: Stalagg
-DESC: Deathrattle: If Feugen also died this game, summon Thaddius.
-INFO: Type: Minion Rarity: Legendary Set: Curse of Naxxramas Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Dany Orizio Collectible Elite
-FLAVOUR: Stalagg want to write own flavor text. "STALAGG AWESOME!"
-
-NAME: Stalagg
 DESC: 
 INFO: Type: Minion Rarity: Legendary Set: Curse of Naxxramas Token Elite
 FLAVOUR: 
+
+NAME: Stalagg
+DESC: Deathrattle: If Feugen also died this game, summon Thaddius.
+INFO: Type: Minion Rarity: Legendary Set: Curse of Naxxramas Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Dany Orizio Collectible Elite
+FLAVOUR: Stalagg want to write own flavor text. "STALAGG AWESOME!"
 
 NAME: Stampeding Kodo
 DESC: Battlecry: Destroy a random enemy minion with 2 or less Attack.
@@ -4337,6 +4592,11 @@ NAME: Sunborne Val'kyr
 DESC: Battlecry: Give adjacent minions +2 Health.
 INFO: Type: Minion Rarity: Common Set: Knights of the Frozen Throne Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Hideaki Takamura Collectible
 FLAVOUR: Bring valor to Odyn's halls, Champion!
+
+NAME: Sunreaver Warmage
+DESC: Battlecry: If you're holding a spell that costs (5) or more, deal 4 damage.
+INFO: Type: Minion Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Collectible
+FLAVOUR: 
 
 NAME: Tar Lurker
 DESC: Taunt Has +3 Attack during your opponent's turn.
@@ -4588,6 +4848,16 @@ DESC: Deathrattle: Gain 10 Mana Crystals.
 INFO: Type: Weapon Class: Druid Rarity: Legendary Set: Kobolds and Catacombs Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Alexey Aparin Collectible Elite
 FLAVOUR: For druids who want to branch out.
 
+NAME: Waggle Pick
+DESC: Deathrattle: Return a random friendly minion to your hand. It costs (2) less.
+INFO: Type: Weapon Class: Rogue Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Jason Kang Collectible
+FLAVOUR: Kobolds informally refer to its effect as a deathwaggle.
+
+NAME: Wrenchcalibur
+DESC: After your hero attacks, shuffle a Bomb into your opponent's deck.
+INFO: Type: Weapon Class: Warrior Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Akkapoj T. Collectible
+FLAVOUR: Whoso pulleth out this wrench from the toolbox is rightwise king of the lab.
+
 NAME: Academic Espionage
 DESC: Shuffle 10 cards from your opponent's class into your deck. They_cost (1).
 INFO: Type: Ability Class: Rogue Rarity: Epic Set: The Boomsday Project Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Konstantin Turovec Collectible
@@ -4693,10 +4963,20 @@ DESC: [x]Summon 7 'Boom Bots'.
 INFO: Type: Ability Set: Kobolds and Catacombs Faction: Neutral Artist: Alex Garner Token
 FLAVOUR: 
 
+NAME: Dr. Boom's Scheme
+DESC: Gain 1 Armor. (Upgrades each turn!)
+INFO: Type: Ability Class: Warrior Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Konstantin Turovec Collectible
+FLAVOUR: ?We did it! We blew up the vault!? ?You mean the vault door?? ?Oh. The doooor??
+
 NAME: Echo of Medivh
 DESC: Put a copy of each friendly minion into your hand.
 INFO: Type: Ability Class: Mage Rarity: Epic Set: Goblins vs Gnomes Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Alex Garner Collectible
 FLAVOUR: Medivh's echo haunts Karazhan, eternally cheating at chess and <i>Hearthstone</i>.
+
+NAME: Equality
+DESC: Change the Health of ALL minions to 1.
+INFO: Type: Ability Class: Paladin Rarity: Rare Set: Classic Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Michal Ivan Collectible
+FLAVOUR: We are all special unique snowflakes... with 1 Health.
 
 NAME: Eternal Servitude
 DESC: Discover a friendly minion that died this game. Summon it.
@@ -4793,6 +5073,11 @@ DESC: Choose One - Give a minion +2/+4 and Taunt; or Summon two 3/2 Raptors.
 INFO: Type: Ability Class: Druid Rarity: Rare Set: Rastakhan's Rumble Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Mauricio Herrera Collectible
 FLAVOUR: Ah, yes. Mark. The mightiest Loa.
 
+NAME: Marked Shot
+DESC: Deal 4 damage to a minion. Discover a spell.
+INFO: Type: Ability Class: Hunter Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Alex Garner Collectible
+FLAVOUR: Obviously it's marked for greatness.
+
 NAME: Mass Dispel
 DESC: Silence all enemy minions. Draw a card.
 INFO: Type: Ability Class: Priest Rarity: Rare Set: Classic Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Sean O'Daniels Collectible
@@ -4857,6 +5142,11 @@ NAME: Prismatic Lens
 DESC: Draw a minion and a spell from your deck. Swap their Costs.
 INFO: Type: Ability Class: Paladin Rarity: Epic Set: The Boomsday Project Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Cicily He Collectible
 FLAVOUR: Mined exclusively from the dark side of the moon.
+
+NAME: Raiding Party
+DESC: Draw two Pirates from your deck. Combo: Draw a Weapon.
+INFO: Type: Ability Class: Rogue Rarity: Rare Set: Rastakhan's Rumble Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
+FLAVOUR: And a bowl of chips. And some of those little cocktail weenies!
 
 NAME: Rogues Do It...
 DESC: Deal 4 damage. Draw a card.
@@ -4973,6 +5263,16 @@ DESC: [x]Summon two random $2-Cost minions (improved by Spell Damage).
 INFO: Type: Ability Class: Mage Rarity: Epic Set: The Boomsday Project Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Jakub Kasper Collectible
 FLAVOUR: Sometimes science is more art than science. A lot of people don?t get that.
 
+NAME: Unsleeping Soul
+DESC: Silence a friendly minion, then summon a copy of it.
+INFO: Type: Ability Class: Priest Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Matt Dixon Collectible
+FLAVOUR: It's 3 am. Do you know where your soul is?
+
+NAME: Vendetta
+DESC: Deal 4 damage to a minion. Costs (0) if you're holding a card from another class.
+INFO: Type: Ability Class: Rogue Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
+FLAVOUR: A vengeful and vicarious vanguard against violent villains or vexed victims.
+
 NAME: Walk the Plank
 DESC: Destroy an undamaged minion.
 INFO: Type: Ability Class: Rogue Rarity: Common Set: Rastakhan's Rumble Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Ivan Fomin Collectible
@@ -5048,6 +5348,11 @@ DESC: Battlecry: Equip a 2/2 weapon.
 INFO: Type: Minion Class: Warrior Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Samwise Collectible
 FLAVOUR: 50% off fist weapons, limited time only!
 
+NAME: Arcane Fletcher
+DESC: Whenever you play a 1-Cost minion, draw a spell from your deck.
+INFO: Type: Minion Class: Hunter Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Rafael Zanchetin Collectible
+FLAVOUR: Stop trying to make fletch happen. It's not going to happen.
+
 NAME: Arcane Keysmith
 DESC: Battlecry: Discover a Secret. Put it into the battlefield.
 INFO: Type: Minion Class: Mage Rarity: Epic Set: The Witchwood Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Matt Dixon Collectible
@@ -5062,6 +5367,11 @@ NAME: Arcanosmith
 DESC: Battlecry: Summon a 0/5 minion with Taunt.
 INFO: Type: Minion Rarity: Common Set: One Night in Karazhan Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Anton Zemskov Collectible
 FLAVOUR: He?s really just a Blacksmith, but he thought the fancy title would bring in more business.
+
+NAME: Archmage Vargoth
+DESC: At the end of your turn, cast a spell you've cast this turn (targets are random).
+INFO: Type: Minion Rarity: Legendary Set: Rise of Shadows Crafting Cost: 0 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: James Ryman Collectible
+FLAVOUR: He's an archmage, but he might want to brush up on the basics... like aiming.
 
 NAME: Arena Fanatic
 DESC: Battlecry: Give all minions in your hand +1/+1.
@@ -5343,6 +5653,11 @@ DESC: Battlecry: If you're holding a Dragon, deal 3 damage to all other minions.
 INFO: Type: Minion Class: Priest Rarity: Rare Set: Kobolds and Catacombs Race: Dragon Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Alex Horley Orlandelli Collectible
 FLAVOUR: Waking up at the break of dusk is just not as impressive.
 
+NAME: Eager Underling
+DESC: Deathrattle: Give two random friendly minions +2/+2.
+INFO: Type: Minion Class: Warlock Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
+FLAVOUR: Eager to please, even if it kills him.
+
 NAME: Eater of Secrets
 DESC: Battlecry: Destroy all enemy Secrets. Gain +1/+1 for each.
 INFO: Type: Minion Rarity: Rare Set: Whispers of the Old Gods Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Dan Scott Collectible
@@ -5578,6 +5893,26 @@ DESC: [x]Stealth After your opponent plays a minion, become a copy of it.
 INFO: Type: Minion Rarity: Legendary Set: The Boomsday Project Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Konstantin Turovec Collectible
 FLAVOUR: She wanders realities, taking on many forms. One was a unicorn princess.
 
+NAME: Hecklebot
+DESC: Taunt Battlecry: Your opponent summons a minion from their deck.
+INFO: Type: Minion Rarity: Rare Set: Rise of Shadows Race: Mechanical Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Matt Dixon Collectible
+FLAVOUR: Built by goblins, designed by a troll.
+
+NAME: Hench-Clan Burglar
+DESC: Battlecry: Discover a spell from another class.
+INFO: Type: Minion Class: Rogue Rarity: Common Set: Rise of Shadows Race: Pirate Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Anton Zemskov Collectible
+FLAVOUR: She?s more of a rat burglar.
+
+NAME: Hench-Clan Hag
+DESC: Battlecry: Summon two 1/1 Amalgams with all minion types.
+INFO: Type: Minion Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Christopher Hayes Collectible
+FLAVOUR: The Hench Clan is an equal opportunity employer, no matter which parts of you came from where.
+
+NAME: Hench-Clan Shadequill
+DESC: Deathrattle: Restore 5 Health to the enemy hero.
+INFO: Type: Minion Class: Priest Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Paul Mafayon Collectible
+FLAVOUR: The Hench-Clan has a point.
+
 NAME: High Priestess Jeklik
 DESC: Taunt, Lifesteal. When you discard this, add 2 copies of it to your hand.
 INFO: Type: Minion Class: Warlock Rarity: Legendary Set: Rastakhan's Rumble Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: James Ryman Collectible
@@ -5717,6 +6052,11 @@ NAME: Kil'rek
 DESC: Taunt
 INFO: Type: Minion Class: Warlock Set: One Night in Karazhan Race: Demon Token
 FLAVOUR: 
+
+NAME: Kirin Tor Tricaster
+DESC: Spell Damage +3. Your spells cost (1) more.
+INFO: Type: Minion Class: Mage Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Zoltan Boros Collectible
+FLAVOUR: The math checks out!
 
 NAME: Klaxxi Amber-Weaver
 DESC: Battlecry: If your C'Thun has at least 10 Attack, gain +5 Health.
@@ -5938,6 +6278,11 @@ DESC: [x]Taunt Battlecry: If you have 10 Mana Crystals, gain +10 Attack.
 INFO: Type: Minion Rarity: Epic Set: The Boomsday Project Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Jim Nelson Collectible
 FLAVOUR: "Surrender. You have 10 mana to comply."
 
+NAME: Omega Devastator
+DESC: Battlecry: If you have 10 Mana Crystals, deal 10 damage to a minion.
+INFO: Type: Minion Class: Warrior Rarity: Epic Set: Rise of Shadows Race: Mechanical Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Jim Nelson Collectible
+FLAVOUR: The Alpha Devastator didn?t devastate enough. The Beta Devastator devastated too much. But the Omega was just right!
+
 NAME: Orsis Guard
 DESC: Divine Shield
 INFO: Type: Minion Set: League of Explorers Token
@@ -5993,6 +6338,11 @@ DESC: Deathrattle: Draw a card.
 INFO: Type: Minion Rarity: Common Set: Whispers of the Old Gods Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Matt Dixon Collectible
 FLAVOUR: Roll ?greed? OR THIS COULD HAPPEN TO YOU.
 
+NAME: Portal Keeper
+DESC: Battlecry: Shuffle 3 Portals into your deck. When drawn, summon a 2/2 Demon with Rush.
+INFO: Type: Minion Rarity: Rare Set: Rise of Shadows Race: Demon Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Nicola Saviori Collectible
+FLAVOUR: No longer allowed to be ?it? when playing demon tag.
+
 NAME: Priest of the Feast
 DESC: Whenever you cast a spell, restore 3 Health to your hero.
 INFO: Type: Minion Class: Priest Rarity: Common Set: One Night in Karazhan Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Paul Mafayon Collectible
@@ -6007,6 +6357,11 @@ NAME: Professor Putricide
 DESC: After you play a Secret, put a random Hunter Secret into the battlefield.
 INFO: Type: Minion Class: Hunter Rarity: Legendary Set: Knights of the Frozen Throne Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Mike Sass Collectible Elite
 FLAVOUR: Among his more notable inventions: A tentacle-groomer, a plague that would wipe out all life on Azeroth, and a fidget spinner.
+
+NAME: Proud Defender
+DESC: Taunt. Has +2 Attack while you have no other minions.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Arthur Bozonnet Collectible
+FLAVOUR: It'll take a humble offender to defeat him.
 
 NAME: Raid Healer
 DESC: Whenever your hero is healed, also heal your teammate for that much.
@@ -6087,6 +6442,11 @@ NAME: Scaleworm
 DESC: Battlecry: If you're holding a Dragon, gain +1 Attack and Rush.
 INFO: Type: Minion Rarity: Rare Set: The Witchwood Race: Beast Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Arthur Bozonnet Collectible
 FLAVOUR: A popular local alternative to bananas.
+
+NAME: Scargil
+DESC: Your Murlocs cost (1).
+INFO: Type: Minion Class: Shaman Rarity: Legendary Set: Rise of Shadows Race: Murloc Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Alex Horley Collectible
+FLAVOUR: Wanna know how he got those scars? So does he.
 
 NAME: Screwjank Clunker
 DESC: Battlecry: Give a friendly Mech +2/+2.
@@ -6172,6 +6532,11 @@ NAME: Sneaky Devil
 DESC: Stealth Your other minions have +1 Attack.
 INFO: Type: Minion Rarity: Common Set: Kobolds and Catacombs Race: Demon Faction: Alliance Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Ivan Fomin Collectible
 FLAVOUR: The result of a tragic accident involving a Defias Thug, a Wand of Polymorph, and a bundle of Fel Lotus.
+
+NAME: Soldier of Fortune
+DESC: Whenever this minion attacks, give your opponent a Coin.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Race: Elemental Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Rafael Zanchetin Collectible
+FLAVOUR: His allies call him invaluable.
 
 NAME: Southsea Squidface
 DESC: Deathrattle: Give your weapon +2 Attack.
@@ -6318,6 +6683,11 @@ DESC: [x]Whenever you play a 1-Costminion, give it Poisonous.
 INFO: Type: Minion Class: Hunter Rarity: Epic Set: The Witchwood Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Tyler West Studio Collectible
 FLAVOUR: Not all spiders are born poisonous. That's where he comes in.
 
+NAME: Travelling Healer
+DESC: Divine Shield Battlecry: Restore 3 Health.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Tod Harris Collectible
+FLAVOUR: Some heroes have soft hearts and hard shells.
+
 NAME: Twilight Drake
 DESC: Battlecry: Gain +1 Health for each card in your hand.
 INFO: Type: Minion Rarity: Rare Set: Classic Race: Dragon Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jaemin Kim Collectible
@@ -6343,6 +6713,11 @@ DESC: Whenever you cast a spell, summon a random 2-Cost minion.
 INFO: Type: Minion Class: Mage Rarity: Common Set: The Witchwood Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: A.J. Nazzaro Collectible
 FLAVOUR: As birds of ill omen, these crows often summon Doomsayers.
 
+NAME: Violet Spellsword
+DESC: Battlecry: Gain +1 Attack f or each spell in your hand.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Luke Mancini Collectible
+FLAVOUR: If you have to wield a spell and a sword, then neither is performing to expectation.
+
 NAME: Violet Teacher
 DESC: Whenever you cast a spell, summon a 1/1 Violet Apprentice.
 INFO: Type: Minion Rarity: Rare Set: Classic Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: James Ryman Collectible
@@ -6365,13 +6740,13 @@ FLAVOUR: War Master sounds cooler than Dragon Sitter.
 
 NAME: Water Elemental
 DESC: Freeze any character damaged by this minion.
-INFO: Type: Minion Class: Mage Rarity: Free Set: Basic Race: Elemental Faction: Neutral Artist: John Avon Collectible
-FLAVOUR: Don't summon a water elemental at a party. It'll dampen the mood.
+INFO: Type: Minion Class: Mage Set: Knights of the Frozen Throne Race: Elemental Faction: Neutral Artist: John Avon Token
+FLAVOUR: 
 
 NAME: Water Elemental
 DESC: Freeze any character damaged by this minion.
-INFO: Type: Minion Class: Mage Set: Knights of the Frozen Throne Race: Elemental Faction: Neutral Artist: John Avon Token
-FLAVOUR: 
+INFO: Type: Minion Class: Mage Rarity: Free Set: Basic Race: Elemental Faction: Neutral Artist: John Avon Collectible
+FLAVOUR: Don't summon a water elemental at a party. It'll dampen the mood.
 
 NAME: Weaponized Pinata
 DESC: Deathrattle: Add a random Legendary minion to your_hand.
@@ -6540,17 +6915,17 @@ FLAVOUR: "King's Attacker" is a shield. Funny, huh?
 
 NAME: Massive Runeblade
 DESC: Deals double damage to heroes.
-INFO: Type: Weapon Set: Curse of Naxxramas Token
-FLAVOUR: 
-
-NAME: Massive Runeblade
-DESC: Deals double damage to heroes.
-INFO: Type: Weapon Set: Curse of Naxxramas Token
-FLAVOUR: 
-
-NAME: Massive Runeblade
-DESC: Deals double damage to heroes.
 INFO: Type: Weapon Set: Tavern Brawl Token
+FLAVOUR: 
+
+NAME: Massive Runeblade
+DESC: Deals double damage to heroes.
+INFO: Type: Weapon Set: Curse of Naxxramas Token
+FLAVOUR: 
+
+NAME: Massive Runeblade
+DESC: Deals double damage to heroes.
+INFO: Type: Weapon Set: Curse of Naxxramas Token
 FLAVOUR: 
 
 NAME: Necrium Blade
@@ -6683,6 +7058,11 @@ DESC: Shuffle 3 Ambushes into your opponent's deck. When drawn, you summon a 4/4
 INFO: Type: Ability Class: Rogue Rarity: Epic Set: The Grand Tournament Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Daren Bader Collectible
 FLAVOUR: Can you hold these eggs for just a second? I promise they're not full of giant enraged undead spider things.
 
+NAME: Blessing of the Ancients
+DESC: Twinspell. Give your minions +1/+1.
+INFO: Type: Ability Class: Druid Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Steven Prescott Collectible
+FLAVOUR: Arguably the cutest blessing.
+
 NAME: Blood Warriors
 DESC: Add a copy of each damaged friendly minion to your hand.
 INFO: Type: Ability Class: Warrior Rarity: Epic Set: Whispers of the Old Gods Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: A.J. Nazzaro Collectible
@@ -6728,10 +7108,20 @@ DESC: Add 2 random class cards to your hand (from your opponent's class).
 INFO: Type: Ability Class: Rogue Rarity: Rare Set: The Grand Tournament Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Matt Dixon Collectible
 FLAVOUR: Yoink!
 
+NAME: Call to Adventure
+DESC: Draw the lowest Cost minion from your deck. Give it +2/+2.
+INFO: Type: Ability Class: Paladin Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Eva Widermann Collectible
+FLAVOUR: Even the smallest minion can change the outcome of the game.
+
 NAME: Cinderstorm
 DESC: Deal $5 damage randomly split among all enemies.
 INFO: Type: Ability Class: Mage Rarity: Rare Set: The Witchwood Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Anton Zemskov Collectible
 FLAVOUR: Forecast: "Cloudy with a chance of fireballs."
+
+NAME: Conjurer's Calling
+DESC: Twinspell. Destroy a minion. Summon 2 minions of the same Cost to replace it.
+INFO: Type: Ability Class: Mage Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jakub Kasper Collectible
+FLAVOUR: If only you?d let it go to voicemail?
 
 NAME: Core Hound Puppies
 DESC: Summon two 2/4 Core Hound Pups.
@@ -6775,7 +7165,7 @@ FLAVOUR: Demons are not angry most of the time. You have to play this card in or
 
 NAME: Divine Favor
 DESC: Draw cards until you have as many in hand as your opponent.
-INFO: Type: Ability Class: Paladin Rarity: Rare Set: Classic Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Lucas Graciano Collectible
+INFO: Type: Ability Class: Paladin Rarity: Rare Set: Hall of Fame Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Lucas Graciano Collectible
 FLAVOUR: This is not just a favor, but a divine one, like helping someone move a couch with a fold out bed!
 
 NAME: Drain Life
@@ -6973,6 +7363,11 @@ DESC: Secret: When your hero takes fatal damage, prevent it and become Immune th
 INFO: Type: Ability Class: Mage Rarity: Epic Set: Hall of Fame Faction: Neutral Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Carl Frank Collectible
 FLAVOUR: Ice is nice, and will suffice!
 
+NAME: Impferno
+DESC: Give your Demons +1 Attack. Deal 1 damage to all enemy minions.
+INFO: Type: Ability Class: Warlock Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Chris Hayes Collectible
+FLAVOUR: Imps don't get mad when you set them on fire. They think it's cozy.
+
 NAME: Infest
 DESC: Give your minions "Deathrattle: Add a random Beast to your hand."
 INFO: Type: Ability Class: Hunter Rarity: Rare Set: Whispers of the Old Gods Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Anton Zemskov Collectible
@@ -7098,6 +7493,11 @@ DESC: [x]Change the Health of all enemy minions to 1.
 INFO: Type: Ability Set: One Night in Karazhan Token
 FLAVOUR: 
 
+NAME: Nine Lives
+DESC: Discover a friendly Deathrattle minion that died this game. Also trigger its Deathrattle.
+INFO: Type: Ability Class: Hunter Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Anton Zemskov Collectible
+FLAVOUR: Beware the night of the living pets!
+
 NAME: Omnotron Defense System
 DESC: Summon a random Tron.
 INFO: Type: Ability Set: Tavern Brawl Token
@@ -7148,10 +7548,10 @@ DESC: For each enemy minion, summon a 1/1 Pawn with Taunt.
 INFO: Type: Ability Class: Warrior Rarity: Rare Set: One Night in Karazhan Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
 FLAVOUR: Form ranks! Everyone into the King's Tuskarr Defense!
 
-NAME: Raiding Party
-DESC: Draw two Pirates from your deck. Combo: Draw a Weapon.
-INFO: Type: Ability Class: Rogue Rarity: Rare Set: Rastakhan's Rumble Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
-FLAVOUR: And a bowl of chips. And some of those little cocktail weenies!
+NAME: Rafaam's Scheme
+DESC: Summon 1 1/1 Imp (Upgrades each turn!)
+INFO: Type: Ability Class: Warlock Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Jim Nelson Collectible
+FLAVOUR: "When your first plan fails... imp-rovise."
 
 NAME: Reckless Flurry
 DESC: Spend all your Armor. Deal that much damage to all minions.
@@ -7403,6 +7803,11 @@ DESC: Battlecry: Give your opponent a Mana Crystal.
 INFO: Type: Minion Rarity: Rare Set: Classic Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Sedhayu Ardian Collectible
 FLAVOUR: Having Arcane golems at home really classes up the place, and as a bonus they are great conversation pieces.
 
+NAME: Arcane Watcher
+DESC: Can't attack unless you have Spell Damage.
+INFO: Type: Minion Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jakub Kasper Collectible
+FLAVOUR: Now his watch has ended? until you have Spell Damage.
+
 NAME: Argent Horserider
 DESC: Charge Divine Shield
 INFO: Type: Minion Rarity: Common Set: The Grand Tournament Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Evgeniy Zagumennyy Collectible
@@ -7543,6 +7948,11 @@ DESC: Magnetic Taunt
 INFO: Type: Minion Rarity: Common Set: The Boomsday Project Race: Mechanical Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Ursula dorada Collectible
 FLAVOUR: "You have my shield! And the rest of me too."
 
+NAME: Bronze Herald
+DESC: Deathrattle: Add two 4/4 Dragons to your hand.
+INFO: Type: Minion Class: Paladin Rarity: Common Set: Rise of Shadows Race: Dragon Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Alex Horley Collectible
+FLAVOUR: This is why you shouldn?t shoot the messenger.
+
 NAME: Carrion Grub
 DESC: 
 INFO: Type: Minion Class: Hunter Rarity: Common Set: Whispers of the Old Gods Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Kan Liu Collectible
@@ -7578,6 +7988,11 @@ DESC: Your Secrets cost (0).
 INFO: Type: Minion Class: Hunter Rarity: Common Set: One Night in Karazhan Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Arthur Bozonnet Collectible
 FLAVOUR: She's practically GIVING your secrets away!
 
+NAME: Clockwork Goblin
+DESC: Battlecry: Shuffle a Bomb into your opponent's deck. When draw, it explodes for 5 damage.
+INFO: Type: Minion Class: Warrior Rarity: Rare Set: Rise of Shadows Race: Mechanical Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: A.J. Nazzaro Collectible
+FLAVOUR: They always wind up bombing.
+
 NAME: Coldlight Oracle
 DESC: Battlecry: Each player draws 2 cards.
 INFO: Type: Minion Rarity: Rare Set: Hall of Fame Race: Murloc Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Steve Prescott Collectible
@@ -7597,6 +8012,11 @@ NAME: Coliseum Manager
 DESC: Inspire: Return this minion to your hand.
 INFO: Type: Minion Rarity: Rare Set: The Grand Tournament Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Dan Scott Collectible
 FLAVOUR: Meets monthly with the gladiators to discuss career goals.
+
+NAME: Commander Rhyssa
+DESC: Your Secrets trigger twice.
+INFO: Type: Minion Class: Paladin Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Luke Mancini Collectible
+FLAVOUR: Two people can keep a secret as long as neither of them are Commander Rhyssa.
 
 NAME: Core Hound Pup
 DESC: At the end of each turn, summon all Core Hound Pups that died this turn.
@@ -7720,6 +8140,11 @@ FLAVOUR: Let's be clear about this: ACIDMAW is the sidekick.
 
 NAME: Druid of the Flame
 DESC: 
+INFO: Type: Minion Class: Druid Rarity: Common Set: Blackrock Mountain Race: Beast Token
+FLAVOUR: 
+
+NAME: Druid of the Flame
+DESC: 
 INFO: Type: Minion Class: Druid Rarity: Common Set: Blackrock Mountain Race: Beast Artist: Benjamin Zhang Token
 FLAVOUR: 
 
@@ -7732,11 +8157,6 @@ NAME: Druid of the Flame
 DESC: Choose One - Transform into a 5/2 minion; or a 2/5 minion.
 INFO: Type: Minion Class: Druid Rarity: Common Set: Blackrock Mountain Artist: Stanley Lau Collectible
 FLAVOUR: Druids who fought too long in Northrend were easily seduced by Ragnaros; a mug of hot chocolate was generally all it took.
-
-NAME: Druid of the Flame
-DESC: 
-INFO: Type: Minion Class: Druid Rarity: Common Set: Blackrock Mountain Race: Beast Token
-FLAVOUR: 
 
 NAME: Druid of the Scythe
 DESC: [x]Choose One - Transform into a 4/2 with Rush; or a 2/4 with Taunt.
@@ -7808,6 +8228,11 @@ DESC: Poisonous
 INFO: Type: Minion Rarity: Rare Set: Classic Race: Beast Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Lars Grant-West Collectible
 FLAVOUR: The Sholazar Basin is home to a lot of really horrible things. If you're going to visit, wear bug spray. And plate armor.
 
+NAME: EVIL Miscreant
+DESC: Combo: Add two random Lackeys to your hand.
+INFO: Type: Minion Class: Rogue Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Mike Sass Collectible
+FLAVOUR: Because there are no G.O.O.D. Miscreants.
+
 NAME: Eydis Darkbane
 DESC: Whenever you target this minion with a spell, deal 3 damage to a random enemy.
 INFO: Type: Minion Rarity: Legendary Set: The Grand Tournament Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Ben Thompson Collectible Elite
@@ -7817,6 +8242,11 @@ NAME: Face Collector
 DESC: Echo Battlecry: Add a random Legendary minion to your hand.
 INFO: Type: Minion Class: Rogue Rarity: Legendary Set: The Witchwood Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: James Ryman Collectible
 FLAVOUR: ?I?ll trade you a Malfurion for an Anduin.?
+
+NAME: Faceless Rager
+DESC: Battlecry: Copy a friendly minion's Health.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Anton Zemskov Collectible
+FLAVOUR: When you need to rage anonymously.
 
 NAME: Fel Orc Soulfiend
 DESC: At the start of your turn, deal 2 damage to this minion.
@@ -7853,6 +8283,11 @@ DESC: Whenever you target this minion with a spell, gain Divine Shield.
 INFO: Type: Minion Rarity: Legendary Set: The Grand Tournament Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Mark Zug Collectible Elite
 FLAVOUR: LOVES being called "the wonder twins".
 
+NAME: Flametongue Totem
+DESC: Adjacent minions have +2 Attack.
+INFO: Type: Minion Class: Shaman Rarity: Free Set: Basic Race: Totem Faction: Neutral Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Jonathan Ryder Collectible
+FLAVOUR: Totemsmiths like to use the rarest woods for their totems. There are even rumors of totems made of Ironbark Protectors.
+
 NAME: Flamewaker
 DESC: After you cast a spell, deal 2 damage randomly split among all enemies.
 INFO: Type: Minion Class: Mage Rarity: Rare Set: Blackrock Mountain Artist: Alex Horley Orlandelli Collectible
@@ -7862,6 +8297,11 @@ NAME: Flesheating Ghoul
 DESC: Whenever a minion dies, gain +1 Attack.
 INFO: Type: Minion Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Alex Horley Orlandelli Collectible
 FLAVOUR: 'Flesheating' is an unfair name. It's just that there's not really much else for him to eat.
+
+NAME: Flight Master
+DESC: Battlecry: Summon a 2/2 Gryphon for each player.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Evgeniy Dlinnov Collectible
+FLAVOUR: Your gryphon will be summoned following a brief safety demonstration.
 
 NAME: Flying Machine
 DESC: Windfury
@@ -7909,14 +8349,14 @@ INFO: Type: Minion Set: Kobolds and Catacombs Race: Beast Artist: Andrew Hou Tok
 FLAVOUR: 
 
 NAME: Giant Wasp
-DESC: Stealth. Poisonous.
-INFO: Type: Minion Rarity: Common Set: Journey to Un'Goro Race: Beast Faction: Neutral Crafting Cost: 40 / 100 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Luca Zontini Collectible
-FLAVOUR: Float like a butterfly, sting like a giant wasp!
-
-NAME: Giant Wasp
 DESC: Stealth Poisonous@Stealth, Poisonous
 INFO: Type: Minion Rarity: Common Set: Journey to Un'Goro Race: Beast Faction: Neutral Token
 FLAVOUR: 
+
+NAME: Giant Wasp
+DESC: Stealth. Poisonous.
+INFO: Type: Minion Rarity: Common Set: Journey to Un'Goro Race: Beast Faction: Neutral Crafting Cost: 40 / 100 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Luca Zontini Collectible
+FLAVOUR: Float like a butterfly, sting like a giant wasp!
 
 NAME: Gilded Gargoyle
 DESC: Deathrattle: Add a Coin to your hand.
@@ -8017,6 +8457,11 @@ NAME: Hell Bovine
 DESC: Deathrattle: Place a copy of this card in your deck.
 INFO: Type: Minion Set: Tavern Brawl Race: Demon Token
 FLAVOUR: 
+
+NAME: Hench-Clan Sneak
+DESC: Stealth
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Andrew Hou Collectible
+FLAVOUR: He?d be a lot sneakier if he wasn?t trailing 300 yards of power cable?
 
 NAME: Hench-Clan Thug
 DESC: After your hero attacks, give this minion +1/+1.
@@ -8208,6 +8653,11 @@ DESC: Your other minions have +1 Attack.
 INFO: Type: Minion Class: Hunter Rarity: Common Set: Basic Race: Beast Token
 FLAVOUR: 
 
+NAME: Lifeweaver
+DESC: Whenever you restore Health, add a random Druid spell to your hand.
+INFO: Type: Minion Class: Druid Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Collectible
+FLAVOUR: 
+
 NAME: Light's Champion
 DESC: Battlecry: Silence a Demon.
 INFO: Type: Minion Rarity: Rare Set: The Grand Tournament Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Andrea Uderzo Collectible
@@ -8222,6 +8672,16 @@ NAME: Lone Champion
 DESC: Battlecry: If you control no other minions, gain Taunt and Divine Shield.
 INFO: Type: Minion Rarity: Rare Set: Kobolds and Catacombs Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jomaro Kindred Collectible
 FLAVOUR: He is a champion, with no friends. He'll keep on fighting, til the end!
+
+NAME: Madame Lazul
+DESC: Battlecry: Discover a copy of a card in your opponent's hand.
+INFO: Type: Minion Class: Priest Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: J. Axer Collectible
+FLAVOUR: Of course she knows the future, she?s been looking at your cards the WHOLE TIME!
+
+NAME: Magic Carpet
+DESC: After you play a 1-Cost minion, give it +1 Attack and Rush.
+INFO: Type: Minion Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Tod Harris Collectible
+FLAVOUR: Its small yet fierce riders are affectionately known as rug rats.
 
 NAME: Magma Rager
 DESC: 
@@ -8257,6 +8717,11 @@ NAME: Master of Ceremonies
 DESC: Battlecry: If you have a minion with Spell Damage, gain +2/+2.
 INFO: Type: Minion Rarity: Epic Set: The Grand Tournament Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Jesper Ejsing Collectible
 FLAVOUR: Goes by "MC ElfyElf".
+
+NAME: Messenger Raven
+DESC: Battlecry: Discover a Mage minion.
+INFO: Type: Minion Class: Mage Rarity: Common Set: Rise of Shadows Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Grace Liu Collectible
+FLAVOUR: You can make a collect CAW!
 
 NAME: Metaltooth Leaper
 DESC: Battlecry: Give your other Mechs +2 Attack.
@@ -8628,6 +9093,11 @@ DESC: Battlecry: If you're holding a Dragon, destroy a damaged enemy minion.
 INFO: Type: Minion Class: Warrior Rarity: Epic Set: Rastakhan's Rumble Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Dave Allsop Collectible
 FLAVOUR: Here comes ?The Smolder.?
 
+NAME: SN1P-SN4P
+DESC: Magnetic, Echo, Deathrattle: Summon two 1/1 Microbots.
+INFO: Type: Minion Rarity: Legendary Set: The Boomsday Project Race: Mechanical Collectible
+FLAVOUR: 
+
 NAME: Son of the Flame
 DESC: Battlecry: Deal 6 damage.
 INFO: Type: Minion Set: Tavern Brawl Token
@@ -8667,6 +9137,11 @@ NAME: Spellslinger
 DESC: Battlecry: Add a random spell to each player's hand.
 INFO: Type: Minion Class: Mage Rarity: Common Set: The Grand Tournament Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Andrew Hou Collectible
 FLAVOUR: Does he sling spells, or do his spells linger about. Who can say?
+
+NAME: Spellward Jeweler
+DESC: Battlecry: Your hero can't be targeted by spells or hero powers until your next turn.
+INFO: Type: Minion Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Adam Byrne Collectible
+FLAVOUR: The fanciest possible way of distracting enemies with shiny things.
 
 NAME: Spider Bomb
 DESC: Magnetic Deathrattle: Destroy a random_enemy_minion.
@@ -8888,6 +9363,11 @@ DESC: Whenever you draw a Beast, give it +2+2
 INFO: Type: Minion Rarity: Epic Set: Rastakhan's Rumble Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: E. Kenji & M. Azevedo Collectible
 FLAVOUR: All it takes is a tummy rub.
 
+NAME: Ursatron
+DESC: Deathrattle: Draw a Mech from your deck.
+INFO: Type: Minion Class: Hunter Rarity: Common Set: Rise of Shadows Race: Mechanical Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Zoltan Boros Collectible
+FLAVOUR: It's been programmed to include all the bear necessities.
+
 NAME: Val'kyr Shadowguard
 DESC: At the start of your turn, destroy a random enemy minion and this one.
 INFO: Type: Minion Set: Knights of the Frozen Throne Token
@@ -9075,12 +9555,12 @@ FLAVOUR:
 
 NAME: Ballista Shot
 DESC: Hero Power Deal 3 damage to the enemy [email protected]Hero Power Deal 3 damage.
-INFO: Type: Hero Power Class: Hunter Set: Hero Skins Token
+INFO: Type: Hero Power Class: Hunter Set: The Grand Tournament Token
 FLAVOUR: 
 
 NAME: Ballista Shot
 DESC: Hero Power Deal 3 damage to the enemy [email protected]Hero Power Deal 3 damage.
-INFO: Type: Hero Power Class: Hunter Set: The Grand Tournament Token
+INFO: Type: Hero Power Class: Hunter Set: Hero Skins Token
 FLAVOUR: 
 
 NAME: Barracks
@@ -9320,12 +9800,12 @@ FLAVOUR:
 
 NAME: Heal
 DESC: Hero Power Restore 4 Health.
-INFO: Type: Hero Power Class: Priest Set: The Grand Tournament Token
+INFO: Type: Hero Power Class: Priest Set: Hero Skins Token
 FLAVOUR: 
 
 NAME: Heal
 DESC: Hero Power Restore 4 Health.
-INFO: Type: Hero Power Class: Priest Set: Hero Skins Token
+INFO: Type: Hero Power Class: Priest Set: The Grand Tournament Token
 FLAVOUR: 
 
 NAME: Hello! Hello! Hello!
@@ -9695,17 +10175,17 @@ FLAVOUR:
 
 NAME: The Silver Hand
 DESC: Hero Power Summon two 1/1 Recruits.
+INFO: Type: Hero Power Class: Paladin Rarity: Free Set: Hero Skins Token
+FLAVOUR: 
+
+NAME: The Silver Hand
+DESC: Hero Power Summon two 1/1 Recruits.
+INFO: Type: Hero Power Class: Paladin Rarity: Free Set: Hero Skins Token
+FLAVOUR: 
+
+NAME: The Silver Hand
+DESC: Hero Power Summon two 1/1 Recruits.
 INFO: Type: Hero Power Class: Paladin Set: The Grand Tournament Token
-FLAVOUR: 
-
-NAME: The Silver Hand
-DESC: Hero Power Summon two 1/1 Recruits.
-INFO: Type: Hero Power Class: Paladin Rarity: Free Set: Hero Skins Token
-FLAVOUR: 
-
-NAME: The Silver Hand
-DESC: Hero Power Summon two 1/1 Recruits.
-INFO: Type: Hero Power Class: Paladin Rarity: Free Set: Hero Skins Token
 FLAVOUR: 
 
 NAME: The Tidal Hand
@@ -9847,6 +10327,11 @@ NAME: Likkim
 DESC: Has +2 Attack while you have Overloaded Mana Crystals.
 INFO: Type: Weapon Class: Shaman Rarity: Rare Set: Rastakhan's Rumble Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jakub Kasber Collectible
 FLAVOUR: "I double frog dare you!"
+
+NAME: Mysterious Blade
+DESC: Battlecry: If you control a Secret, gain +1 Attack.
+INFO: Type: Weapon Class: Paladin Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Vlad Botos Collectible
+FLAVOUR: It knows every secret you have left.
 
 NAME: Onyxiclaw
 DESC: 
@@ -10028,6 +10513,11 @@ DESC: Discover a copy of a minion in your opponent's deck.
 INFO: Type: Ability Class: Priest Rarity: Common Set: The Boomsday Project Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Anton Zemskov Collectible
 FLAVOUR: Zerek got sick of fighting over the remote.
 
+NAME: Cold Blood
+DESC: Give a minion +2 Attack. Combo: +4 Attack instead.
+INFO: Type: Ability Class: Rogue Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Alex Horley Orlandelli Collectible
+FLAVOUR: "I'm cold blooded, check it and see!"
+
 NAME: Commanding Shout
 DESC: Your minions can't be reduced below 1 Health this turn. Draw a card.
 INFO: Type: Ability Class: Warrior Rarity: Rare Set: Classic Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Wayne Reynolds Collectible
@@ -10062,6 +10552,11 @@ NAME: Cryostasis
 DESC: Give a minion +3/+3 and Freeze it.
 INFO: Type: Ability Class: Shaman Rarity: Epic Set: Knights of the Frozen Throne Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: A.J. Nazzaro Collectible
 FLAVOUR: We'll thaw you out when we find a cure!
+
+NAME: Crystalsong Portal
+DESC: Discover a Druid minion. If your hand has no minions, keep all 3.
+INFO: Type: Ability Class: Druid Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Arthur Bozonnet Collectible
+FLAVOUR: Experience the draw of the wild!
 
 NAME: Crystology
 DESC: [x]Draw two 1-Attack minions from your deck.
@@ -10183,6 +10678,11 @@ DESC: Lifesteal Deal 2 damage to a minion.
 INFO: Type: Ability Class: Warlock Rarity: Common Set: Knights of the Frozen Throne Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Kerem Beyit Collectible
 FLAVOUR: Cleans even the toughest clogs with just a flick of the wrist!
 
+NAME: Dreamway Guardians
+DESC: Summon two 1/2 Dryads with Lifesteal.
+INFO: Type: Ability Class: Druid Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: L. Lullabi & K. Turovec Collectible
+FLAVOUR: They're a nightmare to deal with.
+
 NAME: Earthen Might
 DESC: [x]Give a minion +2/+2. If it's an Elemental, add a random Elemental to your hand.
 INFO: Type: Ability Class: Shaman Rarity: Rare Set: The Witchwood Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Alex Horley Orlandelli Collectible
@@ -10202,11 +10702,6 @@ NAME: Empowerment
 DESC: Give your hero +8 Attack this turn.
 INFO: Type: Ability Set: One Night in Karazhan Token
 FLAVOUR: 
-
-NAME: Equality
-DESC: Change the Health of ALL minions to 1.
-INFO: Type: Ability Class: Paladin Rarity: Rare Set: Classic Faction: Neutral Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Michal Ivan Collectible
-FLAVOUR: We are all special unique snowflakes... with 1 Health.
 
 NAME: Evasion
 DESC: Secret: After your hero takes damage, become Immune this turn.
@@ -10328,6 +10823,11 @@ DESC: Recruit 3 minions.
 INFO: Type: Ability Set: Kobolds and Catacombs Faction: Neutral Artist: Jaslynn Tham Token
 FLAVOUR: 
 
+NAME: Hunter's Mark
+DESC: Change a minion's Health to 1.
+INFO: Type: Ability Class: Hunter Rarity: Free Set: Basic Faction: Neutral Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Jimmy Lo Collectible
+FLAVOUR: Never play 'Hide and Go Seek' with a Hunter.
+
 NAME: Ice Fishing
 DESC: Draw 2 Murlocs from your deck.
 INFO: Type: Ability Class: Shaman Rarity: Common Set: Knights of the Frozen Throne Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Jaemin Kim Collectible
@@ -10367,6 +10867,11 @@ NAME: Lesser Ruby Spellstone
 DESC: Add 1 random Mage spell to your hand. @(Play 2 Elementals to upgrade.)
 INFO: Type: Ability Class: Mage Rarity: Rare Set: Kobolds and Catacombs Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Zoltan Boros Collectible
 FLAVOUR: The final stone undid its master Spun into wards by nameless caster Azari wailed a savage roar Now sealed in nether, evermore.
+
+NAME: Lightforged Blessing
+DESC: Twinspell Give a friendly minion Lifesteal.
+INFO: Type: Ability Class: Paladin Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Vladimir Kafanov Collectible
+FLAVOUR: Some might call this a lightforgery.
 
 NAME: Lightning
 DESC: Deal 3 damage.
@@ -10452,6 +10957,11 @@ NAME: Pick Pocket
 DESC: Echo Add a random card to your hand (from your opponent's class).
 INFO: Type: Ability Class: Rogue Rarity: Rare Set: The Witchwood Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Mauricio Herrera Collectible
 FLAVOUR: He'll pick anyone's pocket, except a gnome's. He'd never stoop so low.
+
+NAME: Plot Twist
+DESC: Shuffle your hand into your deck. Draw that many cards.
+INFO: Type: Ability Class: Warlock Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Arthur Gimaldinov Collectible
+FLAVOUR: It?s coming from inside the deck!
 
 NAME: Potion of Heroism
 DESC: Give a minion Divine Shield. Draw a card.
@@ -10628,6 +11138,11 @@ DESC: Secret: After your opponent plays a minion, deal 4 damage to it.
 INFO: Type: Ability Class: Hunter Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Lorenzo Minaca Collectible
 FLAVOUR: A great sniper hits the spot. Just like a delicious flank of boar. Mmmmm.
 
+NAME: Soul of the Murloc
+DESC: Give your minions "Deathrattle: Summon a 1/1 Murloc."
+INFO: Type: Ability Class: Shaman Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Jason Kang Collectible
+FLAVOUR: Previously thought nonexistent.
+
 NAME: Sound the Bells!
 DESC: Echo Give a minion +1/+2.
 INFO: Type: Ability Class: Paladin Rarity: Common Set: The Witchwood Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Milvoj Ceran Collectible
@@ -10682,6 +11197,11 @@ NAME: Supercharge
 DESC: Give your minions +2 Health.
 INFO: Type: Ability Set: Curse of Naxxramas Token
 FLAVOUR: 
+
+NAME: Sweeping Strikes
+DESC: Give a minion "Also damages minions next to whomever this attacks."
+INFO: Type: Ability Class: Warrior Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Ivan Fomin Collectible
+FLAVOUR: Infinitely preferable to mopping strikes.
 
 NAME: Terrifying Roar
 DESC: Return an enemy minion to your opponent's hand.
@@ -10788,6 +11308,11 @@ DESC: Give a minion Windfury.
 INFO: Type: Ability Class: Shaman Rarity: Free Set: Basic Faction: Neutral Artist: Justin Sweet Collectible
 FLAVOUR: Windfury is like Earthfury and Firefury, but more light and airy.
 
+NAME: Witch's Brew
+DESC: Restore 4 Health. Repeatable this turn.
+INFO: Type: Ability Class: Shaman Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Jakub Kasper Collectible
+FLAVOUR: The swill has eyes!
+
 NAME: Witchwood Apple
 DESC: Add three 2/2 Treants to your hand.
 INFO: Type: Ability Class: Druid Rarity: Common Set: The Witchwood Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Vlad Botos Collectible
@@ -10837,6 +11362,11 @@ NAME: Anodized Robo Cub
 DESC: Taunt. Choose One - +1 Attack; or +1 Health.
 INFO: Type: Minion Class: Druid Rarity: Common Set: Goblins vs Gnomes Race: Mechanical Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Eva Widermann Collectible
 FLAVOUR: It's adorable! AND OH MY GOODNESS WHY IS IT EATING MY FACE
+
+NAME: Arcane Servant
+DESC: 
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Race: Elemental Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Wayne Wu Collectible
+FLAVOUR: "Would sir like me to punch something?"
 
 NAME: Arcanologist
 DESC: Battlecry: Draw a Secret from your deck.
@@ -11053,6 +11583,11 @@ DESC: Whenever this minion attacks a hero, add the Coin to your hand.
 INFO: Type: Minion Class: Rogue Rarity: Rare Set: The Grand Tournament Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Alex Horley Orlandelli Collectible
 FLAVOUR: He has a giant collection of purses now. One for every outfit!
 
+NAME: Dalaran Librarian
+DESC: Battlecry: Silence adjacent minions.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Sean McNally Collectible
+FLAVOUR: Don't make her raise her "shush"!
+
 NAME: Darion Mograine
 DESC: 
 INFO: Type: Minion Class: Paladin Set: Knights of the Frozen Throne Artist: Qinghao Wu Token Elite
@@ -11163,6 +11698,21 @@ DESC: Battlecry: Unlock your Overloaded Mana Crystals.
 INFO: Type: Minion Class: Shaman Rarity: Epic Set: Whispers of the Old Gods Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: J. Meyers & Nutchapol Collectible
 FLAVOUR: Just try to avoid eye contact.
 
+NAME: EVIL Cable Rat
+DESC: Battlecry: Add a Lackey to your hand.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Jim Nelson Collectible
+FLAVOUR: Gradually driven to darkness by the promise of unobtainable cheese.
+
+NAME: EVIL Conscripter
+DESC: Deathrattle: Add a Lackey to your hand.
+INFO: Type: Minion Class: Priest Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Tooth Collectible
+FLAVOUR: Kobold! There?s a place you can handle I said kobold! When you?re short in the candle Cast a spell with the E! V! I! L!
+
+NAME: EVIL Genius
+DESC: Battlecry: Destroy a friendly minion to add 2 random Lackeys to your hand.
+INFO: Type: Minion Class: Warlock Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Rudy Siswanto Collectible
+FLAVOUR: You do not want to be on the business end of this intellect!
+
 NAME: Explosive Rune
 DESC: At the start of your turn, this explodes, dealing 9 damage to your hero.
 INFO: Type: Minion Set: Tavern Brawl Token
@@ -11212,11 +11762,6 @@ NAME: Flame Juggler
 DESC: Battlecry: Deal 1 damage to a random enemy.
 INFO: Type: Minion Rarity: Common Set: The Grand Tournament Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: James Zhang Collectible
 FLAVOUR: At first he liked juggling chain saws, but then he thought, "Flames are better! Because FIRE!"
-
-NAME: Flametongue Totem
-DESC: Adjacent minions have +2 Attack.
-INFO: Type: Minion Class: Shaman Rarity: Free Set: Basic Race: Totem Faction: Neutral Artist: Jonathan Ryder Collectible
-FLAVOUR: Totemsmiths like to use the rarest woods for their totems. There are even rumors of totems made of Ironbark Protectors.
 
 NAME: Flamewaker Acolyte
 DESC: 
@@ -11285,12 +11830,12 @@ FLAVOUR: "Shhh, I think I hear something." "Ah, it's probably nothing." - Every 
 
 NAME: Gnoll
 DESC: Taunt
-INFO: Type: Minion Set: Classic Token
+INFO: Type: Minion Set: Whispers of the Old Gods Artist: Greg Staples Token
 FLAVOUR: 
 
 NAME: Gnoll
 DESC: Taunt
-INFO: Type: Minion Set: Whispers of the Old Gods Artist: Greg Staples Token
+INFO: Type: Minion Set: Classic Token
 FLAVOUR: 
 
 NAME: Gnomeferatu
@@ -11347,6 +11892,11 @@ NAME: Haunted Creeper
 DESC: Deathrattle: Summon two 1/1 Spectral Spiders.
 INFO: Type: Minion Rarity: Common Set: Curse of Naxxramas Race: Beast Artist: Jeremy Cranford Collectible
 FLAVOUR: Arachnofauxbia: Fear of fake spiders.
+
+NAME: Hench-Clan Hogsteed
+DESC: Rush Deathrattle: Summon a 1/1 Murloc.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Matt Dixon Collectible
+FLAVOUR: This is CLEARLY their first rodeo.
 
 NAME: Hidden Gnome
 DESC: Was hiding in a barrel!
@@ -11417,6 +11967,16 @@ NAME: Kabal Demon
 DESC: 
 INFO: Type: Minion Set: Mean Streets of Gadgetzan Race: Demon Faction: Neutral Artist: Slawomir Maniak Token
 FLAVOUR: 
+
+NAME: Keeper Stalladris
+DESC: After you cast a Choose One spell, add copies of both choices to your hand.
+INFO: Type: Minion Class: Druid Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: James Ryman Collectible
+FLAVOUR: Keeps your choices handy.
+
+NAME: Khadgar
+DESC: Your cards that summon minions summon twice as many.
+INFO: Type: Minion Class: Mage Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Evgeniy Zagumyenny Collectible
+FLAVOUR: "What do you call two minions summoned at once? Twinions, haha! Wait... where are you going?"
 
 NAME: Kindly Grandmother
 DESC: Deathrattle: Summon a 3/2 Big Bad Wolf.
@@ -11493,15 +12053,30 @@ DESC: Deathrattle: Put a Secret from your deck into the battlefield.
 INFO: Type: Minion Rarity: Common Set: Curse of Naxxramas Artist: James Ryman Collectible
 FLAVOUR: His mother wanted him to be a mage or a warlock, but noooooooo, he had to go and be a scientist like his father.
 
+NAME: Magic Dart Frog
+DESC: After you cast a spell, deal 1 damage to a random enemy minion.
+INFO: Type: Minion Class: Mage Rarity: Common Set: Rise of Shadows Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Patrik Bjorkstrom Collectible
+FLAVOUR: There's a powerful throat in this frog.
+
 NAME: Mana Addict
 DESC: Whenever you cast a spell, gain +2 Attack this turn.
 INFO: Type: Minion Rarity: Rare Set: Classic Faction: Alliance Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Hideaki Takamura Collectible
 FLAVOUR: She?s trying to kick the habit, but still takes some mana whenever she has a stressful day.
 
+NAME: Mana Cyclone
+DESC: Battlecry: For each spell you've cast this turn, add a random Mage spell to your hand.
+INFO: Type: Minion Class: Mage Rarity: Epic Set: Rise of Shadows Race: Elemental Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Ware Li Collectible
+FLAVOUR: It'll put a good spin on your spells.
+
 NAME: Mana Geode
 DESC: Whenever this minion is healed, summon a 2/2 Crystal.
 INFO: Type: Minion Class: Priest Rarity: Epic Set: Mean Streets of Gadgetzan Race: Elemental Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: A.J. Nazzaro Collectible
 FLAVOUR: Gadgetzan, where even the pet rocks have pet rocks.
+
+NAME: Mana Reservoir
+DESC: Spell Damage +1
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Race: Elemental Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Jakub Kasper Collectible
+FLAVOUR: If it soaks too long, it becomes a reservoir hog.
 
 NAME: Mana Treant
 DESC: Deathrattle: Gain an empty Mana Crystal.
@@ -11858,6 +12433,11 @@ DESC: Whenever a minion is healed, deal 1 damage to a random enemy.
 INFO: Type: Minion Class: Priest Rarity: Rare Set: Goblins vs Gnomes Race: Mechanical Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Dan Scott Collectible
 FLAVOUR: Punching is its primary function. Also, its secondary function.
 
+NAME: Shadowy Figure
+DESC: Battlecry: Transform into a 2/2 copy of a friendly Deathrattle minion.
+INFO: Type: Minion Class: Priest Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Konstantin Turovec Collectible
+FLAVOUR: Terrible at shadow puppets: ?This is? a tentacle! And this is? two tentacles!?
+
 NAME: Sharkfin Fan
 DESC: After your hero attacks, summon a 1/1 Pirate.
 INFO: Type: Minion Rarity: Common Set: Rastakhan's Rumble Race: Pirate Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Peter Stapleton Collectible
@@ -11905,12 +12485,12 @@ FLAVOUR:
 
 NAME: Slime
 DESC: 
-INFO: Type: Minion Set: Whispers of the Old Gods Artist: Anton Magdalina Token
+INFO: Type: Minion Class: Druid Set: Whispers of the Old Gods Artist: Anton Magdalina Token
 FLAVOUR: 
 
 NAME: Slime
 DESC: 
-INFO: Type: Minion Class: Druid Set: Whispers of the Old Gods Artist: Anton Magdalina Token
+INFO: Type: Minion Set: Whispers of the Old Gods Artist: Anton Magdalina Token
 FLAVOUR: 
 
 NAME: Slithering Archer
@@ -11947,6 +12527,11 @@ NAME: Sparring Partner
 DESC: Taunt Battlecry: Give a minion Taunt.
 INFO: Type: Minion Class: Warrior Rarity: Rare Set: The Grand Tournament Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
 FLAVOUR: Come at me, bro.
+
+NAME: Spellbook Binder
+DESC: Battlecry: If you have Spell Damage, draw a card.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Ivan Fomin Collectible
+FLAVOUR: You're bound to love his work!
 
 NAME: Spellshifter
 DESC: [x]Spell Damage +1 Each turn this is in your hand, swap its Attack and Health.
@@ -12013,6 +12598,11 @@ DESC: Battlecry: Give adjacent minions Taunt.
 INFO: Type: Minion Rarity: Rare Set: Classic Faction: Alliance Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: James Ryman Collectible
 FLAVOUR: She carries a shield, but only so she can give it to someone she can stand behind.
 
+NAME: Sunreaver Spy
+DESC: Battlecry: If you control a Secret, gain +1/+1.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: L. Lullabi & K. Turovec Collectible
+FLAVOUR: She's watching. Always watching.
+
 NAME: Susie Sizzlesong
 DESC: Portals cost (1) less. Does not count as a minion.
 INFO: Type: Minion Set: Tavern Brawl Token Elite
@@ -12055,11 +12645,6 @@ FLAVOUR: Double-majoring in culinary sciences was definitely a mistake.
 
 NAME: Treant
 DESC: 
-INFO: Type: Minion Class: Druid Set: The Witchwood Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Steve Prescott Token
-FLAVOUR: 
-
-NAME: Treant
-DESC: 
 INFO: Type: Minion Class: Druid Set: Classic Faction: Neutral Token
 FLAVOUR: 
 
@@ -12076,6 +12661,11 @@ FLAVOUR:
 NAME: Treant
 DESC: Taunt
 INFO: Type: Minion Class: Druid Set: Classic Token
+FLAVOUR: 
+
+NAME: Treant
+DESC: 
+INFO: Type: Minion Class: Druid Set: The Witchwood Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Steve Prescott Token
 FLAVOUR: 
 
 NAME: Trogg Beastrager
@@ -12097,6 +12687,16 @@ NAME: Twisted Worgen
 DESC: Stealth
 INFO: Type: Minion Rarity: Common Set: Whispers of the Old Gods Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Trent Kaniuga Collectible
 FLAVOUR: Sometimes the Old Gods' corruptions gives you power untold, sometimes you get +1 Attack. We can?t all be winners in the Eldritch lottery.
+
+NAME: Underbelly Angler
+DESC: After you play a Murloc, add a random Murloc to your hand.
+INFO: Type: Minion Class: Shaman Rarity: Rare Set: Rise of Shadows Race: Murloc Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
+FLAVOUR: Attracts murlocs? and moths.
+
+NAME: Underbelly Fence
+DESC: Battlecry: If you're holding a card from another class, gain +1/+1 and Rush.
+INFO: Type: Minion Class: Rogue Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Arthur Bozonnet Collectible
+FLAVOUR: She?ll take anything you have?except scruples and a good work ethic.
 
 NAME: Undercity Huckster
 DESC: Deathrattle: Add a random class card to your hand (from your opponent's class).
@@ -12142,6 +12742,11 @@ NAME: Vicious Scalehide
 DESC: LifestealRush@Lifesteal, Rush
 INFO: Type: Minion Rarity: Common Set: The Witchwood Race: Beast Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Steve Prescott Collectible
 FLAVOUR: They make wonderful pets if you're not allergic to blood loss.
+
+NAME: Vicious Scraphound
+DESC: Whenever this minion deals damage, gain that much Armor.
+INFO: Type: Minion Class: Warrior Rarity: Common Set: Rise of Shadows Race: Mechanical Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Dave Allsop Collectible
+FLAVOUR: It begs for scraps.
 
 NAME: Vitality Totem
 DESC: At the end of your turn, restore 4 Health to your hero.
@@ -12212,6 +12817,11 @@ NAME: Youthful Brewmaster
 DESC: Battlecry: Return a friendly minion from the battlefield to your hand.
 INFO: Type: Minion Rarity: Common Set: Classic Faction: Alliance Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Wei Wang Collectible
 FLAVOUR: His youthful enthusiasm doesn?t always equal excellence in his brews. Don?t drink the Mogu Stout!
+
+NAME: Zayle, Shadow Cloak
+DESC: You start the game with one of Zayle's EVIL decks!
+INFO: Type: Minion Rarity: Legendary Set: Rise of Shadows Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Collectible
+FLAVOUR: 
 
 NAME: Arcane Infusion
 DESC: Hero Power Add 'Arcane Missiles' to your hand.
@@ -12429,7 +13039,7 @@ INFO: Type: Weapon Set: Curse of Naxxramas Token
 FLAVOUR: 
 
 NAME: Kingsbane
-DESC: [x]Deathrattle: Shuffle this into your deck. It keeps any enchantments.
+DESC: Always keeps enchantments. Deathrattle: Shuffle this into your deck..
 INFO: Type: Weapon Class: Rogue Rarity: Legendary Set: Kobolds and Catacombs Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Evgeniy Dlinnov Collectible Elite
 FLAVOUR: But it has a soft spot for emperors.
 
@@ -12569,13 +13179,13 @@ INFO: Type: Ability Set: Kobolds and Catacombs Faction: Neutral Artist: Dan Scot
 FLAVOUR: 
 
 NAME: Bananas
-DESC: Give a minion +1/+1.
-INFO: Type: Ability Set: Classic Token
+DESC: Give a friendly minion +1/+1. (+1 Attack/+1 Health)
+INFO: Type: Ability Rarity: Common Set: Missions Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Bananas
-DESC: Give a friendly minion +1/+1. (+1 Attack/+1 Health)
-INFO: Type: Ability Rarity: Common Set: Missions Faction: Neutral Token
+DESC: Give a minion +1/+1.
+INFO: Type: Ability Set: Classic Token
 FLAVOUR: 
 
 NAME: Barkskin
@@ -12728,11 +13338,6 @@ DESC: Give your hero +2 Attack this turn. Gain 2 Armor.
 INFO: Type: Ability Class: Druid Rarity: Free Set: Basic Faction: Neutral Artist: Dany Orizio Collectible
 FLAVOUR: The claw decides who will stay and who will go.
 
-NAME: Cold Blood
-DESC: Give a minion +2 Attack. Combo: +4 Attack instead.
-INFO: Type: Ability Class: Rogue Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Alex Horley Orlandelli Collectible
-FLAVOUR: "I'm cold blooded, check it and see!"
-
 NAME: Competitive Spirit
 DESC: Secret: When your turn starts, give your minions +1/+1.
 INFO: Type: Ability Class: Paladin Rarity: Rare Set: The Grand Tournament Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Jim Nelson Collectible
@@ -12758,6 +13363,16 @@ DESC: Choose an enemy minion. At the start of your turn, destroy it.
 INFO: Type: Ability Class: Warlock Rarity: Free Set: Basic Faction: Neutral Artist: Wayne Reynolds Collectible
 FLAVOUR: It starts with stealing a pen from work, and before you know it, BOOM! Corrupted!
 
+NAME: Crystal Power
+DESC: Choose One - Deal 2 dmage to a minion; or Restore 5 Health.
+INFO: Type: Ability Class: Druid Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Arthur Bozonnet Collectible
+FLAVOUR: Often used as healing crystals, but also good for throwing at people.
+
+NAME: Daring Escape
+DESC: Return all friendly minions to your hand,
+INFO: Type: Ability Class: Rogue Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: L. Lullabi & K. Turovec Collectible
+FLAVOUR: Impossible to cast without cackling evilly.
+
 NAME: Dark Pact
 DESC: Destroy a friendly minion. Restore 4 Health to your hero.
 INFO: Type: Ability Class: Warlock Rarity: Common Set: Kobolds and Catacombs Faction: Alliance Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Slawomir Maniak Collectible
@@ -12777,6 +13392,11 @@ NAME: Decimate
 DESC: Change the Health of enemy minions to 1.
 INFO: Type: Ability Set: Tavern Brawl Token
 FLAVOUR: 
+
+NAME: Desperate Measures
+DESC: Twinspell Cast a random Paladin Secret.
+INFO: Type: Ability Class: Paladin Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: James Ryman Collectible
+FLAVOUR: Desperate times call for disparate secrets.
 
 NAME: Devastate
 DESC: Deal 4 damage to a damaged minion.
@@ -12930,7 +13550,7 @@ FLAVOUR:
 
 NAME: Grim Rally
 DESC: Destroy a friendly minion. Give your minions +1/+1.
-INFO: Type: Ability Class: Warlock Rarity: Rare Set: Rastakhan's Rumble Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Skan Srisuwan Collectible
+INFO: Type: Ability Class: Warlock Rarity: Rare Set: Rastakhan's Rumble Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Skan Srisuwan Collectible
 FLAVOUR: There?s no ?Aiiiieeee? in ?Team.?
 
 NAME: Hallucination
@@ -12973,11 +13593,6 @@ DESC: Change a minion's Attack to 1.
 INFO: Type: Ability Class: Paladin Rarity: Free Set: Basic Faction: Neutral Artist: Daren Bader Collectible
 FLAVOUR: This card makes something really damp. Oh wait. That's "Humidity."
 
-NAME: Hunter's Mark
-DESC: Change a minion's Health to 1.
-INFO: Type: Ability Class: Hunter Rarity: Free Set: Basic Faction: Neutral Artist: Jimmy Lo Collectible
-FLAVOUR: Never play 'Hide and Go Seek' with a Hunter.
-
 NAME: I Know a Guy
 DESC: Discover a Taunt minion.
 INFO: Type: Ability Class: Warrior Rarity: Common Set: Mean Streets of Gadgetzan Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Kan Lui Collectible
@@ -12997,6 +13612,11 @@ NAME: Ichor of Undeath
 DESC: Summon a friendly minion that died this game.
 INFO: Type: Ability Set: Mean Streets of Gadgetzan Artist: Konstantin Turovec Token
 FLAVOUR: 
+
+NAME: Improve Morale
+DESC: Deal 1 damage to a minion. If it survives, add a Lackey to your hand.
+INFO: Type: Ability Class: Warrior Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Matt Dixon Collectible
+FLAVOUR: "The beatings will continue until MY morale improves."
 
 NAME: Inner Fire
 DESC: Change a minion's Attack to be equal to its Health.
@@ -13093,6 +13713,11 @@ DESC: Choose a minion and summon a copy of it. Add it to your Dungeon Deck.
 INFO: Type: Ability Set: Kobolds and Catacombs Faction: Neutral Artist: Steve Tappin Token
 FLAVOUR: 
 
+NAME: Magic Trick
+DESC: Discover a spell that costs (3) or less.
+INFO: Type: Ability Class: Mage Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Ivan Fomin Collectible
+FLAVOUR: The world is not ready for an illusion of this depth and intricacy!
+
 NAME: Mark of the Lotus
 DESC: Give your minions +1/+1.
 INFO: Type: Ability Class: Druid Rarity: Common Set: Mean Streets of Gadgetzan Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Wayne Reynolds Collectible
@@ -13154,8 +13779,8 @@ INFO: Type: Ability Set: League of Explorers Token
 FLAVOUR: 
 
 NAME: Naturalize
-DESC: Destroy a minion. Your opponent draws 2 cards.
-INFO: Type: Ability Class: Druid Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Leo Che Collectible
+DESC: Destroy a minion.Your opponent draws 2 cards.
+INFO: Type: Ability Class: Druid Rarity: Common Set: Hall of Fame Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Leo Che Collectible
 FLAVOUR: Another one bites the dust.
 
 NAME: Necrotic Plague
@@ -13167,6 +13792,11 @@ NAME: Netherbloom
 DESC: Summon a 2/2 Demon.
 INFO: Type: Ability Set: Mean Streets of Gadgetzan Artist: Konstantin Turovec Token
 FLAVOUR: 
+
+NAME: Never Surrender!
+DESC: Secret: When your opponent casts a spell, give your minions +2 Health.
+INFO: Type: Ability Class: Paladin Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Mauricio Herrera Collectible
+FLAVOUR: But sometimes concede.
 
 NAME: Noble Sacrifice
 DESC: Secret: When an enemy attacks, summon a 2/1 Defender as the new target.
@@ -13253,10 +13883,20 @@ DESC: Destroy all enemy minions that cost (3) or less, wherever they are.
 INFO: Type: Ability Class: Death Knight Set: Knights of the Frozen Throne Token
 FLAVOUR: 
 
+NAME: Rapid Fire
+DESC: Twinspell. Deal 1 damage.
+INFO: Type: Ability Class: Hunter Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: L. Lullabi & K. Turovec Collectible
+FLAVOUR: Pew! Pew!
+
 NAME: Raven Idol
 DESC: Choose One - Discover a minion; or Discover a spell.
 INFO: Type: Ability Class: Druid Rarity: Common Set: League of Explorers Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: A.J. Nazzaro Collectible
 FLAVOUR: Was petrified when it found out it didn't make the cut for Azerothian Idol.
+
+NAME: Ray of Frost
+DESC: Twinspell Freeze a minion. If it's already Frozen, deal 2 damage to it.
+INFO: Type: Ability Class: Mage Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Alex Garner Collectible
+FLAVOUR: If you have zero chill, this can help.
 
 NAME: Razorpetal
 DESC: Deal 1 damage.
@@ -13468,6 +14108,11 @@ DESC: Return a friendly minion to your hand.
 INFO: Type: Ability Set: Goblins vs Gnomes Artist: Nutthapon Petthai Token
 FLAVOUR: 
 
+NAME: Togwaggle's Scheme
+DESC: Choose a minion. Shuffle 1 copy of it into your deck. (Upgrades each turn!)
+INFO: Type: Ability Class: Rogue Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Konstantin Turovec Collectible
+FLAVOUR: "Many minions equals many treasures for king. Kobold arithmetic!"
+
 NAME: Tome of Intellect
 DESC: Add a random Mage spell to your hand.
 INFO: Type: Ability Class: Mage Rarity: Common Set: Classic Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Collectible
@@ -13548,6 +14193,11 @@ DESC: Battlecry: Give a friendly minion +1 Attack.
 INFO: Type: Minion Rarity: Common Set: Knights of the Frozen Throne Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Luke Mancini Collectible
 FLAVOUR: This is my Runeblade. There are many like it but this one is mine.
 
+NAME: Acornbearer
+DESC: Deathrattle: Add two 1/1 Squirrels to your hand.
+INFO: Type: Minion Class: Druid Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Steven Prescott Collectible
+FLAVOUR: You?d be nuts to mess with the squirrel squad.
+
 NAME: Air Elemental
 DESC: Can't be targeted by spells or Hero Powers.
 INFO: Type: Minion Class: Shaman Rarity: Common Set: Journey to Un'Goro Race: Elemental Faction: Horde Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Evgeniy Dlinnov Collectible
@@ -13595,12 +14245,12 @@ FLAVOUR: His idol is the Green Hills of Stranglethorn, and he won't shut up abou
 
 NAME: Bat
 DESC: 
-INFO: Type: Minion Class: Warlock Set: The Witchwood Race: Beast Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Zero Token
+INFO: Type: Minion Set: Rastakhan's Rumble Race: Beast Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Jiajun Tian Token
 FLAVOUR: 
 
 NAME: Bat
 DESC: 
-INFO: Type: Minion Set: Rastakhan's Rumble Race: Beast Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Jiajun Tian Token
+INFO: Type: Minion Class: Warlock Set: The Witchwood Race: Beast Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Zero Token
 FLAVOUR: 
 
 NAME: Black Pawn
@@ -13730,12 +14380,12 @@ FLAVOUR: This elf's winning the arms race.
 
 NAME: Damaged Golem
 DESC: 
-INFO: Type: Minion Rarity: Common Set: Classic Race: Mechanical Faction: Neutral Token
+INFO: Type: Minion Rarity: Common Set: Tavern Brawl Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Damaged Golem
 DESC: 
-INFO: Type: Minion Rarity: Common Set: Tavern Brawl Faction: Neutral Token
+INFO: Type: Minion Rarity: Common Set: Classic Race: Mechanical Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Daring Fire-Eater
@@ -13905,12 +14555,12 @@ FLAVOUR: Imps like being on fire. They just do.
 
 NAME: Flame of Azzinoth
 DESC: 
-INFO: Type: Minion Set: Classic Race: Elemental Token
+INFO: Type: Minion Rarity: Common Set: Missions Token
 FLAVOUR: 
 
 NAME: Flame of Azzinoth
 DESC: 
-INFO: Type: Minion Rarity: Common Set: Missions Token
+INFO: Type: Minion Set: Classic Race: Elemental Token
 FLAVOUR: 
 
 NAME: Forbidden Ancient
@@ -14050,12 +14700,7 @@ FLAVOUR:
 
 NAME: Imp
 DESC: 
-INFO: Type: Minion Class: Warlock Set: Goblins vs Gnomes Race: Demon Token
-FLAVOUR: 
-
-NAME: Imp
-DESC: 
-INFO: Type: Minion Set: Classic Race: Demon Faction: Neutral Token
+INFO: Type: Minion Class: Warlock Set: Blackrock Mountain Race: Demon Token
 FLAVOUR: 
 
 NAME: Imp
@@ -14065,7 +14710,12 @@ FLAVOUR:
 
 NAME: Imp
 DESC: 
-INFO: Type: Minion Class: Warlock Set: Blackrock Mountain Race: Demon Token
+INFO: Type: Minion Set: Classic Race: Demon Faction: Neutral Token
+FLAVOUR: 
+
+NAME: Imp
+DESC: 
+INFO: Type: Minion Class: Warlock Set: Goblins vs Gnomes Race: Demon Token
 FLAVOUR: 
 
 NAME: Injured Kvaldir
@@ -14283,6 +14933,11 @@ DESC: Deathrattle: Summon a 1/1 Shadowbeast.
 INFO: Type: Minion Class: Warlock Rarity: Common Set: Whispers of the Old Gods Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Matt Dixon Collectible
 FLAVOUR: It's like a pinata! A lame disgusting horrific pinata.
 
+NAME: Potion Vendor
+DESC: Battlecry: Restore 2 Health to all friendly characters.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Rafael Zanchetin Collectible
+FLAVOUR: Everyone gets two because that?s all she can hold.
+
 NAME: Poultryizer
 DESC: At the start of your turn, transform a random minion into a 1/1 Chicken.
 INFO: Type: Minion Rarity: Common Set: Hall of Fame Race: Mechanical Faction: Alliance Token
@@ -14418,6 +15073,11 @@ DESC: Each turn this is in your hand, transform it into a random minion.
 INFO: Type: Minion Rarity: Legendary Set: Whispers of the Old Gods Crafting Cost: 1600 / 3200 (Golden) Arcane Dust Gained: 400 / 1600 (Golden) Artist: Daria Tuzova Collectible Elite
 FLAVOUR: It's like being able to play with THREE angry chickens!
 
+NAME: Shimmerfly
+DESC: Deathrattle: Add a random Hunter spell to your hand
+INFO: Type: Minion Class: Hunter Rarity: Rare Set: Rise of Shadows Race: Beast Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Cecile He Collectible
+FLAVOUR: Plenty of buzz around this card.
+
 NAME: Silver Hand Murloc
 DESC: 
 INFO: Type: Minion Class: Paladin Set: Whispers of the Old Gods Race: Murloc Artist: Andrew Hou Token
@@ -14445,17 +15105,17 @@ FLAVOUR:
 
 NAME: Skeleton
 DESC: 
-INFO: Type: Minion Rarity: Common Set: Basic Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Skeleton
-DESC: 
 INFO: Type: Minion Set: Curse of Naxxramas Token
 FLAVOUR: 
 
 NAME: Skeleton
 DESC: 
 INFO: Type: Minion Set: Knights of the Frozen Throne Artist: Andrew Hou Token
+FLAVOUR: 
+
+NAME: Skeleton
+DESC: 
+INFO: Type: Minion Rarity: Common Set: Basic Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Sleeping Acolyte
@@ -14467,6 +15127,11 @@ NAME: Slime
 DESC: Taunt
 INFO: Type: Minion Set: Curse of Naxxramas Token
 FLAVOUR: 
+
+NAME: Sludge Slurper
+DESC: Battlecry: Add a Lackey to your hand. Overload: (1)
+INFO: Type: Minion Class: Shaman Rarity: Rare Set: Rise of Shadows Race: Murloc Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: Rudy Siswanto Collectible
+FLAVOUR: You can't stop slurping this delicious sludge!
 
 NAME: Small-Time Buccaneer
 DESC: Has +2 Attack while you have a weapon equipped.
@@ -14613,6 +15278,11 @@ DESC: Battlecry: Draw a Rush minion from your deck.
 INFO: Type: Minion Class: Warrior Rarity: Epic Set: The Witchwood Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Arthur Gimaldinov Collectible
 FLAVOUR: When he was younger, he was the town crybaby.
 
+NAME: Toxfin
+DESC: Battlecry: Give a friendly Murloc Poisonous.
+INFO: Type: Minion Rarity: Common Set: Rise of Shadows Race: Murloc Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Anton Zemskov Collectible
+FLAVOUR: I'm addicted to him, but I know that he's Toxfin.
+
 NAME: Toxitron
 DESC: At the start of your turn, deal 1 damage to all other minions.
 INFO: Type: Minion Set: Blackrock Mountain Race: Mechanical Token Elite
@@ -14644,14 +15314,14 @@ INFO: Type: Minion Class: Priest Rarity: Common Set: Blackrock Mountain Race: Dr
 FLAVOUR: The twilight whelps are basically magic-vampires. Despite this, they are not a reference to any popular series of novels.
 
 NAME: Undertaker
-DESC: Whenever you summon a minion with Deathrattle, gain +1 Attack.
-INFO: Type: Minion Rarity: Common Set: Curse of Naxxramas Artist: Jonboy Meyers Collectible
-FLAVOUR: In a world where you can run to a spirit healer and resurrect yourself, Undertakers do pretty light business.
-
-NAME: Undertaker
 DESC: Whenever you summon a minion with Deathrattle, gain +1/+1.
 INFO: Type: Minion Rarity: Common Set: Tavern Brawl Token
 FLAVOUR: 
+
+NAME: Undertaker
+DESC: Whenever you summon a minion with Deathrattle, gain +1 Attack.
+INFO: Type: Minion Rarity: Common Set: Curse of Naxxramas Artist: Jonboy Meyers Collectible
+FLAVOUR: In a world where you can run to a spirit healer and resurrect yourself, Undertakers do pretty light business.
 
 NAME: Unrelenting Trainee
 DESC: Deathrattle: Summon a Spectral Trainee for your opponent.
@@ -14715,16 +15385,6 @@ FLAVOUR: Spider cocoons are like little pi?atas!
 
 NAME: Whelp
 DESC: 
-INFO: Type: Minion Set: Classic Race: Dragon Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Whelp
-DESC: 
-INFO: Type: Minion Set: Classic Race: Dragon Token
-FLAVOUR: 
-
-NAME: Whelp
-DESC: 
 INFO: Type: Minion Set: Blackrock Mountain Token
 FLAVOUR: 
 
@@ -14741,6 +15401,16 @@ FLAVOUR:
 NAME: Whelp
 DESC: 
 INFO: Type: Minion Class: Paladin Set: One Night in Karazhan Race: Dragon Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Tooth Token
+FLAVOUR: 
+
+NAME: Whelp
+DESC: 
+INFO: Type: Minion Set: Classic Race: Dragon Token
+FLAVOUR: 
+
+NAME: Whelp
+DESC: 
+INFO: Type: Minion Set: Classic Race: Dragon Faction: Neutral Token
 FLAVOUR: 
 
 NAME: White Pawn
@@ -14810,7 +15480,7 @@ FLAVOUR: Zombie. It's what's for dinner.
 
 NAME: King Rastakhan
 DESC: 
-INFO: Type: Playable Hero Class: Shaman Rarity: Free Set: Hero Skins Collectible
+INFO: Type: Playable Hero Class: Shaman Rarity: Free Set: Hero Skins Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Collectible
 FLAVOUR: 
 
 NAME: . . .
@@ -14835,17 +15505,17 @@ FLAVOUR:
 
 NAME: Ancient Power
 DESC: Hero Power Give each player a random card. It costs (0).
-INFO: Type: Hero Power Class: Druid Set: Tavern Brawl Token
-FLAVOUR: 
-
-NAME: Ancient Power
-DESC: Hero Power Give each player a random card. It costs (0).
 INFO: Type: Hero Power Set: League of Explorers Token
 FLAVOUR: 
 
 NAME: Ancient Power
 DESC: Hero Power Add a random card to your hand. It costs (0).
 INFO: Type: Hero Power Set: League of Explorers Token
+FLAVOUR: 
+
+NAME: Ancient Power
+DESC: Hero Power Give each player a random card. It costs (0).
+INFO: Type: Hero Power Class: Druid Set: Tavern Brawl Token
 FLAVOUR: 
 
 NAME: Battle Totem
@@ -15940,12 +16610,12 @@ FLAVOUR:
 
 NAME: Bag of Tricks
 DESC: 
-INFO: Type: Ability Class: Rogue Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Class: Priest Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Bag of Tricks
 DESC: 
-INFO: Type: Ability Class: Priest Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Class: Rogue Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Balance
@@ -15995,12 +16665,12 @@ FLAVOUR:
 
 NAME: Battlecrier
 DESC: 
-INFO: Type: Ability Class: Shaman Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Battlecrier
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
+INFO: Type: Ability Class: Shaman Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Battlecry
@@ -16020,12 +16690,12 @@ FLAVOUR: Working in a shaman's lab, it's important to be well-grounded.
 
 NAME: Bear Form
 DESC: +2 Health and Taunt.
-INFO: Type: Ability Class: Druid Set: Tavern Brawl Faction: Neutral Token
+INFO: Type: Ability Class: Druid Set: Classic Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Bear Form
 DESC: +2 Health and Taunt.
-INFO: Type: Ability Class: Druid Set: Classic Faction: Neutral Token
+INFO: Type: Ability Class: Druid Set: Tavern Brawl Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Beast Caller
@@ -16060,12 +16730,12 @@ FLAVOUR:
 
 NAME: Berserker
 DESC: 
-INFO: Type: Ability Class: Warrior Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Berserker
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
+INFO: Type: Ability Class: Warrior Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Bestiary
@@ -16270,7 +16940,7 @@ FLAVOUR:
 
 NAME: Chaos
 DESC: 
-INFO: Type: Ability Class: Mage Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Chaos
@@ -16280,7 +16950,7 @@ FLAVOUR:
 
 NAME: Chaos
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
+INFO: Type: Ability Class: Mage Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Chaos Theory
@@ -16865,32 +17535,32 @@ FLAVOUR:
 
 NAME: Elementals
 DESC: 
-INFO: Type: Ability Class: Mage Set: Kobolds and Catacombs Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Elementals
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Elementals
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Elementals
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Elementals
-DESC: 
 INFO: Type: Ability Class: Priest Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Elementals
 DESC: 
 INFO: Type: Ability Class: Shaman Set: Kobolds and Catacombs Faction: Neutral Token
+FLAVOUR: 
+
+NAME: Elementals
+DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Elementals
+DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Elementals
+DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Elementals
+DESC: 
+INFO: Type: Ability Class: Mage Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Enchanting Tune
@@ -17162,6 +17832,11 @@ NAME: Forbidden Shaping
 DESC: Spend all your Mana. Summon a random minion that costs that much.
 INFO: Type: Ability Class: Priest Rarity: Epic Set: Whispers of the Old Gods Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: A.J. Nazzaro Collectible
 FLAVOUR: But the minion arrives covered in goo.
+
+NAME: Forbidden Words
+DESC: Spend all your Mana. Destroy a minion with that much Attack or less.
+INFO: Type: Ability Class: Priest Rarity: Rare Set: Rise of Shadows Crafting Cost: 100 / 800 (Golden) Arcane Dust Gained: 20 / 100 (Golden) Artist: J. Axer Collectible
+FLAVOUR: Please confirm your age before reading this flavor text.
 
 NAME: Forging Quel'Delar
 DESC: 
@@ -17620,7 +18295,7 @@ FLAVOUR:
 
 NAME: Jade Lotus
 DESC: 
-INFO: Type: Ability Class: Shaman Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Jade Lotus
@@ -17630,7 +18305,7 @@ FLAVOUR:
 
 NAME: Jade Lotus
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
+INFO: Type: Ability Class: Shaman Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Jeering Crowd
@@ -17698,6 +18373,11 @@ DESC:
 INFO: Type: Ability Class: Priest Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
+NAME: Lazul's Scheme
+DESC: Reduce the Attack of an enemy minion by 1 until your next turn. (Upgrades each turn!)
+INFO: Type: Ability Class: Priest Rarity: Epic Set: Rise of Shadows Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: J. Axer Collectible
+FLAVOUR: "What's that you're dreaming? You're weak and you're screaming! It must be my scheming..."
+
 NAME: Leader of the Pack
 DESC: Give your minions +1/+1.
 INFO: Type: Ability Class: Druid Set: Classic Faction: Neutral Token
@@ -17715,22 +18395,22 @@ FLAVOUR:
 
 NAME: Legendary
 DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Legendary
+DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Legendary
+DESC: 
 INFO: Type: Ability Class: Paladin Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Legendary
 DESC: 
 INFO: Type: Ability Class: Warrior Set: Kobolds and Catacombs Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Legendary
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Legendary
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Legends
@@ -17875,17 +18555,17 @@ FLAVOUR:
 
 NAME: Magical Friends
 DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Magical Friends
+DESC: 
 INFO: Type: Ability Set: The Witchwood Token
 FLAVOUR: 
 
 NAME: Magical Friends
 DESC: 
 INFO: Type: Ability Class: Mage Set: Kobolds and Catacombs Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Magical Friends
-DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
 
 NAME: Magnetic
@@ -18009,14 +18689,14 @@ INFO: Type: Ability Set: Tavern Brawl Token
 FLAVOUR: 
 
 NAME: Moonfire
-DESC: Deal 1 damage.
-INFO: Type: Ability Class: Druid Rarity: Free Set: Basic Faction: Neutral Artist: Richard Wright Collectible
-FLAVOUR: "Cast Moonfire, and never stop." - How to Be a Druid, Chapter 5, Section 3
-
-NAME: Moonfire
 DESC: Deal 2 damage.
 INFO: Type: Ability Class: Druid Set: Classic Faction: Neutral Token
 FLAVOUR: 
+
+NAME: Moonfire
+DESC: Deal 1 damage.
+INFO: Type: Ability Class: Druid Rarity: Free Set: Basic Faction: Neutral Artist: Richard Wright Collectible
+FLAVOUR: "Cast Moonfire, and never stop." - How to Be a Druid, Chapter 5, Section 3
 
 NAME: Murloc Bonus
 DESC: Summon a 1/1 Murloc at the end of your turn.
@@ -18025,7 +18705,7 @@ FLAVOUR:
 
 NAME: Murlocs
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
+INFO: Type: Ability Class: Paladin Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Murlocs
@@ -18035,8 +18715,13 @@ FLAVOUR:
 
 NAME: Murlocs
 DESC: 
-INFO: Type: Ability Class: Paladin Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Set: Rastakhan's Rumble Token
 FLAVOUR: 
+
+NAME: Mutate
+DESC: Transform a friendly minion into a random one that costs (1) more.
+INFO: Type: Ability Class: Shaman Rarity: Common Set: Rise of Shadows Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Andrew Hou Collectible
+FLAVOUR: You'll get the transformation you want when murlocs fly.
 
 NAME: Mutations
 DESC: 
@@ -18270,12 +18955,12 @@ FLAVOUR:
 
 NAME: Pirates
 DESC: 
-INFO: Type: Ability Set: The Witchwood Token
+INFO: Type: Ability Class: Warrior Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Pirates
 DESC: 
-INFO: Type: Ability Class: Warrior Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Set: The Witchwood Token
 FLAVOUR: 
 
 NAME: Pirates
@@ -18344,7 +19029,7 @@ INFO: Type: Ability Set: Tavern Brawl Token
 FLAVOUR: 
 
 NAME: Preparation
-DESC: The next spell you cast this turn costs (3) less.
+DESC: The next spell you cast this turn costs (2) less.
 INFO: Type: Ability Class: Rogue Rarity: Epic Set: Classic Faction: Neutral Crafting Cost: 400 / 1600 (Golden) Arcane Dust Gained: 100 / 400 (Golden) Artist: Clint Langley Collectible
 FLAVOUR: "Be Prepared" - Rogue Motto
 
@@ -18570,12 +19255,12 @@ FLAVOUR:
 
 NAME: Restoration
 DESC: 
-INFO: Type: Ability Class: Shaman Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Class: Druid Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Restoration
 DESC: 
-INFO: Type: Ability Class: Druid Set: Kobolds and Catacombs Faction: Neutral Token
+INFO: Type: Ability Class: Shaman Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Resurrection
@@ -19200,16 +19885,6 @@ FLAVOUR:
 
 NAME: Taunt
 DESC: 
-INFO: Type: Ability Set: Rastakhan's Rumble Token
-FLAVOUR: 
-
-NAME: Taunt
-DESC: 
-INFO: Type: Ability Class: Druid Set: Kobolds and Catacombs Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Taunt
-DESC: 
 INFO: Type: Ability Class: Warlock Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
@@ -19221,6 +19896,16 @@ FLAVOUR:
 NAME: Taunt
 DESC: 
 INFO: Type: Ability Class: Paladin Set: Kobolds and Catacombs Faction: Neutral Token
+FLAVOUR: 
+
+NAME: Taunt
+DESC: 
+INFO: Type: Ability Set: Rastakhan's Rumble Token
+FLAVOUR: 
+
+NAME: Taunt
+DESC: 
+INFO: Type: Ability Class: Druid Set: Kobolds and Catacombs Faction: Neutral Token
 FLAVOUR: 
 
 NAME: Teambuilding
@@ -20850,11 +21535,6 @@ FLAVOUR:
 
 NAME: Wisp
 DESC: 
-INFO: Type: Minion Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Malcolm Davis Collectible
-FLAVOUR: If you hit an Eredar Lord with enough Wisps, it will explode. But why?
-
-NAME: Wisp
-DESC: 
 INFO: Type: Minion Class: Druid Set: The Witchwood Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Jiajun Tian Token
 FLAVOUR: 
 
@@ -20862,6 +21542,11 @@ NAME: Wisp
 DESC: 
 INFO: Type: Minion Class: Druid Rarity: Common Set: Whispers of the Old Gods Artist: Skan Srisuwan Token
 FLAVOUR: 
+
+NAME: Wisp
+DESC: 
+INFO: Type: Minion Rarity: Common Set: Classic Faction: Neutral Crafting Cost: 40 / 400 (Golden) Arcane Dust Gained: 5 / 50 (Golden) Artist: Malcolm Davis Collectible
+FLAVOUR: If you hit an Eredar Lord with enough Wisps, it will explode. But why?
 
 NAME: Worgen Tracker
 DESC: Rush Windfury
@@ -21910,27 +22595,27 @@ FLAVOUR:
 
 NAME: Nefarian
 DESC: 
-INFO: Type: Hero Set: Blackrock Mountain Token
-FLAVOUR: 
-
-NAME: Nefarian
-DESC: 
-INFO: Type: Hero Set: Blackrock Mountain Token
-FLAVOUR: 
-
-NAME: Nefarian
-DESC: 
-INFO: Type: Hero Set: Blackrock Mountain Token
-FLAVOUR: 
-
-NAME: Nefarian
-DESC: 
-INFO: Type: Hero Set: Blackrock Mountain Token
-FLAVOUR: 
-
-NAME: Nefarian
-DESC: 
 INFO: Type: Hero Set: Tavern Brawl Token
+FLAVOUR: 
+
+NAME: Nefarian
+DESC: 
+INFO: Type: Hero Set: Blackrock Mountain Token
+FLAVOUR: 
+
+NAME: Nefarian
+DESC: 
+INFO: Type: Hero Set: Blackrock Mountain Token
+FLAVOUR: 
+
+NAME: Nefarian
+DESC: 
+INFO: Type: Hero Set: Blackrock Mountain Token
+FLAVOUR: 
+
+NAME: Nefarian
+DESC: 
+INFO: Type: Hero Set: Blackrock Mountain Token
 FLAVOUR: 
 
 NAME: Nemsy Necrofizzle
@@ -22100,27 +22785,27 @@ FLAVOUR:
 
 NAME: Rafaam
 DESC: 
+INFO: Type: Hero Set: League of Explorers Token
+FLAVOUR: 
+
+NAME: Rafaam
+DESC: 
+INFO: Type: Hero Set: League of Explorers Token
+FLAVOUR: 
+
+NAME: Rafaam
+DESC: 
+INFO: Type: Hero Set: League of Explorers Token
+FLAVOUR: 
+
+NAME: Rafaam
+DESC: 
+INFO: Type: Hero Set: League of Explorers Token
+FLAVOUR: 
+
+NAME: Rafaam
+DESC: 
 INFO: Type: Hero Rarity: Free Set: Tavern Brawl Faction: Neutral Token
-FLAVOUR: 
-
-NAME: Rafaam
-DESC: 
-INFO: Type: Hero Set: League of Explorers Token
-FLAVOUR: 
-
-NAME: Rafaam
-DESC: 
-INFO: Type: Hero Set: League of Explorers Token
-FLAVOUR: 
-
-NAME: Rafaam
-DESC: 
-INFO: Type: Hero Set: League of Explorers Token
-FLAVOUR: 
-
-NAME: Rafaam
-DESC: 
-INFO: Type: Hero Set: League of Explorers Token
 FLAVOUR: 
 
 NAME: Ragnaros the Firelord
@@ -22655,11 +23340,11 @@ FLAVOUR:
 
 NAME: Zul'jin
 DESC: 
-INFO: Type: Hero Rarity: Legendary Set: TEST_TEMPORARY Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Alex Horley Orlandelli Token
-FLAVOUR: If you can dodge an axe, you can dodge a ball.
+INFO: Type: Hero Set: Rastakhan's Rumble Artist: Alex Horley Orlandelli Token
+FLAVOUR: 
 
 NAME: Zul'jin
 DESC: 
-INFO: Type: Hero Set: Rastakhan's Rumble Artist: Alex Horley Orlandelli Token
-FLAVOUR: 
+INFO: Type: Hero Rarity: Legendary Set: TEST_TEMPORARY Crafting Cost: 0 / 0 (Golden) Arcane Dust Gained: 0 / 0 (Golden) Artist: Alex Horley Orlandelli Token
+FLAVOUR: If you can dodge an axe, you can dodge a ball.
 
