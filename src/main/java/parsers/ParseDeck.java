@@ -2,6 +2,7 @@ package parsers;
 
 import org.json.simple.parser.ParseException;
 
+import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
 import java.util.*;
 
@@ -23,7 +24,7 @@ class ParseDeck {
         //VarInts placed in Buffer for decoding and usage.
         return ByteBuffer.wrap(deck);
     }
-    private void parseBuffer(ByteBuffer buf) throws ParseException {
+    private void parseBuffer(ByteBuffer buf) throws ParseException, BufferUnderflowException {
         //Header block: Reserved byte, Version, Format.
         buf.get(); //Reserved byte
         version = getVersion(buf);

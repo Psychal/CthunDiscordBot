@@ -1,11 +1,11 @@
 package commands;
 
-import net.dv8tion.jda.core.EmbedBuilder;
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.EmbedBuilder;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import objects.CommandInterfaceBot;
 import objects.CommandManagerBot;
 
-import java.awt.*;
+import java.awt.Color;
 import java.util.List;
 
 public class HelpCommand implements CommandInterfaceBot {
@@ -60,7 +60,7 @@ public class HelpCommand implements CommandInterfaceBot {
     private void channelDescription(EmbedBuilder builder){
         StringBuilder descriptionBuild = builder.getDescriptionBuilder();
         descriptionBuild.append("For command description, append the command behind the help command. Example: `!thun help card`\n" +
-                "Type `!thun help dm` to get the commands as direct message.\n\n");
+                "Type `!thun help dm` to get the commands with full description as direct message.\n\n");
         for (CommandInterfaceBot command : manager.getCommandValues()) {
             if (command.getInvoke().equals("<@474523344864280578>")) {
                 continue;
@@ -75,6 +75,9 @@ public class HelpCommand implements CommandInterfaceBot {
                 continue;
             }
             descriptionBuild.append("`").append(command.getInvoke()).append("`\n").append(command.getHelp()).append("\n\n");
+        }
+        if (descriptionBuild.length() > 2048){
+            builder.setDescription(descriptionBuild.substring(0,2048));
         }
     }
 

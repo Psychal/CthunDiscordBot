@@ -1,7 +1,7 @@
 package commands;
 
-import net.dv8tion.jda.core.EmbedBuilder;
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.EmbedBuilder;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import objects.CommandInterfaceBot;
 
 import java.util.HashMap;
@@ -76,6 +76,7 @@ public class KeywordCommand implements CommandInterfaceBot {
         PLAYERBOUND("Playerbound","Provides a permanent effect bound to the player. Similar to the aura-generation effect associated with the keyword ability \"Passive\". "),
         PUTINTOBATTLE("Put Into Battlefield","Directly places a card from the player's deck or hand into the battlefield, without triggering any Battlecries. "),
         PUTINTOHAND("Put Into Hand","Draws cards of a specific type directly from the player's deck and places them into the player's hand. "),
+        REBORN("Reborn","The first time the minion dies, it returns to life with 1 Health remaining. Reborn is represented by a cracked blue glow around the minion."),
         REFRESHMANA("Refresh Mana","Refills the player's empty Mana Crystals."),
         REMOVEFROMDECK("Remove From Deck","Removes cards directly from the player's deck, without placing them into the hand. Similar to discard effects."),
         REPLACE("Replace","Replace one card with another, without destroying or discarding the original card."),
@@ -122,7 +123,10 @@ public class KeywordCommand implements CommandInterfaceBot {
             event.getMessage().addReaction("\u2705").queue();
             return;
         }
-        if(Keywords.getIndex(keywordInput) == null){
+        if(keywordInput.equals("")){
+            event.getChannel().sendMessage("For a list of all keywords type `!thun keyword all`").queue();
+        }
+        else if(Keywords.getIndex(keywordInput) == null){
             event.getChannel().sendMessage("Keyword does not exist.").queue();
         }
         else {

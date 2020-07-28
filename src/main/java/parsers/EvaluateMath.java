@@ -7,19 +7,20 @@ import java.util.Stack;
 
 public class EvaluateMath {
     private static final Set<Character> operator = new HashSet<>(Arrays.asList('+','-','*','x','^','/'));
-    private static boolean parenEnd = false;
-    private static StringBuilder strBuild = new StringBuilder();
-    private static Stack<Double> values = new Stack<>();
-    private static Stack<Character> ops = new Stack<>();
+    private boolean parenEnd = false;
+    private StringBuilder strBuild;
+    private Stack<Double> values = new Stack<>();
+    private Stack<Character> ops = new Stack<>();
 
     //Evaluates math expressions.
-    public static double evaluateMath(String expression) throws ArithmeticException, IllegalArgumentException {
+    public double evaluateMath(String expression) throws ArithmeticException, IllegalArgumentException {
         char[] tokens = expression.toCharArray();
         int tokenLength = tokens.length;
+        strBuild = new StringBuilder();
 
         for (char i : tokens) {
             tokenLength--;
-            if(i == '-' ){
+            if(i == '-' && i == tokens[0]){
                 negativeValue(i,tokens);
             }
             else if ((i >= '0' && i <= '9') || i == '.') {
@@ -42,11 +43,10 @@ public class EvaluateMath {
                 maxValueRange(values);
             }
         }
-
         return values.pop();
     }
 
-    private static void isOperator(char i){
+    private void isOperator(char i){
         if(!parenEnd){
             values.push(Double.parseDouble(strBuild.toString()));
         }
@@ -59,7 +59,7 @@ public class EvaluateMath {
         }
         ops.push(i);
     }
-    private static void parenthesisStart(char i){
+    private void parenthesisStart(char i){
         if(parenEnd){
             strBuild = new StringBuilder();
             parenEnd = false;
@@ -82,7 +82,7 @@ public class EvaluateMath {
         ops.push(i);
     }
 
-    private static void parenthesisEnd(){
+    private void parenthesisEnd(){
         values.push(Double.parseDouble(strBuild.toString()));
         strBuild = new StringBuilder();
         parenEnd = true;
@@ -93,7 +93,7 @@ public class EvaluateMath {
         ops.pop();
     }
 
-    private static void isNumberOrDecimal(char i, int tokenLength){
+    private void isNumberOrDecimal(char i, int tokenLength){
         if(parenEnd){
             strBuild = new StringBuilder();
             parenEnd = false;
@@ -112,7 +112,7 @@ public class EvaluateMath {
         }
     }
 
-    private static void negativeValue(char i, char[] tokens){
+    private  void negativeValue(char i, char[] tokens){
         if(i == tokens[0]){
             strBuild.append(i);
         }
@@ -155,7 +155,6 @@ public class EvaluateMath {
             case '-':
                 return a - b;
             case '*':
-                return a * b;
             case 'x':
                 return a * b;
             case '/':

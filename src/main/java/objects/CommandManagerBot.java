@@ -1,10 +1,14 @@
 package objects;
 
 import commands.*;
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
-import net.dv8tion.jda.core.hooks.ListenerAdapter;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
+import net.dv8tion.jda.api.events.message.react.MessageReactionAddEvent;
+import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import org.jetbrains.annotations.NotNull;
+import org.json.simple.parser.ParseException;
 
+import java.io.IOException;
 import java.util.*;
 
 public class CommandManagerBot extends ListenerAdapter {
@@ -23,6 +27,7 @@ public class CommandManagerBot extends ListenerAdapter {
         addCommand(new SearchCommand());
         addCommand(new DeckCommand());
         addCommand(new KeywordCommand());
+        addCommand(new ImportCommand());
     }
 
     private void addCommand(CommandInterfaceBot command) {
@@ -50,6 +55,10 @@ public class CommandManagerBot extends ListenerAdapter {
             invoke = split[0].toLowerCase();
         }
 
+        if(Arrays.toString(split).toLowerCase().contains("c'thun") && split.length > 1){
+            commandmap.get("c'thun").handle(null,event);
+        }
+
         if(commandmap.containsKey(invoke)){
             System.out.println("Invoke split string: "+Arrays.toString(split));
             final List<String> args = Arrays.asList(split);
@@ -72,6 +81,14 @@ public class CommandManagerBot extends ListenerAdapter {
         Map<String, SearchCommand.SearchMapValues> searchMap = SearchCommand.getSearchMap();
         if (searchMap != null && searchMap.containsKey(userId)) {
             SearchCommand.getSearchInputResult(event);
+        }
+        Map<Long, ImportCommand.DeckMapValues> deckMap = ImportCommand.getDeckMap();
+        if (deckMap != null && deckMap.containsKey(event.getAuthor().getIdLong())) {
+            try {
+                ImportCommand.getSearchInputResult(event);
+            } catch (IOException | ParseException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

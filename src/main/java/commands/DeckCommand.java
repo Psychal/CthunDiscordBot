@@ -1,15 +1,16 @@
 package commands;
 
-import net.dv8tion.jda.core.EmbedBuilder;
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.EmbedBuilder;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import objects.*;
 import org.json.simple.parser.ParseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import parsers.ParseJson;
 
-import java.awt.*;
+import java.awt.Color;
 import java.io.IOException;
+import java.nio.BufferUnderflowException;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -35,13 +36,13 @@ public class DeckCommand implements CommandInterfaceBot {
             event.getChannel().sendMessage(userMention).queue();
             createAndSendEmbed(deckString,deckName,event);
         }
-        catch (IOException | ParseException e) {
+        catch (IOException | ParseException | BufferUnderflowException e) {
             event.getChannel().sendMessage(userMention + " Deck embed failed.").queue();
             logger.error(e.getMessage() + " " + e);
         }
     }
 
-    private void createAndSendEmbed(String deckString, String deckName, MessageReceivedEvent event) throws IOException, ParseException {
+    void createAndSendEmbed(String deckString, String deckName, MessageReceivedEvent event) throws IOException, ParseException {
         ParseJson parseJson = new ParseJson(deckString);
         EmbedBuilder eB = new EmbedBuilder()
                 .setAuthor(deckName+" ["+parseJson.hero+", "+parseJson.hsFormat+"]",null,parseJson.heroImg)
@@ -55,7 +56,7 @@ public class DeckCommand implements CommandInterfaceBot {
     }
 
     private String extractDeckString(String deckInput){
-        String regexDeck = "(?i)(?m)(AAE([a-zA-Z0-9/=+].*))";
+        String regexDeck = "(?i)(?m)(AAE(.{25,}))";
         Pattern pattern = Pattern.compile(regexDeck);
         Matcher matcher = pattern.matcher(deckInput);
         if(matcher.find()){
@@ -66,7 +67,7 @@ public class DeckCommand implements CommandInterfaceBot {
         }
     }
     private String extractDeckName(String deckInput){
-        String regexName = "(?i)(?:#{3})(.*?)(?:[#\\n]|(?:AAE(?:[a-zA-Z0-9/=+].*)))";
+        String regexName = "(?i)(?:#{3})(.*?)(?:[#\\n]|(?:AAE(?:.*)))";
         Pattern pattern = Pattern.compile(regexName);
         Matcher matcher = pattern.matcher(deckInput);
         if(matcher.find()) {
@@ -79,14 +80,15 @@ public class DeckCommand implements CommandInterfaceBot {
             return "";
         }
     }
+    //Removes everything in front of the start of the deckstring if the deckstring isn't on a new line.
     private String explodeString(String deckInput){
-        return deckInput.replaceAll("(?i)(#{3}|#)(.*)(?=AAE(?:[a-zA-Z0-9/=+].*))","");
+        return deckInput.replaceAll("(?i)(#{3}|#)(.*)(?=AAE)","");
     }
 
     @Override
     public String getHelp() {
         return "Paste a hearthstone deck string to show the deck as a discord embed, which will include card name, cost, amount, class and format.\n" +
-                "You can also include/create a name for you deck by having the line of the deck name start with `###`\n" +
+                "You can also include/create a name for your deck by having the line of the deck name start with `###`\n" +
                 "Example usage: `" + getInvoke() + " ### DeckNameHere AAECAf0EEp4CuwLJA831Aur2Au72AsP4Asb4ApOAA6CAA6uMA+eVA8SZA5aaA5+bA6CbA/+dA+KfAwZNqwTLBJYFzYkDwJgDAA`";
     }
 

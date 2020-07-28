@@ -1,7 +1,7 @@
 package commands;
 
-import net.dv8tion.jda.core.entities.Emote;
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.entities.Emote;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import objects.CommandInterfaceBot;
 
 import java.util.ArrayList;
@@ -28,7 +28,7 @@ public class ReactCommand implements CommandInterfaceBot {
         }
     }
 
-    private class CthunEmotes{
+    private static class CthunEmotes{
         private String unicode;
         private Emote emote;
         private CthunEmotes (Emote emote) {
@@ -50,6 +50,11 @@ public class ReactCommand implements CommandInterfaceBot {
         emoteList.add(new CthunEmotes("\u2620"));
         emoteList.add(new CthunEmotes("\uD83D\uDC80"));
         emoteList.add(new CthunEmotes("\uD83D\uDDE1"));
+        emoteList.add(new CthunEmotes("\uD83D\uDE08"));
+        emoteList.add(new CthunEmotes("\uD83D\uDD25"));
+        emoteList.add(new CthunEmotes("\uD83D\uDE21"));
+        emoteList.add(new CthunEmotes("\uD83D\uDD2A"));
+        emoteList.add(new CthunEmotes("\u2049"));
     }
 
     @Override

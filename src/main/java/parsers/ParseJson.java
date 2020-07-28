@@ -1,5 +1,6 @@
 package parsers;
 
+import objects.Card;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -7,10 +8,7 @@ import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
 public class ParseJson {
     enum Heroes{
@@ -18,7 +16,7 @@ public class ParseJson {
         ROGUE("Rogue","https://cdn.discordapp.com/emojis/528697094769344523.png?v=1"), PALADIN("Paladin","https://cdn.discordapp.com/emojis/528697095041843200.png?v=1"),
         HUNTER("Hunter","https://cdn.discordapp.com/emojis/528697062930251776.png?v=1"), DRUID("Druid","https://cdn.discordapp.com/emojis/528697035910676491.png?v=1"),
         WARLOCK("Warlock","https://cdn.discordapp.com/emojis/528697112691605515.png?v=1"), MAGE("Mage","https://cdn.discordapp.com/emojis/528697049873514496.png?v=1"),
-        PRIEST("Priest","https://cdn.discordapp.com/emojis/528697096547598356.png?v=1");
+        PRIEST("Priest","https://cdn.discordapp.com/emojis/528697096547598356.png?v=1"), DEMONHUNTER("Demon Hunter","https://cdn.discordapp.com/emojis/697944393369387148.png?v=1");
 
         String hero;
         String img;
@@ -44,6 +42,8 @@ public class ParseJson {
     public StringBuilder neutralCardBuild = new StringBuilder();
     private Map<String, Integer> rarity = new HashMap<>();
     private JSONObject jObj;
+    private List<Card> classCards = new ArrayList<>();
+    private List<Card> neutralCards = new ArrayList<>();
 
     public ParseJson(String deckInput) throws IOException, ParseException {
         ParseDeck deck = new ParseDeck(deckInput);
@@ -58,34 +58,49 @@ public class ParseJson {
     private void parsingCards(List<Integer> heroArrList, List<ParseDeck.CardPair> cardsArrList, Object obj){
         int cardCost = 0;
         int[]mana = new int[8];
-
         JSONArray jsonArray = (JSONArray) obj;
+
         for (Object o : jsonArray){
             jObj = (JSONObject) o;
             if(!Objects.isNull(jObj.get("cost"))){
-                cardCost = (int) jObj.get("cost");
+                long cost = (long) jObj.get("cost");
+                cardCost = (int) cost;
             }
             setHero(heroArrList);
             appendCards(cardsArrList,cardCost,mana);
             manaCurve = getManaCurve(mana);
         }
+        sortCards(classCards,neutralCards);
+
     }
 
     private void appendCards(List<ParseDeck.CardPair> cardsArrList, int cardCost, int[] mana){
         for(ParseDeck.CardPair c : cardsArrList){
             if(c.dbfid == getCardId()){
+                if(!getCardClass().equals("NEUTRAL")){
+                    classCards.add(new Card(getCardName(),c.count,cardCost));
+                }
+                else{
+                    neutralCards.add(new Card(getCardName(),c.count,cardCost));
+                }
                 cardCost = Math.min(cardCost, 7);
                 mana[cardCost < 0 ? 7 : cardCost] += c.count;
                 dust += rarity.getOrDefault(getCardRarity(),0)*c.count;
-                if(!getCardClass().equals("NEUTRAL")){
-                    classCardBuild.append(c.count).append("x ").append(getCardName()).append("(").append(cardCost).append(")\n");
-                }
-                else{
-                    neutralCardBuild.append(c.count).append("x ").append(getCardName()).append("(").append(cardCost).append(")\n");
-                }
             }
         }
     }
+
+    private void sortCards(List<Card> classCards, List<Card> neutralCards){
+        classCards.sort(Comparator.comparing(Card::getMana).thenComparing(Card::getName));
+        neutralCards.sort(Comparator.comparing(Card::getMana).thenComparing(Card::getName));
+        for (Card c : classCards){
+            classCardBuild.append(c.count).append("x ").append(c.name).append("(").append(c.mana).append(")\n");
+        }
+        for (Card c : neutralCards){
+            neutralCardBuild.append(c.count).append("x ").append(c.name).append("(").append(c.mana).append(")\n");
+        }
+    }
+
     private void setHero(List<Integer> heroArrList){
         for (Integer i : heroArrList){
             if(i == getCardId()){

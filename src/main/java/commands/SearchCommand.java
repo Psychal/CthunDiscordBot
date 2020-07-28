@@ -1,19 +1,16 @@
 package commands;
 
-import net.dv8tion.jda.core.EmbedBuilder;
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.EmbedBuilder;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import parsers.CardReader;
 import objects.CommandInterfaceBot;
 import parsers.DecodeVarInt;
 
-import java.awt.*;
+import java.awt.Color;
 import java.util.*;
-import java.util.List;
 
 public class SearchCommand implements CommandInterfaceBot {
     private static Map<String, SearchMapValues> searchMap = new HashMap<>();
-    //[0]=Name, [1]=Lowercase-name,[2]=Desc, [3]=Info,[4]=Flavour, [5]=Img,
-    private static List<String[]> cards = CardReader.getCardList();
     private List<Integer> cSearch;
     private int cardCount;
     private StringBuilder searchResult;
@@ -24,6 +21,9 @@ public class SearchCommand implements CommandInterfaceBot {
         String userMention = "<@" + userId + ">";
         String searchInput = String.join(" ",args).toLowerCase().replace("!thun search ","");
         performSearch(searchInput);
+        checkCardCount(userId,userMention,event);
+    }
+    void checkCardCount(String userId, String userMention, MessageReceivedEvent event){
         //If search is not completely empty
         if(cardCount > 1) {
             fillSearchMap(userId);
@@ -50,7 +50,8 @@ public class SearchCommand implements CommandInterfaceBot {
         searchMap.put(userId, valuesMap);
     }
 
-    private void performSearch(String searchInput){
+    void performSearch(String searchInput){
+        List<String[]> cards = CardReader.getCardList(); //[0]=Name, [1]=Lowercase-name,[2]=Desc, [3]=Info,[4]=Flavour, [5]=Img,
         cSearch = new ArrayList<>();
         searchResult = new StringBuilder();
         cardCount=0;
@@ -131,8 +132,8 @@ public class SearchCommand implements CommandInterfaceBot {
 
     @Override
     public String getHelp() {
-        return "With this command you can search through the cards by their name. You will then receive a list of max 10 results, and by typing one of the numbers it'll post the card." +
-                "If it can only find one card, it'll just post the card instead of a result list. There's also a 1 min timer on replying to the list. Making a new search will override the list." +
+        return "Search through the cards by name. You will receive a list of 10 results, and by typing one of the numbers it'll post the card." +
+                "If it can only find one card, it'll post the card instead of a list. There's a 1 min timer on replying to the list. Making a new search will override the list." +
                 "Example usage: `"+getInvoke()+" molten`";
     }
 

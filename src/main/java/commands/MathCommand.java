@@ -1,6 +1,6 @@
 package commands;
 
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import objects.CommandInterfaceBot;
 
 import java.text.DecimalFormat;
@@ -35,12 +35,13 @@ public class MathCommand implements CommandInterfaceBot  {
         NumberFormat nf = NumberFormat.getNumberInstance(enLocale);
         DecimalFormat df = (DecimalFormat)nf;
         df.applyPattern("###,###.###");
-        return df.format(EvaluateMath.evaluateMath(userInput));
+        EvaluateMath calculate = new EvaluateMath();
+        return df.format(calculate.evaluateMath(userInput));
     }
 
     @Override
     public String getHelp() {
-        return "Solves an expression and returns the result.\nSupported operators are: Addition `+`, subtraction `-`, multiplication `*` `x`, division `/`and exponentiation `^`\n" +
+        return "Solves an expression and returns the result.\nSupported operators are: `+`,`-`,  `*` `x`,  `/`and  `^`\n" +
                 "Negative and decimal numbers are also supported.\n" +
                 "Example usage: `"+getInvoke()+" 1+2x3`";
     }

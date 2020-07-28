@@ -1,6 +1,6 @@
 package commands;
 
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import objects.CommandInterfaceBot;
 
 import java.util.List;
@@ -79,6 +79,7 @@ public class ThunCommand implements CommandInterfaceBot {
                 "Of course, no ancient unknowable evil is complete without a dedicated host of capable cultists.",
                 "If you only have one eye, do you blink or wink?",
                 "Eye hope my puns aren't getting too cornea.",
+                "Soon the Old Ones come again!",
                 "<:cthuntentacle:579480694229696513> <:cthuneye:520071874969862144> <:cthuntentacle:579480694229696513> *Death is close...*"
         };
         int n = random.nextInt(quotes.length);

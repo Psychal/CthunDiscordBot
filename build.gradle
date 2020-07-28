@@ -9,7 +9,7 @@ mainClassName = "MainActivity"
 apply plugin: 'com.github.johnrengelman.shadow'
 
 group 'com.mwr'
-version '2.0'
+version '2.2.3'
 
 sourceCompatibility = 1.8
 
@@ -22,12 +22,14 @@ repositories {
 }
 
 dependencies {
-    implementation 'net.dv8tion:JDA:3.8.3_463'
+    implementation 'net.dv8tion:JDA:4.2.0_180'
     implementation 'org.slf4j:slf4j-api:1.7.25'
     implementation 'org.slf4j:slf4j-simple:1.7.25'
     implementation 'org.slf4j:slf4j-jdk14:1.7.25'
     implementation 'org.discordbots:DBL-Java-Library:2.0.1'
     implementation 'com.googlecode.json-simple:json-simple:1.1'
     implementation 'org.postgresql:postgresql:42.2.5'
+    implementation 'org.jsoup:jsoup:1.11.3'
+    implementation 'commons-validator:commons-validator:1.4.0'
 }
 task stage(dependsOn: ['clean', 'shadowJar'])
