@@ -6,6 +6,12 @@
 - Add unplayable removed cards.
 - Implement a system for duplicate entries with different stats.
 
+## - 2020-07-29
+### Added
+- Artist name to multiple card entries
+- Import command now provides deck string alongside the deck embed.
+- New keywords.
+
 ## - 2020-07-19
 ### Changed
 - Card entries updated to Patch 17.6.0.53261

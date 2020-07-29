@@ -13,10 +13,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import parsers.DecodeVarInt;
 
-import java.awt.*;
+import java.awt.Color;
 import java.io.IOException;
 import java.util.*;
-import java.util.List;
 
 public class ImportCommand implements CommandInterfaceBot {
     private static Map<Long, DeckMapValues> deckMap = new HashMap<>();
@@ -85,6 +84,7 @@ public class ImportCommand implements CommandInterfaceBot {
             deckName = deckName.substring(0,25) + "...";
         }
         new DeckCommand().createAndSendEmbed(deckString,deckName,event);
+        event.getChannel().sendMessage(deckStringEmbed(deckString).build()).queue();
 
     }
 
@@ -150,6 +150,12 @@ public class ImportCommand implements CommandInterfaceBot {
 //        });
         event.getChannel().sendMessage(eB.build()).queue();
     }
+
+    private static EmbedBuilder deckStringEmbed(String deckString){
+        return new EmbedBuilder()
+                .setDescription("Deck String: " + deckString);
+    }
+
     public static Map<Long, DeckMapValues> getDeckMap(){
         return deckMap;
     }

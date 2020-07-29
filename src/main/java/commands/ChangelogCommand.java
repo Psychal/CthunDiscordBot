@@ -17,6 +17,11 @@ public class ChangelogCommand implements CommandInterfaceBot {
                 "- Add artist name to all cards with images.\n" +
                 "- Add unplayable removed cards.\n" +
                 "- Implement a system for duplicate entries with different stats.\n\n" +
+                "## - 2020-07-29\n" +
+                "### Added\n" +
+                "- Artist name to multiple card entries\n" +
+                "- Import command now provides deck string alongside the deck embed.\n" +
+                "- New keywords.\n\n" +
                 "## - 2020-07-19\n" +
                 "### Changed\n" +
                 "- Card entries updated to Patch 17.6.0.53261\n\n"+
@@ -42,12 +47,7 @@ public class ChangelogCommand implements CommandInterfaceBot {
                 "### Added\n" +
                 "- Import command. Imports decks from hearthpwn by username or direct link.\n\n" +
                 "### Fixed\n" +
-                "- DM function on the help command.\n\n" +
-                "## - 2019-11-25\n" +
-                "### Added\n" +
-                "- Current Hearthstone patch in stats section.\n\n" +
-                "### Fixed\n" +
-                "- Deck command not returning correct deck.\n\n```"
+                "- DM function on the help command.\n\n```"
 
         ).queue();
     }

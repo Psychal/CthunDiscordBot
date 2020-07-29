@@ -2,7 +2,7 @@ import net.dv8tion.jda.api.*;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
-import java.io.*;
+import java.io.IOException;
 import java.sql.*;
 import java.sql.Connection;
 import java.util.*;
@@ -25,8 +25,7 @@ public class MainActivity extends ListenerAdapter {
         String botToken = System.getenv("BotToken");
 
         try{
-            JDA builder = new JDABuilder(AccountType.BOT)
-                    .setToken(botToken)
+            JDA builder = JDABuilder.createDefault(botToken)
                     .addEventListeners(new CommandManagerBot(random))
                     .setActivity(Activity.playing("!thun help"))
                     .build();

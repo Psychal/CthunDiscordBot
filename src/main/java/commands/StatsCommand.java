@@ -34,7 +34,7 @@ public class StatsCommand implements CommandInterfaceBot {
                 .addField("Users",Integer.toString(users),true)
                 .addField("Ping(Websocket)",ping +  " ms",true)
                 .addField("JDK Version","OpenJDK 13",true)
-                .addField("JDA Version","4.2.0_180",true)
+                .addField("JDA Version","4.2.0_183",true)
                 .addField("Card Amount", Integer.toString(cardAmount), true)
                 .addField("HS Patch",patch,true)
                 .addField("Uptime", uptime,false)

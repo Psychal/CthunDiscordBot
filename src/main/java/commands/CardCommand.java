@@ -5,7 +5,7 @@ import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import objects.CommandInterfaceBot;
 import parsers.CardReader;
 
-import java.awt.*;
+import java.awt.Color;
 import java.util.List;
 import java.util.Random;
 

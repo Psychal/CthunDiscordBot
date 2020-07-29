@@ -10,6 +10,8 @@ import java.util.Map;
 
 public class KeywordCommand implements CommandInterfaceBot {
     enum Keywords{
+        AUTOCAST("Auto-Cast","Causes the Hero Power to be used automatically at the start of each turn, provided the hero has enough mana to spare."),
+        AUTOATTACK("Auto-Attack","Causes the minion to attack automatically at the end of the turn, targeting the minion or minions directly across from it. The minion cannot be commanded to attack, or prevented from attacking."),
         ADAPT("Adapt","Choose from one of three possible upgrades to the possessing minion. "),
         BATTLECRY("Battlecry","Battlecry is a type of triggered effect, which activates when the card is played from your hand."),
         CASTSWHENDRAWN("Casts When Drawn","The spell card is automatically cast for no mana when drawn from your deck, and the next card in the deck is then drawn. Only found on a few Uncollectible spells. "),
@@ -30,6 +32,7 @@ public class KeywordCommand implements CommandInterfaceBot {
         MEGAWINDFURY("Mega-Windfury","Can attack four times each turn. Mega-Windfury is indicated by multiple wind-like lines around the card. "),
         OVERKILL("Overkill","A bonus is rewarded when dealing more damage than needed to kill its target. "),
         OVERLOAD("Overload","You have {X} less mana next turn. This effect is activated when the card is played from the hand, and typically allows a powerful card to be played for a low mana cost this round, at the price of reduced mana next turn. Found only on shaman cards. "),
+        OUTCAST("Outcast","Gains an effect if it's the right-most or left-most card in your hand. Found only on demon hunter cards. "),
         PASSIVE("Passive","Cards that continuously provide a global effect to the game via an aura. Passive hero powers are a main source of this ability. All Passive cards currently known have no mana cost associated with them. "),
         POISONOUS("Poisonous","Any minion damaged by a Poisonous minion is destroyed. A type of triggered effect, Poisonous is identified by a green bubbling flask at the bottom of the minion's portrait. "),
         QUEST("Quest","Similar to Secrets, Quests are a special type of spell card that does not take effect until certain requirements are met, triggering its effect. Unlike Secrets, Quests can be seen by the opponent, and the conditions must be met by the possessing player rather than the opponent. Each deck can include only one Quest, which will be automatically included in the player's mulligan. All Quests are legendary. "),
@@ -37,8 +40,10 @@ public class KeywordCommand implements CommandInterfaceBot {
         RUSH("Rush","Enables the minion to attack enemy minions on the same turn that it is summoned. "),
         SECRET("Secret","A special type of spell card that remains hidden until its trigger condition occurs, revealing it and triggering its effect. Most Secrets can only be activated during the opponent's turn, but some exceptions activate at the start of the player's next turn. Only one of any given Secret can be in play for a given player at a time. "),
         SILENCE("Silence","Removes all card text, enchantments, and abilities from the target minion, except for auras provided by external cards in play. Silence does not prevent enchantments and abilities from being applied to said minion afterwards, however. "),
+        SIDEQUEST("Sidequest","A type of spell card that does not take effect until certain requirements are met, granting a Reward upon completion. Unlike Quests, Sidequests do not start in the mulligan. Only one of any given Sidequest can be in play for a given player at a time."),
         STARTOFGAME("Start of Game","A type of triggered effect that activates at the start of the game. "),
         STEALTH("Stealth","Minions with Stealth may not be the target of enemy attacks, spells or abilities until they attack or deal damage. Once they attack or deal damage, Stealth is removed. Minions with Stealth can still be affected by AoE spells such as Consecration, and randomly targeted spells such as Arcane Missiles. "),
+        SPELLBURST("Spellburst","A one-time Triggered effect that does something the first time you cast a spell. It is identified by a sparkle that appears at the bottom of the minion's portrait."),
         SPELLDAMAGE("Spell Damage","Increases the output of your damaging spells by {X}. Spell Damage is indicated by blue and purple sparkles rising from the card. "),
         TAUNT("Taunt","Enemies must attack minions with Taunt before any non-Taunt characters. This includes minions and hero attacks. Taunt is illustrated by a large shield-like border. "),
         TWINSPELL("Twinspell","Casting the spell puts another copy into your hand, but without the Twinspell ability. "),
@@ -66,6 +71,7 @@ public class KeywordCommand implements CommandInterfaceBot {
         FORGETFUL("Forgetful","A term for a minion which has a 50% chance of attacking the wrong enemy. Forgetful is a type of triggered effect. "),
         GAINARMOR("Gain Armor","Causes the controlling hero to gain Armor. "),
         GENERATE("Generate","Generates a new card, and places it into the player's hand. "),
+        INVOKE("Invoke","If a version of Galakrond is in your deck, triggers his hero power and contributes to upgrading him. "),
         INCREMENTATTRIB("Increment Attribute","Adds or subtracts a value from something's Attack, Health, Cost, or Durability. "),
         JOUST("Joust","Reveals a random card from each player's deck. If the player who initiated the Joust produces a card with a higher mana cost, they win the Joust, activating a secondary effect. Both cards are then shuffled back into their respective decks. "),
         MINDCONTROLEFF("Mind Control Effect","Transfers ownership of the targeted minion. "),
@@ -83,6 +89,7 @@ public class KeywordCommand implements CommandInterfaceBot {
         RESTOREHEALTH("Restore Health","Heals a character, increasing their Health by the stated amount, up to but not beyond their current maximum Health."),
         RETURN("Return","Returns the target minion to its owner's hand."),
         SETATTRIB("Set Attribute","Via an enchantment, assigns a new value for something's Attack, Health, or Cost."),
+        SHRINE("Shrine","Whenever the minion would be destroyed or removed from the field in any way or get Silenced, it instead becomes dormant for 3 turns."),
         SHUFFLEINTODECK("Shuffle Into Deck","Places a card into a player's unused deck, with its placement randomly determined."),
         SPENDMANA("Spend Mana","Spends mana in addition to the normal mana cost to produce an extra effect. Currently, all cards with this ability spend all available mana, and the effect is proportional to the amount of mana spent. "),
         SUMMON("Summon","Summons the specified minion/s. Distinct from simply playing a minion card from the hand, this is an ability found on spell or minion cards, sometimes triggered by a Battlecry or Deathrattle. "),

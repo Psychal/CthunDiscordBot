@@ -11,10 +11,7 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.Objects;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 public class SendBotStats {
     private static final Logger logger = LoggerFactory.getLogger(SendBotStats.class);
@@ -28,7 +25,6 @@ public class SendBotStats {
             int userCount = builder.getUsers().size();
             botlistSpace(serverCount);
             discordBotListCom(serverCount,userCount);
-            divineDiscordBots(serverCount);
             discordBotList(serverCount);
             discordBotsGg(serverCount);
         };
@@ -44,16 +40,10 @@ public class SendBotStats {
     }
     private void discordBotListCom(int serverCount, int userCount){
         token = System.getenv("DBLCOM_TOKEN");
-        siteUrl = "https://discordbotlist.com/api/bots/"+MentionCommand.CTHUNID+"/stats";
+        siteUrl = "https://discordbotlist.com/api/v1/bots/"+MentionCommand.CTHUNID+"/stats";
         JSONObject json = new JSONObject().put("guilds",serverCount);
         json.put("users",userCount);
         apiCall("Bot "+token,siteUrl,json);
-    }
-    private void divineDiscordBots(int serverCount){
-       token = System.getenv("DIVINE_TOKEN");
-        siteUrl =("https://divinediscordbots.com/bot/"+MentionCommand.CTHUNID+"/stats");
-        JSONObject json = new JSONObject().put("server_count",serverCount);
-        apiCall(token,siteUrl,json);
     }
     private void discordBotsGg(int serverCount){
         token = System.getenv("DBApiToken");

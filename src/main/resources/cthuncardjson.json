@@ -5,6 +5,7 @@
             "desc": "Costs (1) less for each damage your hero has taken.",
             "info": {
                 "type": "Minion",
+                "artist": "Glenn Rane",
                 "set": "Tavern Brawl",
                 "tags": [
                     "Token",
@@ -31,7 +32,7 @@
                     "Collectible"
                 ]
             },
-            "flavour": "On bended knee Thekal placed his weapon upon Shirvallah?s altar, whereupon she slowly knocked it off with her paw.",
+            "flavour": "On bended knee Thekal placed his weapon upon Shirvallah's altar, whereupon she slowly knocked it off with her paw.",
             "image": "https://hs-card-images.hearthpwn.com/enUS/anims/TRL_300_premium_000.png"
         },
         {
@@ -71,6 +72,7 @@
             "desc": "Costs (1) less for each card you've drawn.",
             "info": {
                 "type": "Minion",
+                "artist": "Matt Gaser",
                 "set": "Taverns of Time",
                 "faction": "Neutral",
                 "tags": [
@@ -85,6 +87,7 @@
             "desc": "Deal 7 damage to all enemies. Costs (1) less for each minion that's died this game.",
             "info": {
                 "type": "Ability",
+                "artist": "Eugene Dlinnov",
                 "set": "Saviors of Uldum",
                 "tags": [
                     "Token"
@@ -106,7 +109,7 @@
                     "Collectible"
                 ]
             },
-            "flavour": "Claims to be drawn to Karazhan because of the ley lines. Actually, just loves Moroes? cooking.",
+            "flavour": "Claims to be drawn to Karazhan because of the ley lines. Actually, just loves Moroes' cooking.",
             "image": "https://hs-card-images.hearthpwn.com/enUS/anims/KAR_711_premium_000.png"
         },
         {
@@ -233,6 +236,7 @@
             "desc": "Dormant When you restore 5 Health, awaken this minion. (@ left!)",
             "info": {
                 "type": "Minion",
+                "artist": "Steven Prescott",
                 "set": "Rise of Shadows",
                 "class": "Druid",
                 "tags": [
@@ -1967,7 +1971,7 @@
             "image": ""
         },
         {
-            "name": "Pi?ata Golem",
+            "name": "Pinata Golem",
             "desc": "Boss, Taunt. Can't be targeted by spells. It's full of candy!",
             "info": {
                 "type": "Minion",
@@ -29025,6 +29029,7 @@
             "desc": "Minions to the left have Charge. Minions to the right have Taunt.",
             "info": {
                 "type": "Minion",
+                "artist": "Adam Byrne",
                 "set": "Tavern Brawl",
                 "tags": [
                     "Token"
@@ -110112,6 +110117,7 @@
             "desc": "Snakes with pointed snouts are venomous. And the best ammo.",
             "info": {
                 "type": "Hero",
+                "artist": "Patrik Björkström",
                 "set": "Saviors of Uldum",
                 "class": "Hunter",
                 "tags": [
@@ -110126,6 +110132,7 @@
             "desc": "This healer will fight for her city. Break out the sooths!",
             "info": {
                 "type": "Hero",
+                "artist": "Alex Garner",
                 "set": "Rise of Shadows",
                 "class": "Priest",
                 "tags": [
@@ -110140,6 +110147,7 @@
             "desc": "This terrible titan watcher has his own personal army.",
             "info": {
                 "type": "Hero",
+                "artist": "Konstantin Turovec",
                 "set": "Saviors of Uldum",
                 "class": "Warrior",
                 "tags": [
@@ -110154,6 +110162,7 @@
             "desc": "Titan security is very serious. Stone-faced, even.",
             "info": {
                 "type": "Hero",
+                "artist": "Konstantin Turovec",
                 "set": "Tavern Brawl",
                 "class": "Warrior",
                 "tags": [
@@ -110198,6 +110207,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "Sophie Amoss",
                 "set": "Rise of Shadows",
                 "class": "Druid",
                 "tags": [
@@ -110212,6 +110222,7 @@
             "desc": "She's mastered more terrifying forms. Like squirrel. And mushroom.",
             "info": {
                 "type": "Hero",
+                "artist": "Sophie Amoss",
                 "set": "Saviors of Uldum",
                 "class": "Druid",
                 "tags": [
@@ -111715,6 +111726,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "Glenn Rane",
                 "set": "Hero Skins",
                 "class": "Shaman",
                 "rarity": "Free",
@@ -111723,7 +111735,7 @@
                     "Token"
                 ]
             },
-            "flavour": "",
+            "flavour": "Hail to the Warchief! Or rain, snow, sleet, or whatever kind of precipitation the mighty shaman prefers. Obtained from winning 1,000 Ranked or Arena games as a shaman.",
             "image": "https://hs-card-images.hearthpwn.com/enUS/anims/HERO_02d_premium_000.png"
         },
         {
@@ -111761,6 +111773,7 @@
             "desc": "Years of experience tell you not to ignore this terrible threat.",
             "info": {
                 "type": "Hero",
+                "artist": "Matt Dixon",
                 "set": "Saviors of Uldum",
                 "class": "Shaman",
                 "tags": [
@@ -111775,6 +111788,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "Ludo Lullabi",
                 "set": "Galakrond's Awakening",
                 "class": "Rogue",
                 "tags": [
@@ -111819,6 +111833,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "Konstantin Turovec",
                 "set": "Galakrond's Awakening",
                 "class": "Rogue",
                 "tags": [
@@ -111833,6 +111848,7 @@
             "desc": "Unlike bees, wasps can keep stinging you. With a laser.",
             "info": {
                 "type": "Hero",
+                "artist": "Dave Allsop",
                 "set": "Saviors of Uldum",
                 "class": "Druid",
                 "tags": [
@@ -111862,6 +111878,7 @@
             "desc": "The Witchwood's curse has not been kind to the local Murlocs.",
             "info": {
                 "type": "Hero",
+                "artist": "Peter Stapleton",
                 "set": "Tavern Brawl",
                 "class": "Shaman",
                 "tags": [
@@ -111918,6 +111935,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "Zoltan Boros",
                 "set": "Tavern Brawl",
                 "tags": [
                     "Token"
@@ -111931,6 +111949,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "Zoltan Boros",
                 "set": "Tavern Brawl",
                 "tags": [
                     "Token"
@@ -111944,6 +111963,7 @@
             "desc": "This enchanted chess piece is used to playing with more dignified party guests.",
             "info": {
                 "type": "Hero",
+                "artist": "Zoltan Boros",
                 "set": "Tavern Brawl",
                 "class": "Mage",
                 "tags": [
@@ -111972,6 +111992,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "Zoltan Boros",
                 "set": "One Night in Karazhan",
                 "tags": [
                     "Token"
@@ -111985,6 +112006,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "Matt Dixon",
                 "set": "The Boomsday Project",
                 "class": "Whizbang",
                 "rarity": "Free",
@@ -112015,6 +112037,7 @@
             "desc": "\"Sand sharks aren't real\" according to a half-eaten journal.",
             "info": {
                 "type": "Hero",
+                "artist": "Mike Mishkin",
                 "set": "Saviors of Uldum",
                 "class": "Hunter",
                 "tags": [
@@ -112058,6 +112081,7 @@
             "desc": "His tricks will leave you both in a daze.",
             "info": {
                 "type": "Hero",
+                "artist": "Anton Zemskov",
                 "set": "Tavern Brawl",
                 "class": "Priest",
                 "tags": [
@@ -112114,6 +112138,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "Jessada Sutthi",
                 "set": "Ashes of Outland",
                 "class": "Priest",
                 "tags": [
@@ -112143,6 +112168,7 @@
             "desc": "Master of spellcasting. Lousy at spell-aiming.",
             "info": {
                 "type": "Hero",
+                "artist": "Raymond Swanland",
                 "set": "Rise of Shadows",
                 "class": "Mage",
                 "tags": [
@@ -112170,6 +112196,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "Tooth",
                 "set": "Battlegrounds",
                 "faction": "Neutral",
                 "tags": [
@@ -112198,6 +112225,7 @@
             "desc": "Zaraam grows in strength the more his minions suffer.",
             "info": {
                 "type": "Hero",
+                "artist": "James Ryman",
                 "set": "Saviors of Uldum",
                 "class": "Warlock",
                 "tags": [
@@ -112212,6 +112240,7 @@
             "desc": "Zaraam grows in strength the more his minions suffer.",
             "info": {
                 "type": "Hero",
+                "artist": "James Ryman",
                 "set": "Tavern Brawl",
                 "class": "Warlock",
                 "tags": [
@@ -112226,6 +112255,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "James Ryman",
                 "set": "Rise of Shadows",
                 "class": "Whizbang",
                 "rarity": "Free",
@@ -112271,6 +112301,7 @@
             "desc": "",
             "info": {
                 "type": "Hero",
+                "artist": "James Ryman",
                 "set": "The League of Explorers",
                 "tags": [
                     "Token"
@@ -112300,6 +112331,7 @@
             "desc": "Imprisoned because the Kirin Tor mostly frowns on obliterations.",
             "info": {
                 "type": "Hero",
+                "artist": "Vladimir Kafanov",
                 "set": "Rise of Shadows",
                 "class": "Warlock",
                 "tags": [
@@ -112314,6 +112346,7 @@
             "desc": "Hero Power Refresh Bob's Tavern with minions from your last opponent's warband.",
             "info": {
                 "type": "Hero Power",
+                "artist": "Matt Dixon",
                 "set": "Battlegrounds",
                 "class": "Rogue",
                 "tags": [
@@ -112354,6 +112387,7 @@
             "desc": "Hero Power Make a minion in Bob's Tavern Dormant. After 2 turns, get it with +1/+1.",
             "info": {
                 "type": "Hero Power",
+                "artist": "Raymond Swanland",
                 "set": "Battlegrounds",
                 "tags": [
                     "Token"
@@ -112444,6 +112478,7 @@
             "desc": "Battlecry: Reduce the cost of upgrading Bob's Tavern by (1).",
             "info": {
                 "type": "Minion",
+                "artist": "L. Lullabi & K. Turovec",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "1",
@@ -112459,6 +112494,7 @@
             "desc": "Battlecry: Reduce the cost of upgrading Bob's Tavern by (2).",
             "info": {
                 "type": "Minion",
+                "artist": "L. Lullabi & K. Turovec",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "1",
@@ -112474,6 +112510,7 @@
             "desc": "Deathrattle: Summon a 1/1 Pirate. It attacks immediately.",
             "info": {
                 "type": "Minion",
+                "artist": "Matt Dixon",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "1",
@@ -112489,6 +112526,7 @@
             "desc": "Deathrattle: Summon a 2/2 Pirate. It attacks immediately.",
             "info": {
                 "type": "Minion",
+                "artist": "Matt Dixon",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "1",
@@ -112504,6 +112542,7 @@
             "desc": "Your other Pirates have +2/+2.",
             "info": {
                 "type": "Minion",
+                "artist": "Ken Steacy",
                 "set": "Battlegrounds",
                 "rarity": "Epic",
                 "race": "Pirate",
@@ -112520,6 +112559,7 @@
             "desc": "Can't attack. After an adjacent minion attacks, deal 2 damage to an enemy minion.",
             "info": {
                 "type": "Minion",
+                "artist": "Dmitry Bolotov",
                 "set": "Battlegrounds",
                 "tier": "2",
                 "tags": [
@@ -112534,6 +112574,7 @@
             "desc": "Can't attack. After an adjacent minion attacks, deal 2 damage to an enemy minion twice.",
             "info": {
                 "type": "Minion",
+                "artist": "Dmitry Bolotov",
                 "set": "Battlegrounds",
                 "tier": "2",
                 "tags": [
@@ -112548,6 +112589,7 @@
             "desc": "This minion sells for 3 Gold.",
             "info": {
                 "type": "Minion",
+                "artist": "Arthur Bozonnet",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "2",
@@ -112578,6 +112620,7 @@
             "desc": "Taunt After this minion survives being attacked, attack immediately.",
             "info": {
                 "type": "Minion",
+                "artist": "Jim Nelson",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "3",
@@ -112593,6 +112636,7 @@
             "desc": "Whenever you play a Pirate, gain +1/+1.",
             "info": {
                 "type": "Minion",
+                "artist": "A.J. Nazzaro",
                 "set": "Battlegrounds",
                 "class": "Rogue",
                 "race": "Pirate",
@@ -112609,6 +112653,7 @@
             "desc": "Whenever you play a Pirate, gain +2/+2.",
             "info": {
                 "type": "Minion",
+                "artist": "A.J. Nazzaro",
                 "set": "Battlegrounds",
                 "class": "Rogue",
                 "race": "Pirate",
@@ -112685,6 +112730,7 @@
             "desc": "At the end of your turn, gain +2/+2 for each friendly Golden minion.",
             "info": {
                 "type": "Minion",
+                "artist": "Ivan Fomin",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "4",
@@ -112715,6 +112761,7 @@
             "desc": "Whenever another friendly Pirate attacks, give it +2/+2.",
             "info": {
                 "type": "Minion",
+                "artist": "L. Lullabi & K. Turovec",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "4",
@@ -112730,6 +112777,7 @@
             "desc": "Whenever another friendly Pirate attacks, give it +4/+4.",
             "info": {
                 "type": "Minion",
+                "artist": "L. Lullabi & K. Turovec",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "4",
@@ -112745,6 +112793,7 @@
             "desc": "Windfury Overkill: Give your other Pirates +2/+2.",
             "info": {
                 "type": "Minion",
+                "artist": "Rafael Zanchetin",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "5",
@@ -112760,6 +112809,7 @@
             "desc": "Windfury Overkill: Give your other Pirates +4/+4.",
             "info": {
                 "type": "Minion",
+                "artist": "Rafael Zanchetin",
                 "set": "Battlegrounds",
                 "race": "Pirate",
                 "tier": "5",
@@ -112938,6 +112988,7 @@
             "desc": "Hero Power Remove a friendly minion. Get a random one from a Tavern Tier lower.",
             "info": {
                 "type": "Hero Power",
+                "artist": "Ivan Fomin",
                 "set": "Battlegrounds",
                 "tags": [
                     "Token"
@@ -112951,6 +113002,7 @@
             "desc": "Hero Power Get a Pirate. After you buy a Pirate, your next Hero Power costs (1) less.",
             "info": {
                 "type": "Hero Power",
+                "artist": "Jim Nelson",
                 "set": "Battlegrounds",
                 "tags": [
                     "Token"

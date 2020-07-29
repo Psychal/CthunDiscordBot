@@ -9,7 +9,7 @@ mainClassName = "MainActivity"
 apply plugin: 'com.github.johnrengelman.shadow'
 
 group 'com.mwr'
-version '2.2.3'
+version '2.2.4'
 
 sourceCompatibility = 1.8
 
@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'net.dv8tion:JDA:4.2.0_180'
+    implementation 'net.dv8tion:JDA:4.2.0_183'
     implementation 'org.slf4j:slf4j-api:1.7.25'
     implementation 'org.slf4j:slf4j-simple:1.7.25'
     implementation 'org.slf4j:slf4j-jdk14:1.7.25'

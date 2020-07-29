@@ -2,8 +2,8 @@
 Hearthstone bot for Discord
 
 This bot uses Hearthstone card information available at Hearthpwn's website. \
-Search through a database of 4670 card/hero entries(Patch 14.2) with a name to find the specific one you want. 
-If it doesn't find it, it will try to give you a list of cards with similar name.\
+Search through a database of 7200~ card/hero entries(Patch 17.6.0.53261) with a name to find the specific one you want.
+If it doesn’t find it, it will try to give you a list of cards with similar name.\
 Use a deckstring to recieve a list over cards in the deck.\
 This bot can also solve basic math and supports most common operators, exponentiation, and negative numbers.
 
@@ -38,5 +38,9 @@ This bot can also solve basic math and supports most common operators, exponenti
 
 - !thun changelog
 ```Changelog over the most recent couple of changes.```
+
+- !thun import [hearthpwn_username]
+```Experimental command. Imports decks from Hearthpwn and embeds it like the deck command.```
+
 
 *Commands are case-insensitive and without square-brackets*
